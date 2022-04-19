@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3Kv-lU-tA4"; */
+"3Kv-lU-tA4.title" = "Cancel";
+
+/* Class = "NSBox"; title = "Transfert"; ObjectID = "Ccx-Wt-Atm"; */
+"Ccx-Wt-Atm.title" = "Transfert";
+
+/* Class = "NSButtonCell"; title = "Inverse le signe du montant"; ObjectID = "Sv7-by-grr"; */
+"Sv7-by-grr.title" = "Inverse le signe du montant";
+
+/* Class = "NSButtonCell"; title = "Ok"; ObjectID = "nCM-bN-1pu"; */
+"nCM-bN-1pu.title" = "Ok";

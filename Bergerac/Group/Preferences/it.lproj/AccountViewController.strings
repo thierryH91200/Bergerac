@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "New password"; ObjectID = "NMY-ef-juL"; */
+"NMY-ef-juL.title" = "New password";
+
+/* Class = "NSTextFieldCell"; title = "Confirm password"; ObjectID = "NmD-nk-XKJ"; */
+"NmD-nk-XKJ.title" = "Confirm password";
+
+/* Class = "NSTextFieldCell"; title = "Old password"; ObjectID = "WZF-eu-ezI"; */
+"WZF-eu-ezI.title" = "Old password";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "m5p-eX-3nf"; */
+"m5p-eX-3nf.title" = "Label";

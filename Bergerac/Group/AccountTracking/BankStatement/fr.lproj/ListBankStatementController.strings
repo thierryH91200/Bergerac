@@ -1,0 +1,99 @@
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "1ic-oS-kOP"; */
+"1ic-oS-kOP.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1lZ-Ya-iR7"; */
+"1lZ-Ya-iR7.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "2AH-YC-9KP"; */
+"2AH-YC-9KP.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "2OD-V5-qcc"; */
+"2OD-V5-qcc.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "473-Bb-3lE"; */
+"473-Bb-3lE.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "59I-UV-Sew"; */
+"59I-UV-Sew.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "5WR-J7-kmG"; */
+"5WR-J7-kmG.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Azz-Dm-OrQ"; */
+"Azz-Dm-OrQ.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "FDD-3x-VkW"; */
+"FDD-3x-VkW.title" = "Table View Cell";
+
+/* Class = "NSMenuItem"; title = "Remove Bank Statement"; ObjectID = "H5B-JP-7wA"; */
+"H5B-JP-7wA.title" = "Supprime le relevé bancaire";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date inter"; ObjectID = "Jbz-iF-WrU"; */
+"Jbz-iF-WrU.headerCell.title" = "Date inter";
+
+/* Class = "NSTableColumn"; headerCell.title = "Solde CB"; ObjectID = "Kpc-ty-jbg"; */
+"Kpc-ty-jbg.headerCell.title" = "Solde CB";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "QFF-2f-zbH"; */
+"QFF-2f-zbH.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Num"; ObjectID = "UBU-Vb-Ddm"; */
+"UBU-Vb-Ddm.headerCell.title" = "Num";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "V6D-ey-L1g"; */
+"V6D-ey-L1g.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "VCU-0b-gSP"; */
+"VCU-0b-gSP.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Debut"; ObjectID = "VnE-E9-vBw"; */
+"VnE-E9-vBw.headerCell.title" = "Date Debut";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date CB"; ObjectID = "YPf-8j-Awi"; */
+"YPf-8j-Awi.headerCell.title" = "Date CB";
+
+/* Class = "NSTableColumn"; headerCell.title = "PDF"; ObjectID = "Zc8-1o-z8D"; */
+"Zc8-1o-z8D.headerCell.title" = "PDF";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "bFE-1U-WNs"; */
+"bFE-1U-WNs.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "bSa-wv-bEi"; */
+"bSa-wv-bEi.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Solde Inter"; ObjectID = "bms-nP-HZ2"; */
+"bms-nP-HZ2.headerCell.title" = "Solde Inter";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "d2N-F8-KO7"; */
+"d2N-F8-KO7.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "eId-Sr-8li"; */
+"eId-Sr-8li.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Edit Bank Statement"; ObjectID = "f3g-G1-311"; */
+"f3g-G1-311.title" = "Edite le relevé bancaire";
+
+/* Class = "NSTableColumn"; headerCell.title = "Solde Initial"; ObjectID = "goR-v8-M7r"; */
+"goR-v8-M7r.headerCell.title" = "Solde Initial";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Fin"; ObjectID = "krW-WJ-RWU"; */
+"krW-WJ-RWU.headerCell.title" = "Date de Fin";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "ona-bH-CCF"; */
+"ona-bH-CCF.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "rRa-sV-0bO"; */
+"rRa-sV-0bO.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "sPQ-tL-CRr"; */
+"sPQ-tL-CRr.title" = "Table View Cell";
+
+/* Class = "NSMenuItem"; title = "Add Bank Statement"; ObjectID = "uaR-Tu-mu3"; */
+"uaR-Tu-mu3.title" = "Ajoute le relevé bancaire";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "w4t-oM-CfD"; */
+"w4t-oM-CfD.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Solde fin"; ObjectID = "xph-Rn-JlR"; */
+"xph-Rn-JlR.headerCell.title" = "Solde fin";

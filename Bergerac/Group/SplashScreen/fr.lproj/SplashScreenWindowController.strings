@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Create new document…"; ObjectID = "8wC-as-hk0"; */
+"8wC-as-hk0.title" = "Create new document…";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "EOS-WL-3HO"; */
+"EOS-WL-3HO.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Open sample document…"; ObjectID = "EXO-lN-X2r"; */
+"EXO-lN-X2r.title" = "Open sample document…";
+
+/* Class = "NSButtonCell"; title = "Open existing document…"; ObjectID = "FRZ-bq-1MG"; */
+"FRZ-bq-1MG.title" = "Open existing document…";
+
+/* Class = "NSWindow"; title = "Introduction"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Introduction";
+
+/* Class = "NSTextFieldCell"; title = "Version info"; ObjectID = "Wg0-XM-S7L"; */
+"Wg0-XM-S7L.title" = "Version info";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Recent document name"; ObjectID = "X6P-xN-Geg"; */
+"X6P-xN-Geg.placeholderString" = "Recent document name";
+
+/* Class = "NSTextFieldCell"; title = "Bergerac"; ObjectID = "kT3-Kg-mnL"; */
+"kT3-Kg-mnL.title" = "Bergerac";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayPattern = "Version %{value1}@"; ObjectID = "yHV-X3-JUV"; */
+"yHV-X3-JUV.ibShadowedDisplayPattern" = "Version %{value1}@";

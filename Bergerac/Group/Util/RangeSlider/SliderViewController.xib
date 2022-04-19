@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SliderViewController" customModule="Pegase" customModuleProvider="target">
+            <connections>
+                <outlet property="mySlider" destination="AVG-ab-f6c" id="cmm-cf-KYV"/>
+                <outlet property="slider1Label1" destination="13F-0r-lrA" id="T2b-2t-db5"/>
+                <outlet property="slider1Label2" destination="1o1-hW-ZQS" id="CUl-kS-fyI"/>
+                <outlet property="slider1Label3" destination="WbP-2q-xqe" id="0RV-ag-s55"/>
+                <outlet property="stepper1" destination="NmV-El-fb2" id="aDS-FC-5Rv"/>
+                <outlet property="stepper2" destination="M1s-s3-tWb" id="IQm-Zj-ITf"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="924" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView identifier="stack0000" distribution="fill" orientation="vertical" alignment="centerX" spacing="14" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUr-g1-f52">
+                    <rect key="frame" x="0.0" y="0.0" width="924" height="60"/>
+                    <subviews>
+                        <stackView identifier="stack1000" distribution="fill" orientation="horizontal" alignment="top" spacing="27" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y83-Y9-3nX">
+                            <rect key="frame" x="415" y="42" width="94" height="18"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WbP-2q-xqe">
+                                    <rect key="frame" x="-2" y="1" width="42" height="17"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" alignment="center" placeholderString="Jours" id="Fnr-YS-VZK">
+                                        <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="LKL-iW-voD"/>
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Tth-Yu-SGq">
+                                    <rect key="frame" x="63" y="1" width="33" height="17"/>
+                                    <textFieldCell key="cell" lineBreakMode="clipping" title="days" id="tpD-cB-HSC">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                        <stackView identifier="stack2000" distribution="fill" orientation="horizontal" alignment="bottom" spacing="14" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2kI-OC-psO">
+                            <rect key="frame" x="0.0" y="0.0" width="924" height="28"/>
+                            <subviews>
+                                <stackView identifier="stack2100" distribution="fill" orientation="horizontal" alignment="centerY" spacing="19" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sI8-Lz-UHi">
+                                    <rect key="frame" x="0.0" y="0.0" width="98" height="22"/>
+                                    <subviews>
+                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="13F-0r-lrA">
+                                            <rect key="frame" x="-2" y="3" width="70" height="17"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="17" id="Q0W-mh-xSh"/>
+                                                <constraint firstAttribute="width" constant="66" id="rnW-gf-AAf"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" placeholderString="01/01/1970" id="Z9t-cm-C5H">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NmV-El-fb2">
+                                            <rect key="frame" x="82" y="-2" width="19" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="22" id="ZdN-54-c9P"/>
+                                                <constraint firstAttribute="width" constant="13" id="cMe-8s-2Ru"/>
+                                            </constraints>
+                                            <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="EBa-HT-qNY"/>
+                                            <connections>
+                                                <action selector="changeStepperStart:" target="-2" id="td3-gp-lTN"/>
+                                            </connections>
+                                        </stepper>
+                                    </subviews>
+                                    <visibilityPriorities>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                    </visibilityPriorities>
+                                    <customSpacing>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                    </customSpacing>
+                                </stackView>
+                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="AVG-ab-f6c" customClass="RangeSlider" customModule="Pegase" customModuleProvider="target">
+                                    <rect key="frame" x="112" y="0.0" width="700" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="5L5-zH-qfs"/>
+                                        <constraint firstAttribute="height" constant="28" id="xDC-jN-8kV"/>
+                                    </constraints>
+                                </customView>
+                                <stackView identifier="stack2200" distribution="fill" orientation="horizontal" alignment="bottom" spacing="19" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mAY-Dx-83G">
+                                    <rect key="frame" x="826" y="0.0" width="98" height="23"/>
+                                    <subviews>
+                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1o1-hW-ZQS">
+                                            <rect key="frame" x="-2" y="0.0" width="70" height="22"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="66" id="3Mm-26-0fi"/>
+                                                <constraint firstAttribute="height" constant="22" id="i1c-Qg-kXe"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" alignment="left" placeholderString="01/01/1970" id="SBx-rP-gEi">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="M1s-s3-tWb">
+                                            <rect key="frame" x="82" y="-2" width="19" height="27"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="23" id="jHF-CM-C2i"/>
+                                                <constraint firstAttribute="width" constant="13" id="mLW-oz-v7e"/>
+                                            </constraints>
+                                            <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="Q1Z-tT-FkJ"/>
+                                            <connections>
+                                                <action selector="changeStepperEnd:" target="-2" id="zDL-cx-aVJ"/>
+                                            </connections>
+                                        </stepper>
+                                    </subviews>
+                                    <visibilityPriorities>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                    </visibilityPriorities>
+                                    <customSpacing>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                    </customSpacing>
+                                </stackView>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="zik-yO-PsS"/>
+                    </constraints>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PUr-g1-f52" secondAttribute="bottom" id="IaO-sn-1JD"/>
+                <constraint firstAttribute="trailing" secondItem="PUr-g1-f52" secondAttribute="trailing" id="YhA-LK-DbC"/>
+                <constraint firstItem="PUr-g1-f52" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="jp0-BF-1s7"/>
+                <constraint firstItem="PUr-g1-f52" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="uVn-Sv-6Ws"/>
+            </constraints>
+            <point key="canvasLocation" x="227" y="265.5"/>
+        </customView>
+    </objects>
+</document>

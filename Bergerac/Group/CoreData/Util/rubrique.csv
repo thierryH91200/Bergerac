@@ -1,0 +1,65 @@
+rubrique;categorie;type;objectif;color
+Alimentation;Alimentation;0;100;red
+Alimentation;Alimentation;0;100;red
+Alimentation;Autres;0;100;red
+
+Animaux;Soins;0;20;blue
+
+Assurances;Maison;0;20;red
+Assurances;Scolaire;0;10;red
+
+Banque;Crédits;0;0;brown
+Banque;Epargne;0;0;brown
+Banque;Intérêts;0;0;brown
+Banque;Autres;0;0;brown
+
+Divers;Accessoires;0;0;gray
+Divers;Chaussures;0;0;gray
+Divers;Coiffeur;0;0;gray
+Divers;Divers;0;0;gray
+Divers;Dons;0;0;gray
+Divers;Esthétique;0;0;gray
+Divers;Transports;0;45;gray
+Divers;Vêtements;0;50;gray
+
+Impots;Impôt foncier;0;120;green
+Impots;Impôt revenus;0;110;green
+Impots;Taxe habitation;0;90;green
+Impots;Autres;0;0;green
+
+Loisirs;Cadeau;0;0;orange
+Loisirs;Divertissement;0;0;orange
+Loisirs;Livres;0;0;orange
+Loisirs;Musique;0;10;orange
+Loisirs;Restaurants;0;20;orange
+Loisirs;Spectacles;0;0;orange
+Loisirs;Sports;0;30;orange
+Loisirs;Vacances;0;100;orange
+Loisirs;Autres;0;0;orange
+
+Maison;Bricolage;0;0;darkGray
+Maison;Eau;0;50;darkGray
+Maison;Electricité;0;120;darkGray
+Maison;Espèces;0;0;darkGray
+Maison;Gaz;0;0;darkGray
+Maison;Internet;0;45;darkGray
+Maison;Loyer;0;500;darkGray
+Maison;Téléphone;0;25;darkGray
+Maison;Autres;0;25;darkGray
+
+Revenus;Salaire;0;3000;purple
+
+Santé;Dentiste;0;0;green
+Santé;Docteur;0;0;green
+Santé;Lunettes;0;0;green
+Santé;Pharmacie;0;0;green
+Santé;CPAM Mutuelle;0;0;green
+Santé;Autres;0;0;green
+
+Voiture;Carburant;0;50.0;green
+Voiture;Entretien;0;0;green
+Voiture;Parking;0;0;green
+Voiture;Péage;0;0;green
+Voiture;Achat véhicule;0;180.;green
+Voiture;Autres;0;180.;green
+

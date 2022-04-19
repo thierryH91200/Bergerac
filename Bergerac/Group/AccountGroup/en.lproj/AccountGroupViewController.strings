@@ -1,0 +1,51 @@
+
+/* Class = "NSMenuItem"; title = "Add Group Compte"; ObjectID = "4Pt-Ut-AU8"; */
+"4Pt-Ut-AU8.title" = "Add Group Compte";
+
+/* Class = "NSButtonCell"; title = "Account"; ObjectID = "4uw-9o-I06"; */
+"4uw-9o-I06.title" = "Account";
+
+/* Class = "NSMenuItem"; title = "Remove account"; ObjectID = "7W8-Sw-0XN"; */
+"7W8-Sw-0XN.title" = "Remove account";
+
+/* Class = "NSTextFieldCell"; title = "HEADER CELL"; ObjectID = "8ec-J1-jdx"; */
+"8ec-J1-jdx.title" = "HEADER CELL";
+
+/* Class = "NSTextFieldCell"; title = "Titulaire"; ObjectID = "CuB-JO-8LS"; */
+"CuB-JO-8LS.title" = "Titulaire";
+
+/* Class = "NSButtonCell"; title = "-100"; ObjectID = "HLs-HJ-jpL"; */
+"HLs-HJ-jpL.title" = "-100";
+
+/* Class = "NSMenuItem"; title = "Create account"; ObjectID = "QXq-LU-8KL"; */
+"QXq-LU-8KL.title" = "Create account";
+
+/* Class = "NSTextFieldCell"; title = "Nature compte"; ObjectID = "U3Q-Rs-CTP"; */
+"U3Q-Rs-CTP.title" = "Nature compte";
+
+/* Class = "NSMenuItem"; title = "Edit folder"; ObjectID = "a3E-Kw-wYl"; */
+"a3E-Kw-wYl.title" = "Edit folder";
+
+/* Class = "NSMenuItem"; title = "Edit account"; ObjectID = "a4y-EE-sDS"; */
+"a4y-EE-sDS.title" = "Edit account";
+
+/* Class = "NSTextFieldCell"; title = "numCompte"; ObjectID = "fjp-d7-nZ4"; */
+"fjp-d7-nZ4.title" = "numCompte";
+
+/* Class = "NSMenuItem"; title = "Remove folder"; ObjectID = "gHt-Xm-HMQ"; */
+"gHt-Xm-HMQ.title" = "Remove folder";
+
+/* Class = "NSTextFieldCell"; title = "compte"; ObjectID = "hWT-dv-XBb"; */
+"hWT-dv-XBb.title" = "compte";
+
+/* Class = "NSMenuItem"; title = "Create folder"; ObjectID = "oku-yT-8qv"; */
+"oku-yT-8qv.title" = "Create folder";
+
+/* Class = "NSMenuItem"; title = "Add Compte"; ObjectID = "rFB-6I-UQP"; */
+"rFB-6I-UQP.title" = "Add Compte";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "rJf-EN-jSo"; */
+"rJf-EN-jSo.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "100"; ObjectID = "txG-6h-qoY"; */
+"txG-6h-qoY.title" = "100";

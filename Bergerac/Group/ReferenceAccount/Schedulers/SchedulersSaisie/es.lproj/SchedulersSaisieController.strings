@@ -1,0 +1,114 @@
+
+/* Class = "NSTextFieldCell"; title = "Number"; ObjectID = "263-2L-8to"; */
+"263-2L-8to.title" = "Number";
+
+/* Class = "NSTextFieldCell"; title = "24"; ObjectID = "4Ju-ul-sbb"; */
+"4Ju-ul-sbb.title" = "24";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "4jb-dK-0m5"; */
+"4jb-dK-0m5.title" = "Item 3";
+
+/* Class = "NSButtonCell"; title = "Mode création"; ObjectID = "5Vt-JO-eHx"; */
+"5Vt-JO-eHx.title" = "Mode création";
+
+/* Class = "NSButtonCell"; title = "Mode création"; ObjectID = "6IQ-K8-Lom"; */
+"6IQ-K8-Lom.title" = "Mode création";
+
+/* Class = "NSTextFieldCell"; title = "Rubrique"; ObjectID = "7Eh-Hi-zfk"; */
+"7Eh-Hi-zfk.title" = "Rubrique";
+
+/* Class = "NSTextFieldCell"; title = "Libellé"; ObjectID = "7cH-KQ-NQA"; */
+"7cH-KQ-NQA.title" = "Libellé";
+
+/* Class = "NSTextFieldCell"; title = "Montant"; ObjectID = "7nN-yi-ySi"; */
+"7nN-yi-ySi.title" = "Montant";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "9DU-x3-AgQ"; */
+"9DU-x3-AgQ.title" = "Item 1";
+
+/* Class = "NSTextFieldCell"; title = "Date start"; ObjectID = "D1m-4g-ciJ"; */
+"D1m-4g-ciJ.title" = "Date start";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "Epr-Ck-TS7"; */
+"Epr-Ck-TS7.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "jour"; ObjectID = "HzH-KN-RfC"; */
+"HzH-KN-RfC.title" = "jour";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "JAL-9X-4aA"; */
+"JAL-9X-4aA.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Account"; ObjectID = "JH7-K6-NOT"; */
+"JH7-K6-NOT.title" = "Account";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "JoP-PE-xpM"; */
+"JoP-PE-xpM.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "K5g-gD-s9R"; */
+"K5g-gD-s9R.title" = "Item 2";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "O56-55-rg3"; */
+"O56-55-rg3.title" = "Save";
+
+/* Class = "NSButtonCell"; title = "Echéancier"; ObjectID = "QDg-Jj-dIO"; */
+"QDg-Jj-dIO.title" = "Echéancier";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "Quj-eF-486"; */
+"Quj-eF-486.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "1"; ObjectID = "SGF-Ml-rvZ"; */
+"SGF-Ml-rvZ.title" = "1";
+
+/* Class = "NSTextFieldCell"; title = "Surname"; ObjectID = "VBq-jy-TQr"; */
+"VBq-jy-TQr.title" = "Surname";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "VgD-Yx-u6p"; */
+"VgD-Yx-u6p.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Catégorie"; ObjectID = "Wz2-0W-RMs"; */
+"Wz2-0W-RMs.title" = "Catégorie";
+
+/* Class = "NSTextFieldCell"; title = "Linked account"; ObjectID = "ZVu-T0-xVl"; */
+"ZVu-T0-xVl.title" = "Linked account";
+
+/* Class = "NSTextFieldCell"; title = "Mode"; ObjectID = "cUn-EH-3w3"; */
+"cUn-EH-3w3.title" = "Mode";
+
+/* Class = "NSTextFieldCell"; title = "Next Date"; ObjectID = "dkx-GF-moQ"; */
+"dkx-GF-moQ.title" = "Next Date";
+
+/* Class = "NSMenuItem"; title = "an"; ObjectID = "exb-Lk-LcJ"; */
+"exb-Lk-LcJ.title" = "an";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "gYO-yn-bBT"; */
+"gYO-yn-bBT.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "hnv-Kq-3Gj"; */
+"hnv-Kq-3Gj.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "iko-rF-bz0"; */
+"iko-rF-bz0.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "semaine"; ObjectID = "nLi-gd-Dvg"; */
+"nLi-gd-Dvg.title" = "semaine";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "otI-EK-ch2"; */
+"otI-EK-ch2.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "mois"; ObjectID = "pQo-Yn-SwG"; */
+"pQo-Yn-SwG.title" = "mois";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "qRn-tw-gIV"; */
+"qRn-tw-gIV.title" = "Cancel";
+
+/* Class = "NSTextFieldCell"; title = "Occurence"; ObjectID = "rXf-C3-nCu"; */
+"rXf-C3-nCu.title" = "Occurence";
+
+/* Class = "NSTextFieldCell"; title = "Fréquence"; ObjectID = "uCE-lZ-SzL"; */
+"uCE-lZ-SzL.title" = "Fréquence";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "uYW-ea-wD2"; */
+"uYW-ea-wD2.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "Date end"; ObjectID = "xlj-Mq-xwH"; */
+"xlj-Mq-xwH.title" = "Date end";

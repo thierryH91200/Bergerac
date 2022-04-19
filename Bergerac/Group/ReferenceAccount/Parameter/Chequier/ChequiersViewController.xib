@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20036.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20036.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ChequiersViewController" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="arrayController" destination="sST-Iz-GNB" id="vWt-da-VjF"/>
+                <outlet property="menuLocal" destination="HQ8-wQ-bXR" id="q2w-cm-Mcp"/>
+                <outlet property="tableView" destination="cBE-vC-XmF" id="hCk-dq-9aN"/>
+                <outlet property="view" destination="bvT-p4-Xj5" id="XZL-TU-tpx"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <menu id="HQ8-wQ-bXR">
+            <items>
+                <menuItem title="Create check" id="WSa-7G-CeO">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="addChequier:" target="-2" id="g8M-wI-d0S"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Edit check" id="GqS-rm-xW0" userLabel="Edit check">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="editChequier:" target="-2" id="4hG-AP-nRC"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="U7s-MI-rIm"/>
+                <menuItem title="Remove check" id="a4y-rK-Hej">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="removeChequierAction:" target="-2" id="YIu-PY-5qe"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-307" y="734"/>
+        </menu>
+        <arrayController mode="entity" entityName="EntityCarnetCheques" fetchPredicateFormat="" automaticallyPreparesContent="YES" automaticallyRearrangesObjects="YES" id="sST-Iz-GNB">
+            <connections>
+                <binding destination="-2" name="managedObjectContext" keyPath="self.context" id="BUK-rb-k0c"/>
+                <binding destination="-2" name="filterPredicate" keyPath="self.predicate" id="eOr-tX-6yQ">
+                    <dictionary key="options">
+                        <bool key="NSValidatesImmediately" value="YES"/>
+                    </dictionary>
+                </binding>
+            </connections>
+        </arrayController>
+        <view identifier="ChequierViewMain" wantsLayer="YES" id="bvT-p4-Xj5">
+            <rect key="frame" x="0.0" y="0.0" width="1139" height="498"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="50" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hze-7u-es3">
+                    <rect key="frame" x="0.0" y="0.0" width="1139" height="498"/>
+                    <subviews>
+                        <scrollView autohidesScrollers="YES" horizontalLineScroll="42" horizontalPageScroll="10" verticalLineScroll="42" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84F-G7-2g2">
+                            <rect key="frame" x="0.0" y="364" width="1139" height="134"/>
+                            <clipView key="contentView" drawsBackground="NO" id="bLg-wc-CKr">
+                                <rect key="frame" x="1" y="1" width="1137" height="132"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" autosaveName="chequierCol" rowHeight="40" rowSizeStyle="automatic" headerView="9Sz-xT-DZe" viewBased="YES" id="cBE-vC-XmF">
+                                        <rect key="frame" x="0.0" y="0.0" width="1137" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <size key="intercellSpacing" width="3" height="2"/>
+                                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <tableViewGridLines key="gridStyleMask" vertical="YES"/>
+                                        <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                        <tableColumns>
+                                            <tableColumn identifier="name" width="40" minWidth="40" maxWidth="1000" id="tvM-fS-rmq">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Name">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" title="Text Cell" id="dHs-bX-DRR">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="y5d-oc-0b9">
+                                                        <rect key="frame" x="1" y="1" width="45" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="yla-R6-mSX">
+                                                                <rect key="frame" x="0.0" y="12" width="45" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="ymJ-oO-SKZ">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="y5d-oc-0b9" name="value" keyPath="objectValue.name" id="1J7-eJ-zoc"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="yla-R6-mSX" firstAttribute="leading" secondItem="y5d-oc-0b9" secondAttribute="leading" constant="2" id="Clu-q1-lP5"/>
+                                                            <constraint firstItem="yla-R6-mSX" firstAttribute="centerY" secondItem="y5d-oc-0b9" secondAttribute="centerY" id="Nc6-h5-y7U"/>
+                                                            <constraint firstItem="yla-R6-mSX" firstAttribute="centerX" secondItem="y5d-oc-0b9" secondAttribute="centerX" id="VKs-H0-OaB"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="yla-R6-mSX" id="dM3-pn-HXw"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects.name" id="IGy-TB-pRY"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn identifier="prefixe" width="100" minWidth="40" maxWidth="1000" id="eBM-LT-2Ne">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Prefix">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" title="Text Cell" id="1be-Qk-3ko">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="Co8-FS-JW6">
+                                                        <rect key="frame" x="49" y="1" width="100" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="C86-dZ-qTO">
+                                                                <rect key="frame" x="0.0" y="12" width="100" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="mYQ-zS-vnI">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="Co8-FS-JW6" name="value" keyPath="objectValue.prefix" id="K0u-mC-M5C"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="C86-dZ-qTO" firstAttribute="centerY" secondItem="Co8-FS-JW6" secondAttribute="centerY" id="9N5-0x-mtJ"/>
+                                                            <constraint firstItem="C86-dZ-qTO" firstAttribute="centerX" secondItem="Co8-FS-JW6" secondAttribute="centerX" id="rXm-SE-uK3"/>
+                                                            <constraint firstItem="C86-dZ-qTO" firstAttribute="leading" secondItem="Co8-FS-JW6" secondAttribute="leading" constant="2" id="xCA-Kf-SEk"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="C86-dZ-qTO" id="n1C-RX-7US"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects.prefix" id="bbb-2v-c1r"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn identifier="numPremier" width="100" minWidth="10" maxWidth="3.4028234663852886e+38" id="KUb-vc-WUu">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="No. of the first">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="right" title="Text Cell" id="j4B-DZ-gSP">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="ASg-eP-ocL">
+                                                        <rect key="frame" x="152" y="1" width="100" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="lgQ-NZ-ncc">
+                                                                <rect key="frame" x="0.0" y="12" width="100" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="Zlg-Me-cjv">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="ASg-eP-ocL" name="value" keyPath="objectValue.numPremier" id="wtm-VI-bi5"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="lgQ-NZ-ncc" firstAttribute="centerY" secondItem="ASg-eP-ocL" secondAttribute="centerY" id="FE3-eb-IZH"/>
+                                                            <constraint firstItem="lgQ-NZ-ncc" firstAttribute="centerX" secondItem="ASg-eP-ocL" secondAttribute="centerX" id="hbq-bY-dbt"/>
+                                                            <constraint firstItem="lgQ-NZ-ncc" firstAttribute="leading" secondItem="ASg-eP-ocL" secondAttribute="leading" constant="2" id="iMz-LN-xfH"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="lgQ-NZ-ncc" id="pqf-2V-s8A"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects.numPremier" id="uSs-vK-9ar"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn identifier="numSuivant" width="100" minWidth="10" maxWidth="3.4028234663852886e+38" id="7RC-tR-jw9">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="N° du suivant">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="APg-vz-OoQ">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="Zc2-Lq-SzV">
+                                                        <rect key="frame" x="255" y="1" width="100" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="FmQ-Tl-hPk">
+                                                                <rect key="frame" x="0.0" y="12" width="100" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="d9A-ex-1Vw">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="Zc2-Lq-SzV" name="value" keyPath="objectValue.numSuivant" id="cTe-k7-3cg"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="FmQ-Tl-hPk" firstAttribute="leading" secondItem="Zc2-Lq-SzV" secondAttribute="leading" constant="2" id="7ae-No-8A3"/>
+                                                            <constraint firstItem="FmQ-Tl-hPk" firstAttribute="centerX" secondItem="Zc2-Lq-SzV" secondAttribute="centerX" id="9mw-Gg-GG5"/>
+                                                            <constraint firstItem="FmQ-Tl-hPk" firstAttribute="centerY" secondItem="Zc2-Lq-SzV" secondAttribute="centerY" id="ntA-WH-Ofu"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="FmQ-Tl-hPk" id="ghV-1l-pMP"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects.numSuivant" id="5Pr-GR-gtS"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn identifier="nbCheques" width="143" minWidth="10" maxWidth="3.4028234663852886e+38" id="3Bn-dF-dOR">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Number of checks">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="pqw-tv-LHC">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="1lk-QJ-1k7">
+                                                        <rect key="frame" x="358" y="1" width="143" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="ABr-lo-YY3">
+                                                                <rect key="frame" x="0.0" y="12" width="143" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="sqR-Mu-f1O">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="1lk-QJ-1k7" name="value" keyPath="objectValue.nbCheques" id="c81-mV-34s">
+                                                                        <dictionary key="options">
+                                                                            <bool key="NSConditionallySetsEditable" value="YES"/>
+                                                                        </dictionary>
+                                                                    </binding>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="ABr-lo-YY3" firstAttribute="leading" secondItem="1lk-QJ-1k7" secondAttribute="leading" constant="2" id="FIB-GC-F0h"/>
+                                                            <constraint firstItem="ABr-lo-YY3" firstAttribute="centerY" secondItem="1lk-QJ-1k7" secondAttribute="centerY" id="W2N-fp-HHR"/>
+                                                            <constraint firstItem="ABr-lo-YY3" firstAttribute="centerX" secondItem="1lk-QJ-1k7" secondAttribute="centerX" id="pcJ-TW-P4w"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="ABr-lo-YY3" id="nIr-kJ-jE2"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects.nbCheques" id="bhl-wt-Q7r"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn width="85" minWidth="10" maxWidth="3.4028234663852886e+38" id="uUq-T0-3Pe">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Account">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="Xqp-Jr-Us4">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="j1g-P9-82L">
+                                                        <rect key="frame" x="504" y="1" width="85" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="fLR-s9-kQO">
+                                                                <rect key="frame" x="0.0" y="12" width="85" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="meE-b6-Wnv">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="j1g-P9-82L" name="value" keyPath="objectValue.compte.name" id="yx7-ID-fz4"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="fLR-s9-kQO" firstAttribute="leading" secondItem="j1g-P9-82L" secondAttribute="leading" constant="2" id="12H-DV-90d"/>
+                                                            <constraint firstItem="fLR-s9-kQO" firstAttribute="centerX" secondItem="j1g-P9-82L" secondAttribute="centerX" id="N6d-Nk-NFe"/>
+                                                            <constraint firstItem="fLR-s9-kQO" firstAttribute="centerY" secondItem="j1g-P9-82L" secondAttribute="centerY" id="ht3-pE-C86"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="fLR-s9-kQO" id="rkk-eA-Fuf"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects" id="uq9-2x-HsW"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="53j-Tb-Jqe">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="cF1-AK-h5a">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="XNM-Ai-Qx9">
+                                                        <rect key="frame" x="592" y="1" width="64" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="hkH-18-meT">
+                                                                <rect key="frame" x="0.0" y="12" width="64" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="2N4-ZU-UiL">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="XNM-Ai-Qx9" name="value" keyPath="objectValue.compte.identite.idName" id="U70-ya-Kcf"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="hkH-18-meT" firstAttribute="centerY" secondItem="XNM-Ai-Qx9" secondAttribute="centerY" id="5vi-dc-VcQ"/>
+                                                            <constraint firstItem="hkH-18-meT" firstAttribute="leading" secondItem="XNM-Ai-Qx9" secondAttribute="leading" constant="2" id="Fui-px-k2M"/>
+                                                            <constraint firstItem="hkH-18-meT" firstAttribute="centerX" secondItem="XNM-Ai-Qx9" secondAttribute="centerX" id="meg-ug-3a9"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="hkH-18-meT" id="4AI-7z-2DY"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects" id="DA2-eA-NX7"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn width="63" minWidth="10" maxWidth="3.4028234663852886e+38" id="njt-ei-9xU">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Surname">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="sUB-lE-9xF">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="Wqf-Uu-J8T">
+                                                        <rect key="frame" x="659" y="1" width="63" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Q3R-PP-g1c">
+                                                                <rect key="frame" x="0.0" y="12" width="63" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="lEX-Or-KQk">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="Wqf-Uu-J8T" name="value" keyPath="objectValue.compte.identite.idPrenom" id="TVD-Rn-DN5"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="Q3R-PP-g1c" firstAttribute="leading" secondItem="Wqf-Uu-J8T" secondAttribute="leading" constant="2" id="WSa-bn-McI"/>
+                                                            <constraint firstItem="Q3R-PP-g1c" firstAttribute="centerX" secondItem="Wqf-Uu-J8T" secondAttribute="centerX" id="YK4-C6-LAz"/>
+                                                            <constraint firstItem="Q3R-PP-g1c" firstAttribute="centerY" secondItem="Wqf-Uu-J8T" secondAttribute="centerY" id="i6q-9h-iUd"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="Q3R-PP-g1c" id="cwR-3I-y0d"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects" id="ATf-7C-i3x"/>
+                                                </connections>
+                                            </tableColumn>
+                                            <tableColumn width="377" minWidth="10" maxWidth="3.4028234663852886e+38" id="GhC-BP-2vC">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Number">
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="gYb-zw-U8L">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                <prototypeCellViews>
+                                                    <tableCellView id="LDt-zG-K2N">
+                                                        <rect key="frame" x="725" y="1" width="381" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="EuK-HN-IRN">
+                                                                <rect key="frame" x="0.0" y="12" width="381" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="pb5-kD-2f3">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <connections>
+                                                                    <binding destination="LDt-zG-K2N" name="value" keyPath="objectValue.compte.initCompte.codeCompte" id="Zkm-yN-RhH"/>
+                                                                </connections>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="EuK-HN-IRN" firstAttribute="centerY" secondItem="LDt-zG-K2N" secondAttribute="centerY" id="K7h-Mz-YuM"/>
+                                                            <constraint firstItem="EuK-HN-IRN" firstAttribute="centerX" secondItem="LDt-zG-K2N" secondAttribute="centerX" id="KhP-vH-XLT"/>
+                                                            <constraint firstItem="EuK-HN-IRN" firstAttribute="leading" secondItem="LDt-zG-K2N" secondAttribute="leading" constant="2" id="xi5-k5-33b"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="textField" destination="EuK-HN-IRN" id="RBP-lh-Dg7"/>
+                                                        </connections>
+                                                    </tableCellView>
+                                                </prototypeCellViews>
+                                                <connections>
+                                                    <binding destination="sST-Iz-GNB" name="value" keyPath="arrangedObjects" id="3Gf-fc-R8S"/>
+                                                </connections>
+                                            </tableColumn>
+                                        </tableColumns>
+                                        <connections>
+                                            <outlet property="dataSource" destination="-2" id="Q4S-YH-Hz5"/>
+                                            <outlet property="delegate" destination="sST-Iz-GNB" id="jgz-u4-AYc"/>
+                                            <outlet property="menu" destination="HQ8-wQ-bXR" id="WYK-ZC-POB"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <nil key="backgroundColor"/>
+                            </clipView>
+                            <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="JXW-rO-Q5U">
+                                <rect key="frame" x="1" y="127" width="840" height="16"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </scroller>
+                            <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="zeo-ut-mFn">
+                                <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </scroller>
+                            <tableHeaderView key="headerView" wantsLayer="YES" id="9Sz-xT-DZe">
+                                <rect key="frame" x="0.0" y="0.0" width="1137" height="23"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </tableHeaderView>
+                        </scrollView>
+                        <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="10" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqG-8E-Der">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="314"/>
+                            <subviews>
+                                <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Vcf-mK-l7H" userLabel="Add Round Button">
+                                    <rect key="frame" x="0.0" y="283" width="30" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="e54-g1-Vrk"/>
+                                        <constraint firstAttribute="height" constant="30" id="wwq-gi-31g"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSAddTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" id="HFn-eb-5O9">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="addChequier:" target="-2" id="7UP-kJ-B5u"/>
+                                    </connections>
+                                </button>
+                                <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3Es-6n-pAq" userLabel="Remove Round Button">
+                                    <rect key="frame" x="40" y="283" width="30" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="dZo-r3-6Hc"/>
+                                        <constraint firstAttribute="width" constant="30" id="fkY-Fi-d99"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="trash" catalog="system" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" id="xLj-9y-Pns">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="removeChequierAction:" target="-2" id="ri1-fS-Exf"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="hze-7u-es3" firstAttribute="top" secondItem="bvT-p4-Xj5" secondAttribute="top" id="Ueq-Uw-E2Y"/>
+                <constraint firstAttribute="trailing" secondItem="hze-7u-es3" secondAttribute="trailing" id="Xj8-5j-eDr"/>
+                <constraint firstAttribute="bottom" secondItem="hze-7u-es3" secondAttribute="bottom" id="idm-BD-iRZ"/>
+                <constraint firstItem="hze-7u-es3" firstAttribute="leading" secondItem="bvT-p4-Xj5" secondAttribute="leading" id="ukI-xM-cP5"/>
+            </constraints>
+            <point key="canvasLocation" x="-299" y="1073"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NSAddTemplate" width="14" height="13"/>
+        <image name="trash" catalog="system" width="15" height="17"/>
+    </resources>
+</document>

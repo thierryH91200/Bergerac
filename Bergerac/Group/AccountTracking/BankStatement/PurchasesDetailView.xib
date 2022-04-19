@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PurchasesDetailView" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="amountLabel" destination="taH-BW-fsk" id="mme-rI-ZoU"/>
+                <outlet property="avatarImageView" destination="R7O-Le-3mE" id="1de-gu-q7d"/>
+                <outlet property="usernameLabel" destination="XZE-Os-X3B" id="oGp-if-AMb"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="9YW-Hr-BrG">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="taH-BW-fsk">
+                    <rect key="frame" x="470" y="9" width="130" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="aSK-zc-wMu"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" borderStyle="bezel" alignment="center" title="$1000.10" drawsBackground="YES" id="hYV-Pw-WHG">
+                        <font key="font" metaFont="system" size="28"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XZE-Os-X3B">
+                    <rect key="frame" x="168" y="115" width="364" height="35"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="Username" id="G9P-3J-ceO">
+                        <font key="font" metaFont="systemThin" size="30"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5e-sQ-INL">
+                    <rect key="frame" x="20" y="75" width="37" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="Cu1-kq-WoW">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JWU-g1-0gv">
+                    <rect key="frame" x="22" y="51" width="37" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="YU7-fY-u3b">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R7O-Le-3mE">
+                    <rect key="frame" x="250" y="7" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="F6b-Lx-SZj"/>
+                        <constraint firstAttribute="width" constant="100" id="OMl-YI-bbN"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSApplicationIcon" id="PrD-D8-7bU"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="taH-BW-fsk" firstAttribute="centerY" secondItem="9YW-Hr-BrG" secondAttribute="centerY" constant="46.5" id="31l-O7-8z0"/>
+                <constraint firstItem="R7O-Le-3mE" firstAttribute="centerX" secondItem="9YW-Hr-BrG" secondAttribute="centerX" id="Rsh-pt-e6Z"/>
+                <constraint firstAttribute="trailing" secondItem="taH-BW-fsk" secondAttribute="trailing" id="XC0-ho-ej4"/>
+                <constraint firstAttribute="bottom" secondItem="R7O-Le-3mE" secondAttribute="bottom" constant="30" id="fDo-j2-JSd"/>
+                <constraint firstItem="XZE-Os-X3B" firstAttribute="top" secondItem="9YW-Hr-BrG" secondAttribute="top" id="iyi-xs-gzs"/>
+                <constraint firstAttribute="trailing" secondItem="XZE-Os-X3B" secondAttribute="trailing" constant="70" id="uCo-JI-GZU"/>
+            </constraints>
+            <point key="canvasLocation" x="69" y="63"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSApplicationIcon" width="32" height="32"/>
+    </resources>
+</document>

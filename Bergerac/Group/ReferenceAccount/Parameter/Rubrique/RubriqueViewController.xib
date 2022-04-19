@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="RubriqueViewController" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="addCategory" destination="J57-yp-niB" id="0tN-BT-9Nk"/>
+                <outlet property="addRubric" destination="vVT-EK-Df4" id="4pp-GV-oFu"/>
+                <outlet property="anOutlineView" destination="NPp-ZC-9Pj" id="UJ0-oS-S3s"/>
+                <outlet property="anTreeController" destination="0pR-JY-hO1" id="0kW-Cm-0uT"/>
+                <outlet property="menuLocal" destination="Yh4-BC-GxQ" id="HNM-4y-OKr"/>
+                <outlet property="removeCategory" destination="gZp-6h-Lk3" id="zpX-KP-vmE"/>
+                <outlet property="removeRubric" destination="cNK-qR-OpL" id="TXJ-Wv-xxD"/>
+                <outlet property="view" destination="TFL-wJ-9yF" id="pUQ-8T-RP8"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <menu autoenablesItems="NO" id="Yh4-BC-GxQ">
+            <items>
+                <menuItem title="Create rubric" id="JU1-Wi-wJ2">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="addRubrique:" target="-2" id="onz-ZM-I6a"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Edit rubric" id="fFT-5F-PBh" userLabel="Edit check">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="editRubrique:" target="-2" id="FnF-hg-MXl"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="pAj-5D-zqA"/>
+                <menuItem title="Remove rubric" id="9Zq-zk-MIt">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="removeRubrique:" target="-2" id="Nft-2a-lMX"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="6Fk-SQ-YnP"/>
+                <menuItem title="Create category" tag="1" id="cvm-gA-E29">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="addCategorie:" target="-2" id="i89-j4-HNi"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Edit category" tag="1" id="3Ou-m8-gbd" userLabel="Edit check">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="editCategorie:" target="-2" id="8XG-2z-aJG"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="ygt-BC-3lP"/>
+                <menuItem title="Remove category" tag="1" id="VuI-vV-aqs">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="removeCategory:" target="-2" id="waP-pC-1cF"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="-2" id="by0-xr-BMY"/>
+            </connections>
+            <point key="canvasLocation" x="397" y="455"/>
+        </menu>
+        <view identifier="rubriqueViewMain" wantsLayer="YES" id="TFL-wJ-9yF">
+            <rect key="frame" x="0.0" y="0.0" width="1223" height="550"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="31" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DQP-V1-eo2">
+                    <rect key="frame" x="420" y="8" width="383" height="45"/>
+                    <subviews>
+                        <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5c3-Tw-Fb7">
+                            <rect key="frame" x="0.0" y="0.0" width="111" height="45"/>
+                            <subviews>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vVT-EK-Df4">
+                                    <rect key="frame" x="-7" y="18" width="101" height="32"/>
+                                    <buttonCell key="cell" type="push" title="Add Rubric" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="a2j-qa-2wx">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="addRubrique:" target="-2" id="RvU-0a-sih"/>
+                                    </connections>
+                                </button>
+                                <button verticalHuggingPriority="750" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="cNK-qR-OpL">
+                                    <rect key="frame" x="-7" y="-7" width="125" height="31"/>
+                                    <buttonCell key="cell" type="push" title="Remove Rubric" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Id4-fw-bUa">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="removeRubrique:" target="-2" id="h5c-jL-irP"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                        <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ss7-hT-0h8">
+                            <rect key="frame" x="142" y="0.0" width="128" height="45"/>
+                            <subviews>
+                                <button verticalHuggingPriority="750" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="J57-yp-niB">
+                                    <rect key="frame" x="-7" y="18" width="118" height="32"/>
+                                    <buttonCell key="cell" type="push" title="Add Category" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="v8h-np-1L4">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="addCategorie:" target="-2" id="hwS-lS-6Oa"/>
+                                    </connections>
+                                </button>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gZp-6h-Lk3">
+                                    <rect key="frame" x="-7" y="-7" width="142" height="31"/>
+                                    <buttonCell key="cell" type="push" title="Remove Category" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OPU-b7-N9X">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="removeCategory:" target="-2" id="2wH-em-dQx"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2FN-Td-TRZ">
+                            <rect key="frame" x="294" y="6" width="96" height="32"/>
+                            <buttonCell key="cell" type="push" title="Expand all" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="caJ-Bl-EAD">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="ExpandAll:" target="-2" id="ZxJ-6M-AcH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+                <scrollView autohidesScrollers="YES" horizontalLineScroll="21" horizontalPageScroll="10" verticalLineScroll="21" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBv-oC-Ljf">
+                    <rect key="frame" x="312" y="75" width="600" height="400"/>
+                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="Uko-1H-xnb">
+                        <rect key="frame" x="1" y="1" width="598" height="398"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <outlineView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowHeight="18" rowSizeStyle="automatic" headerView="VdQ-ks-805" viewBased="YES" indentationPerLevel="16" outlineTableColumn="UYJ-bA-3af" id="NPp-ZC-9Pj">
+                                <rect key="frame" x="0.0" y="0.0" width="598" height="375"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <size key="intercellSpacing" width="2" height="3"/>
+                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <tableViewGridLines key="gridStyleMask" vertical="YES" horizontal="YES"/>
+                                <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                <tableColumns>
+                                    <tableColumn width="565" minWidth="40" maxWidth="1000" id="UYJ-bA-3af">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Rubrique">
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                        </tableHeaderCell>
+                                        <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" title="Text Cell" id="a8X-k8-N4o">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                        <prototypeCellViews>
+                                            <tableCellView identifier="RubriqueCell" id="wMK-kY-MRc" customClass="KSHeaderCellView3" customModule="Bergerac" customModuleProvider="target">
+                                                <rect key="frame" x="1" y="1" width="575" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RJk-x0-Yk0">
+                                                        <rect key="frame" x="9" y="-1" width="347" height="21"/>
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="RubriqueCell" id="NMJ-fc-9dW">
+                                                            <font key="font" metaFont="system" size="18"/>
+                                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                        <connections>
+                                                            <binding destination="wMK-kY-MRc" name="textColor" keyPath="objectValue.color" id="Qnw-rP-uLX"/>
+                                                            <binding destination="wMK-kY-MRc" name="value" keyPath="objectValue.name" id="pUB-oO-1ng"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XcA-ut-1em">
+                                                        <rect key="frame" x="360" y="4" width="88" height="16"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="84" id="BYi-6b-4DA"/>
+                                                        </constraints>
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" id="LUV-HP-Fuq">
+                                                            <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="currency" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" minimumFractionDigits="2" maximumFractionDigits="2" id="dbM-ch-2nA"/>
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                        <connections>
+                                                            <binding destination="wMK-kY-MRc" name="textColor" keyPath="objectValue.color" id="NmW-MC-YBc"/>
+                                                            <binding destination="wMK-kY-MRc" name="value" keyPath="objectValue.total" id="07P-TT-Uax"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <colorWell enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iat-la-qdQ">
+                                                        <rect key="frame" x="481" y="-2" width="44" height="22"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="44" id="6Nu-pF-1ar"/>
+                                                        </constraints>
+                                                        <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <connections>
+                                                            <binding destination="wMK-kY-MRc" name="value" keyPath="objectValue.color" id="tZS-ho-62a"/>
+                                                        </connections>
+                                                    </colorWell>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="iat-la-qdQ" firstAttribute="top" secondItem="wMK-kY-MRc" secondAttribute="top" constant="-2" id="0df-Io-j6f"/>
+                                                    <constraint firstItem="RJk-x0-Yk0" firstAttribute="leading" secondItem="wMK-kY-MRc" secondAttribute="leading" constant="11" id="5xs-9E-pYH"/>
+                                                    <constraint firstItem="iat-la-qdQ" firstAttribute="leading" secondItem="XcA-ut-1em" secondAttribute="trailing" constant="35" id="Bv5-79-Thx"/>
+                                                    <constraint firstItem="iat-la-qdQ" firstAttribute="centerY" secondItem="wMK-kY-MRc" secondAttribute="centerY" id="Yfm-lB-TRK"/>
+                                                    <constraint firstItem="RJk-x0-Yk0" firstAttribute="centerY" secondItem="wMK-kY-MRc" secondAttribute="centerY" id="bfw-IU-m5e"/>
+                                                    <constraint firstItem="XcA-ut-1em" firstAttribute="leading" secondItem="RJk-x0-Yk0" secondAttribute="trailing" constant="8" id="lYc-EA-GSW"/>
+                                                    <constraint firstAttribute="trailing" secondItem="iat-la-qdQ" secondAttribute="trailing" constant="50" id="oJA-hy-rUA"/>
+                                                    <constraint firstItem="XcA-ut-1em" firstAttribute="top" secondItem="RJk-x0-Yk0" secondAttribute="top" id="qct-ik-cOz"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="colorWell" destination="iat-la-qdQ" id="rnH-4o-4kw"/>
+                                                    <outlet property="textField" destination="RJk-x0-Yk0" id="C8a-YQ-oBl"/>
+                                                    <outlet property="total" destination="XcA-ut-1em" id="82Y-6h-tUV"/>
+                                                </connections>
+                                            </tableCellView>
+                                            <tableCellView identifier="CategoryCell" id="ndj-6W-KcO" customClass="KSTableCellView2" customModule="Bergerac" customModuleProvider="target">
+                                                <rect key="frame" x="1" y="22" width="575" height="14"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RYm-bT-T0R">
+                                                        <rect key="frame" x="29" y="-1" width="35" height="16"/>
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="table" id="CoP-Kh-81z">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                        <connections>
+                                                            <binding destination="ndj-6W-KcO" name="value" keyPath="objectValue.name" id="cZ6-3f-1qo"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="VbX-Gj-2U2">
+                                                        <rect key="frame" x="436" y="-1" width="87" height="16"/>
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="center" title="CategoryCell" id="K1n-xm-q3n">
+                                                            <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="currency" lenient="YES" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" minimumFractionDigits="2" maximumFractionDigits="2" id="ZHg-lB-sXB"/>
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                        <connections>
+                                                            <binding destination="ndj-6W-KcO" name="value" keyPath="objectValue.objectif" id="zUq-a6-gL7"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="VbX-Gj-2U2" firstAttribute="centerY" secondItem="ndj-6W-KcO" secondAttribute="centerY" id="MgT-bh-pLd"/>
+                                                    <constraint firstAttribute="trailing" secondItem="VbX-Gj-2U2" secondAttribute="trailing" constant="54" id="R41-gh-iUt"/>
+                                                    <constraint firstItem="VbX-Gj-2U2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ndj-6W-KcO" secondAttribute="leading" constant="20" symbolic="YES" id="TgP-af-Np5"/>
+                                                    <constraint firstItem="RYm-bT-T0R" firstAttribute="leading" secondItem="ndj-6W-KcO" secondAttribute="leading" constant="31" id="TnD-sf-Epk"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RYm-bT-T0R" secondAttribute="trailing" constant="20" symbolic="YES" id="Y2V-2Y-t1k"/>
+                                                    <constraint firstItem="RYm-bT-T0R" firstAttribute="centerY" secondItem="ndj-6W-KcO" secondAttribute="centerY" id="dw6-pj-jof"/>
+                                                </constraints>
+                                            </tableCellView>
+                                        </prototypeCellViews>
+                                        <connections>
+                                            <binding destination="0pR-JY-hO1" name="value" keyPath="arrangedObjects" id="vey-KK-7Fm"/>
+                                        </connections>
+                                    </tableColumn>
+                                </tableColumns>
+                                <connections>
+                                    <outlet property="dataSource" destination="-2" id="wGe-fn-b9A"/>
+                                    <outlet property="delegate" destination="-2" id="WVW-He-rjd"/>
+                                    <outlet property="menu" destination="Yh4-BC-GxQ" id="HUR-vT-Auv"/>
+                                </connections>
+                            </outlineView>
+                        </subviews>
+                        <nil key="backgroundColor"/>
+                    </clipView>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="600" id="BjK-6v-YUB"/>
+                        <constraint firstAttribute="height" constant="400" id="obE-YU-8bX"/>
+                    </constraints>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="yhm-ut-Je1">
+                        <rect key="frame" x="1" y="267" width="580" height="16"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="9Th-QR-KXG">
+                        <rect key="frame" x="224" y="17" width="15" height="102"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <tableHeaderView key="headerView" wantsLayer="YES" id="VdQ-ks-805">
+                        <rect key="frame" x="0.0" y="0.0" width="598" height="23"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tableHeaderView>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="DQP-V1-eo2" firstAttribute="top" secondItem="TFL-wJ-9yF" secondAttribute="top" constant="497" id="3R1-mf-sR6"/>
+                <constraint firstAttribute="bottom" secondItem="DQP-V1-eo2" secondAttribute="bottom" constant="8" id="AOK-5S-Vgi"/>
+                <constraint firstItem="DQP-V1-eo2" firstAttribute="centerX" secondItem="TFL-wJ-9yF" secondAttribute="centerX" id="Jkp-VR-Pgz"/>
+                <constraint firstItem="eBv-oC-Ljf" firstAttribute="centerY" secondItem="TFL-wJ-9yF" secondAttribute="centerY" id="WvZ-eI-f7f"/>
+                <constraint firstItem="eBv-oC-Ljf" firstAttribute="centerX" secondItem="TFL-wJ-9yF" secondAttribute="centerX" id="XFx-FZ-MEW"/>
+                <constraint firstItem="DQP-V1-eo2" firstAttribute="top" secondItem="eBv-oC-Ljf" secondAttribute="bottom" constant="22" id="lpX-tW-yc8"/>
+            </constraints>
+            <point key="canvasLocation" x="139.5" y="46.5"/>
+        </view>
+        <treeController mode="entity" entityName="EntityRubric" automaticallyPreparesContent="YES" childrenKeyPath="children" countKeyPath="count" leafKeyPath="isLeaf" id="0pR-JY-hO1">
+            <connections>
+                <binding destination="-2" name="managedObjectContext" keyPath="self.managedObjectContext" id="z5w-Tr-oEw"/>
+            </connections>
+        </treeController>
+    </objects>
+</document>

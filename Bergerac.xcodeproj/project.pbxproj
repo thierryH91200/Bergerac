@@ -12,7 +12,244 @@
 		03A09FEA280EAD340081682C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE9280EAD340081682C /* Document.swift */; };
 		03A09FED280EAD340081682C /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FEB280EAD340081682C /* Document.xcdatamodeld */; };
 		03A09FEF280EAD370081682C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A09FEE280EAD370081682C /* Assets.xcassets */; };
-		03A09FF2280EAD380081682C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A09FF0280EAD380081682C /* Main.storyboard */; };
+		03A0A019280EAE1C0081682C /* AccountGroupViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A09FFC280EAE1C0081682C /* AccountGroupViewController.strings */; };
+		03A0A01A280EAE1C0081682C /* KSRetailCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A09FFF280EAE1C0081682C /* KSRetailCollectionViewItem.xib */; };
+		03A0A01B280EAE1C0081682C /* KSRetailCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A000280EAE1C0081682C /* KSRetailCollectionViewItem.swift */; };
+		03A0A01C280EAE1C0081682C /* PopOverModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A001280EAE1C0081682C /* PopOverModalViewController.xib */; };
+		03A0A01D280EAE1C0081682C /* KSBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A002280EAE1C0081682C /* KSBackgroundView.swift */; };
+		03A0A01E280EAE1C0081682C /* PopOverModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A003280EAE1C0081682C /* PopOverModalViewController.swift */; };
+		03A0A01F280EAE1C0081682C /* AccountGroupTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A005280EAE1C0081682C /* AccountGroupTableCellView.swift */; };
+		03A0A020280EAE1C0081682C /* AccountGroupViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A008280EAE1C0081682C /* AccountGroupViewDataSource.swift */; };
+		03A0A021280EAE1C0081682C /* GroupModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A00A280EAE1C0081682C /* GroupModalWindowController.swift */; };
+		03A0A022280EAE1C0081682C /* GroupModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A00B280EAE1C0081682C /* GroupModalWindowController.xib */; };
+		03A0A023280EAE1C0081682C /* AccountModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A00C280EAE1C0081682C /* AccountModalWindowController.swift */; };
+		03A0A024280EAE1C0081682C /* AccountModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A00D280EAE1C0081682C /* AccountModalWindowController.xib */; };
+		03A0A025280EAE1C0081682C /* AccountGroupViewControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A00E280EAE1C0081682C /* AccountGroupViewControllerAction.swift */; };
+		03A0A026280EAE1C0081682C /* AccountGroupViewController copie.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A00F280EAE1C0081682C /* AccountGroupViewController copie.xib */; };
+		03A0A027280EAE1C0081682C /* AccountGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A011280EAE1C0081682C /* AccountGroupViewController.xib */; };
+		03A0A028280EAE1C0081682C /* AccountGroupViewDragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A013280EAE1C0081682C /* AccountGroupViewDragDrop.swift */; };
+		03A0A029280EAE1C0081682C /* CurtainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A014280EAE1C0081682C /* CurtainViewController.swift */; };
+		03A0A02A280EAE1C0081682C /* CurtainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A015280EAE1C0081682C /* CurtainViewController.xib */; };
+		03A0A02B280EAE1C0081682C /* AccountGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A016280EAE1C0081682C /* AccountGroupViewController.swift */; };
+		03A0A02C280EAE1C0081682C /* AccountGroupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A018280EAE1C0081682C /* AccountGroupViewDelegate.swift */; };
+		03A0A044280EAE760081682C /* EntityAccount+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A02E280EAE760081682C /* EntityAccount+CoreDataClass.swift */; };
+		03A0A045280EAE760081682C /* EntityTransactions+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A02F280EAE760081682C /* EntityTransactions+CoreDataClass.swift */; };
+		03A0A046280EAE760081682C /* ListTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A031280EAE760081682C /* ListTransactions.swift */; };
+		03A0A047280EAE760081682C /* PaymentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A032280EAE760081682C /* PaymentMode.swift */; };
+		03A0A048280EAE760081682C /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A033280EAE760081682C /* Categories.swift */; };
+		03A0A049280EAE760081682C /* Identite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A034280EAE760081682C /* Identite.swift */; };
+		03A0A04A280EAE760081682C /* Rubrique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A035280EAE760081682C /* Rubrique.swift */; };
+		03A0A04B280EAE760081682C /* Cheques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A036280EAE760081682C /* Cheques.swift */; };
+		03A0A04C280EAE760081682C /* Statut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A037280EAE760081682C /* Statut.swift */; };
+		03A0A04D280EAE760081682C /* BanqueStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A038280EAE760081682C /* BanqueStatement.swift */; };
+		03A0A04E280EAE760081682C /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A039280EAE760081682C /* Scheduler.swift */; };
+		03A0A04F280EAE760081682C /* rubrique.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A03A280EAE760081682C /* rubrique.plist */; };
+		03A0A050280EAE760081682C /* rubrique.csv in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A03B280EAE760081682C /* rubrique.csv */; };
+		03A0A051280EAE760081682C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A03C280EAE760081682C /* Account.swift */; };
+		03A0A052280EAE760081682C /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A03D280EAE760081682C /* Preference.swift */; };
+		03A0A053280EAE760081682C /* EntityRubric+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A03E280EAE760081682C /* EntityRubric+CoreDataClass.swift */; };
+		03A0A054280EAE760081682C /* EntityCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A03F280EAE760081682C /* EntityCategory+CoreDataProperties.swift */; };
+		03A0A055280EAE760081682C /* EntityTransactions+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A040280EAE760081682C /* EntityTransactions+CoreDataProperties.swift */; };
+		03A0A056280EAE760081682C /* EntityCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A041280EAE760081682C /* EntityCategory+CoreDataClass.swift */; };
+		03A0A057280EAE760081682C /* EntityAccount+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A042280EAE760081682C /* EntityAccount+CoreDataProperties.swift */; };
+		03A0A058280EAE760081682C /* EntityRubric+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A043280EAE760081682C /* EntityRubric+CoreDataProperties.swift */; };
+		03A0A079280EAEE60081682C /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A05A280EAEE60081682C /* Transformable.swift */; };
+		03A0A07A280EAEE60081682C /* MLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A05B280EAEE60081682C /* MLTextField.swift */; };
+		03A0A07B280EAEE60081682C /* NSUserInterfaceItemIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A05C280EAEE60081682C /* NSUserInterfaceItemIdentifier.swift */; };
+		03A0A07C280EAEE60081682C /* NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A05D280EAEE60081682C /* NSWindow.swift */; };
+		03A0A07D280EAEE60081682C /* DSFFloatLabelledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A05E280EAEE60081682C /* DSFFloatLabelledTextField.swift */; };
+		03A0A07E280EAEE60081682C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A05F280EAEE60081682C /* ChartView.swift */; };
+		03A0A07F280EAEE60081682C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A060280EAEE60081682C /* Error.swift */; };
+		03A0A080280EAEE60081682C /* NVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A061280EAEE60081682C /* NVDate.swift */; };
+		03A0A081280EAEE60081682C /* notification.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A063280EAEE60081682C /* notification.strings */; };
+		03A0A082280EAEE60081682C /* NotificationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A068280EAEE60081682C /* NotificationsHelper.swift */; };
+		03A0A083280EAEE60081682C /* NotificationActionsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A069280EAEE60081682C /* NotificationActionsEnum.swift */; };
+		03A0A084280EAEE60081682C /* UNCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A06A280EAEE60081682C /* UNCenter.swift */; };
+		03A0A085280EAEE60081682C /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A06B280EAEE60081682C /* NotificationHandler.swift */; };
+		03A0A086280EAEE60081682C /* NSOpenPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A06D280EAEE60081682C /* NSOpenPanel.swift */; };
+		03A0A087280EAEE60081682C /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A06E280EAEE60081682C /* NotificationCenter.swift */; };
+		03A0A088280EAEE60081682C /* NSTableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A06F280EAEE60081682C /* NSTableRowView.swift */; };
+		03A0A089280EAEE60081682C /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A070280EAEE60081682C /* NSImage.swift */; };
+		03A0A08A280EAEE60081682C /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A071280EAEE60081682C /* Notification.swift */; };
+		03A0A08B280EAEE60081682C /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A072280EAEE60081682C /* HeaderCell.swift */; };
+		03A0A08C280EAEE60081682C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A073280EAEE60081682C /* String.swift */; };
+		03A0A08D280EAEE60081682C /* NSPasteboard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A074280EAEE60081682C /* NSPasteboard+Additions.swift */; };
+		03A0A08E280EAEE60081682C /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A075280EAEE60081682C /* Debug.swift */; };
+		03A0A08F280EAEE60081682C /* NSTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A076280EAEE60081682C /* NSTableCellView.swift */; };
+		03A0A090280EAEE60081682C /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A077280EAEE60081682C /* Calendar.swift */; };
+		03A0A091280EAEE60081682C /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A078280EAEE60081682C /* ManagedObject.swift */; };
+		03A0A094280EAFA40081682C /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 03A0A093280EAFA40081682C /* Charts */; };
+		03A0A097280EAFD10081682C /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 03A0A096280EAFD10081682C /* LaunchAtLogin */; };
+		03A0A09A280EAFFA0081682C /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 03A0A099280EAFFA0081682C /* SwiftDate */; };
+		03A0A0A0280EB0230081682C /* NSPredicateEditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A09C280EB0230081682C /* NSPredicateEditorRow.swift */; };
+		03A0A0A1280EB0230081682C /* NSPredicateEditorRowTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A09D280EB0230081682C /* NSPredicateEditorRowTemplate.swift */; };
+		03A0A0A2280EB0230081682C /* AdvancedFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A09E280EB0230081682C /* AdvancedFilterViewController.swift */; };
+		03A0A0A3280EB0230081682C /* AdvancedFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A09F280EB0230081682C /* AdvancedFilterViewController.xib */; };
+		03A0A0B9280EB04B0081682C /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0A5280EB04B0081682C /* Localizations.swift */; };
+		03A0A0BA280EB04B0081682C /* AccessibilityImageDescriptions.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0A6280EB04B0081682C /* AccessibilityImageDescriptions.strings */; };
+		03A0A0BB280EB04B0081682C /* ImportWindowControllerMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0A8280EB04B0081682C /* ImportWindowControllerMenuDelegate.swift */; };
+		03A0A0BC280EB04B0081682C /* ImportWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0A9280EB04B0081682C /* ImportWindowController.swift */; };
+		03A0A0BD280EB04B0081682C /* TTFormatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0AA280EB04B0081682C /* TTFormatViewController.swift */; };
+		03A0A0BE280EB04B0081682C /* ImportSchedulersWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0AB280EB04B0081682C /* ImportSchedulersWindowController.swift */; };
+		03A0A0BF280EB04B0081682C /* ImportBankStatementWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0AC280EB04B0081682C /* ImportBankStatementWindowController.swift */; };
+		03A0A0C0280EB04B0081682C /* ImportTransactionsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0AD280EB04B0081682C /* ImportTransactionsWindowController.swift */; };
+		03A0A0C1280EB04B0081682C /* TTFormatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0AE280EB04B0081682C /* TTFormatViewController.xib */; };
+		03A0A0C2280EB04B0081682C /* ImportWindowControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0AF280EB04B0081682C /* ImportWindowControllerExtension.swift */; };
+		03A0A0C3280EB04B0081682C /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0B1280EB04B0081682C /* CSVParser.swift */; };
+		03A0A0C4280EB04B0081682C /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0B2280EB04B0081682C /* CSVWriter.swift */; };
+		03A0A0C5280EB04B0081682C /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0B3280EB04B0081682C /* CSV.swift */; };
+		03A0A0C6280EB04B0081682C /* CSVParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0B4280EB04B0081682C /* CSVParserDelegate.swift */; };
+		03A0A0C7280EB04B0081682C /* CSVConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0B5280EB04B0081682C /* CSVConfig.swift */; };
+		03A0A0C8280EB04B0081682C /* ImportWindowControllerParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0B6280EB04B0081682C /* ImportWindowControllerParserDelegate.swift */; };
+		03A0A0C9280EB04B0081682C /* TTFormatViewControllerAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0B7280EB04B0081682C /* TTFormatViewControllerAccessory.xib */; };
+		03A0A0CA280EB04B0081682C /* ImportWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0B8280EB04B0081682C /* ImportWindowController.xib */; };
+		03A0A174280EB0750081682C /* AccountViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0CC280EB0740081682C /* AccountViewController.strings */; };
+		03A0A175280EB0750081682C /* GeneralViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0CE280EB0740081682C /* GeneralViewController.strings */; };
+		03A0A176280EB0750081682C /* PersonViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0D0280EB0740081682C /* PersonViewController.strings */; };
+		03A0A177280EB0750081682C /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0D6280EB0740081682C /* PreferencesWindowController.swift */; };
+		03A0A178280EB0750081682C /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0D7280EB0740081682C /* util.swift */; };
+		03A0A179280EB0750081682C /* PreferencesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0D8280EB0740081682C /* PreferencesTabViewController.swift */; };
+		03A0A17A280EB0750081682C /* Preferenceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0D9280EB0740081682C /* Preferenceable.swift */; };
+		03A0A17B280EB0750081682C /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0DD280EB0740081682C /* PersonViewController.swift */; };
+		03A0A17C280EB0750081682C /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0E1280EB0740081682C /* AccountViewController.xib */; };
+		03A0A17D280EB0750081682C /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0E3280EB0740081682C /* PersonViewController.xib */; };
+		03A0A17E280EB0750081682C /* GeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0E5280EB0740081682C /* GeneralViewController.xib */; };
+		03A0A17F280EB0750081682C /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0E7280EB0740081682C /* GeneralViewController.swift */; };
+		03A0A180280EB0750081682C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0EB280EB0740081682C /* AccountViewController.swift */; };
+		03A0A181280EB0750081682C /* MyDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0ED280EB0740081682C /* MyDB.sqlite */; };
+		03A0A182280EB0750081682C /* curtain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0F1280EB0740081682C /* curtain.jpg */; };
+		03A0A183280EB0750081682C /* ListTransactionsController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A0F6280EB0740081682C /* ListTransactionsController.strings */; };
+		03A0A184280EB0750081682C /* ListTransactionsSchedulers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0F9280EB0740081682C /* ListTransactionsSchedulers.swift */; };
+		03A0A185280EB0750081682C /* ListTransactionsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0FA280EB0740081682C /* ListTransactionsPasteboard.swift */; };
+		03A0A186280EB0750081682C /* ListTransactionsTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0FB280EB0740081682C /* ListTransactionsTextColor.swift */; };
+		03A0A187280EB0750081682C /* ListTransactionsController+Expansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0FD280EB0740081682C /* ListTransactionsController+Expansion.swift */; };
+		03A0A188280EB0750081682C /* ListTransactionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A0FF280EB0740081682C /* ListTransactionsDataSource.swift */; };
+		03A0A189280EB0750081682C /* ListTransactionsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A100280EB0740081682C /* ListTransactionsController.storyboard */; };
+		03A0A18A280EB0750081682C /* ListTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A102280EB0740081682C /* ListTransactionsController.swift */; };
+		03A0A18B280EB0750081682C /* ListTransactionsmenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A103280EB0740081682C /* ListTransactionsmenuDelegate.swift */; };
+		03A0A18C280EB0750081682C /* ListTransactionsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A105280EB0740081682C /* ListTransactionsDelegate.swift */; };
+		03A0A18D280EB0750081682C /* PaymentModePieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A108280EB0740081682C /* PaymentModePieController.xib */; };
+		03A0A18E280EB0750081682C /* PaymentModePieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A109280EB0740081682C /* PaymentModePieController.swift */; };
+		03A0A18F280EB0750081682C /* IncomeExpenseBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A10B280EB0740081682C /* IncomeExpenseBarController.xib */; };
+		03A0A190280EB0750081682C /* IncomeExpensePieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A10C280EB0740081682C /* IncomeExpensePieController.swift */; };
+		03A0A191280EB0750081682C /* IncomeExpensePieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A10D280EB0740081682C /* IncomeExpensePieController.xib */; };
+		03A0A192280EB0750081682C /* IncomeExpenseBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A10E280EB0740081682C /* IncomeExpenseBarController.swift */; };
+		03A0A193280EB0750081682C /* CategoryBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A110280EB0740081682C /* CategoryBarController.xib */; };
+		03A0A194280EB0750081682C /* CategoryBarController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A111280EB0740081682C /* CategoryBarController1.swift */; };
+		03A0A195280EB0750081682C /* CategoryBarController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A112280EB0740081682C /* CategoryBarController1.xib */; };
+		03A0A196280EB0750081682C /* CategoryBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A113280EB0740081682C /* CategoryBarController.swift */; };
+		03A0A197280EB0750081682C /* RubricPieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A115280EB0740081682C /* RubricPieController.xib */; };
+		03A0A198280EB0750081682C /* RubricBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A116280EB0740081682C /* RubricBarController.swift */; };
+		03A0A199280EB0750081682C /* RubricPieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A117280EB0740081682C /* RubricPieController.swift */; };
+		03A0A19A280EB0750081682C /* RubricBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A118280EB0740081682C /* RubricBarController.xib */; };
+		03A0A19B280EB0750081682C /* CommonGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A119280EB0740081682C /* CommonGraph.swift */; };
+		03A0A19C280EB0750081682C /* IdentiteViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A11C280EB0750081682C /* IdentiteViewController.strings */; };
+		03A0A19D280EB0750081682C /* IdentiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A121280EB0750081682C /* IdentiteViewController.xib */; };
+		03A0A19E280EB0750081682C /* IdentiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A124280EB0750081682C /* IdentiteViewController.swift */; };
+		03A0A19F280EB0750081682C /* RubriqueViewDragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A127280EB0750081682C /* RubriqueViewDragDrop.swift */; };
+		03A0A1A0280EB0750081682C /* RubriqueViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A128280EB0750081682C /* RubriqueViewDelegate.swift */; };
+		03A0A1A1280EB0750081682C /* RubriqueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A129280EB0750081682C /* RubriqueViewController.xib */; };
+		03A0A1A2280EB0750081682C /* ColorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A12B280EB0750081682C /* ColorUtilities.swift */; };
+		03A0A1A3280EB0750081682C /* ComboColorWellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A12C280EB0750081682C /* ComboColorWellCell.swift */; };
+		03A0A1A4280EB0750081682C /* ColorGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A12D280EB0750081682C /* ColorGridController.swift */; };
+		03A0A1A5280EB0750081682C /* ComboColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A12E280EB0750081682C /* ComboColorWell.swift */; };
+		03A0A1A6280EB0750081682C /* MouseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A12F280EB0750081682C /* MouseTracker.swift */; };
+		03A0A1A7280EB0750081682C /* ComboColorWellImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A130280EB0750081682C /* ComboColorWellImages.xcassets */; };
+		03A0A1A8280EB0750081682C /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A131280EB0750081682C /* ColorView.swift */; };
+		03A0A1A9280EB0750081682C /* ColorGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A132280EB0750081682C /* ColorGridView.swift */; };
+		03A0A1AA280EB0750081682C /* RubriqueModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A134280EB0750081682C /* RubriqueModalWindowController.swift */; };
+		03A0A1AB280EB0750081682C /* CategorieModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A135280EB0750081682C /* CategorieModalWindowController.xib */; };
+		03A0A1AC280EB0750081682C /* RubriqueModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A136280EB0750081682C /* RubriqueModalWindowController.xib */; };
+		03A0A1AD280EB0750081682C /* CategorieModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A137280EB0750081682C /* CategorieModalWindowController.swift */; };
+		03A0A1AE280EB0750081682C /* RubriqueViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A138280EB0750081682C /* RubriqueViewAction.swift */; };
+		03A0A1AF280EB0750081682C /* RubriqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A139280EB0750081682C /* RubriqueViewController.swift */; };
+		03A0A1B0280EB0750081682C /* ParameterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A13A280EB0750081682C /* ParameterController.xib */; };
+		03A0A1B1280EB0750081682C /* ModeOfPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A13C280EB0750081682C /* ModeOfPaymentViewController.swift */; };
+		03A0A1B2280EB0750081682C /* ModeModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A13D280EB0750081682C /* ModeModalWindowController.xib */; };
+		03A0A1B3280EB0750081682C /* ModeModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A13E280EB0750081682C /* ModeModalWindowController.swift */; };
+		03A0A1B4280EB0750081682C /* ModeOfPaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A13F280EB0750081682C /* ModeOfPaymentViewController.xib */; };
+		03A0A1C6280EB0750081682C /* PreferenceOperationViewControllerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A155280EB0750081682C /* PreferenceOperationViewControllerPopUp.swift */; };
+		03A0A1C7280EB0750081682C /* PreferenceOperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A156280EB0750081682C /* PreferenceOperationViewController.swift */; };
+		03A0A1C8280EB0750081682C /* PreferenceOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A157280EB0750081682C /* PreferenceOperationViewController.xib */; };
+		03A0A1C9280EB0750081682C /* ChequiersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A159280EB0750081682C /* ChequiersViewController.xib */; };
+		03A0A1CA280EB0750081682C /* ChequiersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A15A280EB0750081682C /* ChequiersViewController.swift */; };
+		03A0A1CB280EB0750081682C /* ChequierModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A15B280EB0750081682C /* ChequierModalWindowController.swift */; };
+		03A0A1CC280EB0750081682C /* ChequierModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A15C280EB0750081682C /* ChequierModalWindowController.xib */; };
+		03A0A1CD280EB0750081682C /* ParameterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A15D280EB0750081682C /* ParameterController.swift */; };
+		03A0A1CE280EB0750081682C /* SchedulerViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A15F280EB0750081682C /* SchedulerViewController.strings */; };
+		03A0A1CF280EB0750081682C /* SchedulerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A164280EB0750081682C /* SchedulerViewController.xib */; };
+		03A0A1D0280EB0750081682C /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A166280EB0750081682C /* SchedulerViewController.swift */; };
+		03A0A1D1280EB0750081682C /* SchedulersSaisieController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A169280EB0750081682C /* SchedulersSaisieController.strings */; };
+		03A0A1D2280EB0750081682C /* SchedulersSaisieControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A16B280EB0750081682C /* SchedulersSaisieControllerDelegate.swift */; };
+		03A0A1D3280EB0750081682C /* SchedulersSaisieController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A16F280EB0750081682C /* SchedulersSaisieController.xib */; };
+		03A0A1D4280EB0750081682C /* SchedulersSaisieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A171280EB0750081682C /* SchedulersSaisieController.swift */; };
+		03A0A1D5280EB0750081682C /* SchedulersSaisieControllerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A172280EB0750081682C /* SchedulersSaisieControllerPopUp.swift */; };
+		03A0A234280EB0B10081682C /* Feeds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A1D7280EB0B00081682C /* Feeds.plist */; };
+		03A0A235280EB0B10081682C /* SourceListViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1DC280EB0B00081682C /* SourceListViewDataSource.swift */; };
+		03A0A236280EB0B10081682C /* SourceListViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1DE280EB0B00081682C /* SourceListViewDelegate.swift */; };
+		03A0A237280EB0B10081682C /* SourceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1DF280EB0B00081682C /* SourceListViewController.swift */; };
+		03A0A238280EB0B10081682C /* SourceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A1E0280EB0B00081682C /* SourceListViewController.xib */; };
+		03A0A239280EB0B10081682C /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1E2280EB0B00081682C /* Feed.swift */; };
+		03A0A23A280EB0B10081682C /* TransactionViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A1E4280EB0B10081682C /* TransactionViewController.strings */; };
+		03A0A23B280EB0B10081682C /* SousOperationComboBoxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1E7280EB0B10081682C /* SousOperationComboBoxDelegate.swift */; };
+		03A0A23C280EB0B10081682C /* SousOperationModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A1E8280EB0B10081682C /* SousOperationModalWindowController.xib */; };
+		03A0A23D280EB0B10081682C /* SousOperationModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1E9280EB0B10081682C /* SousOperationModalWindowController.swift */; };
+		03A0A23E280EB0B10081682C /* SousOperationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1EA280EB0B10081682C /* SousOperationAction.swift */; };
+		03A0A23F280EB0B10081682C /* TransactionViewControllerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1EB280EB0B10081682C /* TransactionViewControllerPopUp.swift */; };
+		03A0A240280EB0B10081682C /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1EE280EB0B10081682C /* AutoCompleteTextField.swift */; };
+		03A0A241280EB0B10081682C /* TransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A1F1280EB0B10081682C /* TransactionViewController.xib */; };
+		03A0A242280EB0B10081682C /* TransactionViewControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1F3280EB0B10081682C /* TransactionViewControllerAction.swift */; };
+		03A0A243280EB0B10081682C /* TransactionViewControllerOutlineDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1F4280EB0B10081682C /* TransactionViewControllerOutlineDelegate.swift */; };
+		03A0A244280EB0B10081682C /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1F5280EB0B10081682C /* AvatarView.swift */; };
+		03A0A245280EB0B10081682C /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1F6280EB0B10081682C /* TransactionViewController.swift */; };
+		03A0A246280EB0B10081682C /* TransactionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1F8280EB0B10081682C /* TransactionViewControllerDelegate.swift */; };
+		03A0A247280EB0B10081682C /* AvatarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1F9280EB0B10081682C /* AvatarInfo.swift */; };
+		03A0A248280EB0B10081682C /* CSwiftV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1FB280EB0B10081682C /* CSwiftV.swift */; };
+		03A0A249280EB0B10081682C /* CommunShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A1FD280EB0B10081682C /* CommunShared.swift */; };
+		03A0A24A280EB0B10081682C /* SliderViewVerticalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A1FF280EB0B10081682C /* SliderViewVerticalController.xib */; };
+		03A0A24B280EB0B10081682C /* RangeSliderVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A200280EB0B10081682C /* RangeSliderVertical.swift */; };
+		03A0A24C280EB0B10081682C /* SliderViewHorizontalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A201280EB0B10081682C /* SliderViewHorizontalController.xib */; };
+		03A0A24D280EB0B10081682C /* SliderViewVerticalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A202280EB0B10081682C /* SliderViewVerticalController.swift */; };
+		03A0A24E280EB0B10081682C /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A203280EB0B10081682C /* RangeSlider.swift */; };
+		03A0A24F280EB0B10081682C /* SliderViewHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A204280EB0B10081682C /* SliderViewHorizontalController.swift */; };
+		03A0A250280EB0B10081682C /* RangeSliderHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A205280EB0B10081682C /* RangeSliderHorizontal.swift */; };
+		03A0A251280EB0B10081682C /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A206280EB0B10081682C /* SliderViewController.xib */; };
+		03A0A252280EB0B10081682C /* eventually.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A208280EB0B10081682C /* eventually.m4r */; };
+		03A0A253280EB0B10081682C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A20B280EB0B10081682C /* WebViewController.swift */; };
+		03A0A254280EB0B10081682C /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A20C280EB0B10081682C /* WebViewController.xib */; };
+		03A0A255280EB0B10081682C /* RectMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A20E280EB0B10081682C /* RectMarker.swift */; };
+		03A0A256280EB0B10081682C /* TresorerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A20F280EB0B10081682C /* TresorerieViewController.swift */; };
+		03A0A257280EB0B10081682C /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A210280EB0B10081682C /* DateValueFormatter.swift */; };
+		03A0A258280EB0B10081682C /* TresorerieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A211280EB0B10081682C /* TresorerieViewController.xib */; };
+		03A0A259280EB0B10081682C /* BankStatementModalWindowController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A213280EB0B10081682C /* BankStatementModalWindowController.strings */; };
+		03A0A25A280EB0B10081682C /* ListBankStatementController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A215280EB0B10081682C /* ListBankStatementController.strings */; };
+		03A0A25B280EB0B10081682C /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A219280EB0B10081682C /* PurchasesDetailView.xib */; };
+		03A0A25C280EB0B10081682C /* BankStatementModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A21E280EB0B10081682C /* BankStatementModalWindowController.swift */; };
+		03A0A25D280EB0B10081682C /* BankStatementModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A21F280EB0B10081682C /* BankStatementModalWindowController.xib */; };
+		03A0A25E280EB0B10081682C /* ListBankStatementController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A221280EB0B10081682C /* ListBankStatementController.xib */; };
+		03A0A25F280EB0B10081682C /* ListBankStatementControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A223280EB0B10081682C /* ListBankStatementControllerAction.swift */; };
+		03A0A260280EB0B10081682C /* ListBankStatementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A224280EB0B10081682C /* ListBankStatementController.swift */; };
+		03A0A261280EB0B10081682C /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A225280EB0B10081682C /* DragView.swift */; };
+		03A0A262280EB0B10081682C /* SplashScreenWindowController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A229280EB0B10081682C /* SplashScreenWindowController.strings */; };
+		03A0A263280EB0B10081682C /* SplashScreenWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A22B280EB0B10081682C /* SplashScreenWindowController.xib */; };
+		03A0A264280EB0B10081682C /* SplashScreenWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A230280EB0B10081682C /* SplashScreenWindowController.swift */; };
+		03A0A265280EB0B10081682C /* TulsiDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A231280EB0B10081682C /* TulsiDocumentController.swift */; };
+		03A0A266280EB0B10081682C /* SplashScreenRecentDocumentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A233280EB0B10081682C /* SplashScreenRecentDocumentView.xib */; };
+		03A0A268280EB14A0081682C /* ViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A267280EB14A0081682C /* ViewControllerDelegate.swift */; };
+		03A0A26A280EB17A0081682C /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A269280EB17A0081682C /* DocumentController.swift */; };
+		03A0A273280EB1EB0081682C /* MainWindowTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A26B280EB1EB0081682C /* MainWindowTransactions.swift */; };
+		03A0A274280EB1EB0081682C /* MyPrintViewTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A26C280EB1EB0081682C /* MyPrintViewTableView.swift */; };
+		03A0A275280EB1EB0081682C /* MyPrintViewOutlineOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A26D280EB1EB0081682C /* MyPrintViewOutlineOld.swift */; };
+		03A0A276280EB1EB0081682C /* MyPrintViewOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A26E280EB1EB0081682C /* MyPrintViewOutline.swift */; };
+		03A0A277280EB1EB0081682C /* MainWindowToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A26F280EB1EB0081682C /* MainWindowToolBar.swift */; };
+		03A0A278280EB1EB0081682C /* MainWindowBankStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A270280EB1EB0081682C /* MainWindowBankStatement.swift */; };
+		03A0A279280EB1EB0081682C /* MainWindowSchedulers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A271280EB1EB0081682C /* MainWindowSchedulers.swift */; };
+		03A0A27A280EB1EB0081682C /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A272280EB1EB0081682C /* MainWindowController.swift */; };
+		03A0A27F280EB23D0081682C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A27B280EB23D0081682C /* README.md */; };
+		03A0A280280EB23D0081682C /* appcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A27C280EB23D0081682C /* appcast.xml */; };
+		03A0A281280EB23D0081682C /* README_fr.md in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A27D280EB23D0081682C /* README_fr.md */; };
+		03A0A282280EB23D0081682C /* version StoryBoard.md in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A27E280EB23D0081682C /* version StoryBoard.md */; };
+		03A0A286280EC1830081682C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A285280EC1830081682C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +259,305 @@
 		03A09FE9280EAD340081682C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		03A09FEC280EAD340081682C /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
 		03A09FEE280EAD370081682C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03A09FF1280EAD380081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03A09FF3280EAD380081682C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A09FF4280EAD380081682C /* Bergerac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bergerac.entitlements; sourceTree = "<group>"; };
+		03A09FFD280EAE1C0081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/AccountGroupViewController.strings; sourceTree = "<group>"; };
+		03A09FFF280EAE1C0081682C /* KSRetailCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSRetailCollectionViewItem.xib; sourceTree = "<group>"; };
+		03A0A000280EAE1C0081682C /* KSRetailCollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSRetailCollectionViewItem.swift; sourceTree = "<group>"; };
+		03A0A001280EAE1C0081682C /* PopOverModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverModalViewController.xib; sourceTree = "<group>"; };
+		03A0A002280EAE1C0081682C /* KSBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSBackgroundView.swift; sourceTree = "<group>"; };
+		03A0A003280EAE1C0081682C /* PopOverModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverModalViewController.swift; sourceTree = "<group>"; };
+		03A0A004280EAE1C0081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AccountGroupViewController.strings; sourceTree = "<group>"; };
+		03A0A005280EAE1C0081682C /* AccountGroupTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupTableCellView.swift; sourceTree = "<group>"; };
+		03A0A006280EAE1C0081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AccountGroupViewController.strings; sourceTree = "<group>"; };
+		03A0A007280EAE1C0081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/AccountGroupViewController.strings; sourceTree = "<group>"; };
+		03A0A008280EAE1C0081682C /* AccountGroupViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewDataSource.swift; sourceTree = "<group>"; };
+		03A0A00A280EAE1C0081682C /* GroupModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A00B280EAE1C0081682C /* GroupModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A00C280EAE1C0081682C /* AccountModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A00D280EAE1C0081682C /* AccountModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A00E280EAE1C0081682C /* AccountGroupViewControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewControllerAction.swift; sourceTree = "<group>"; };
+		03A0A010280EAE1C0081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/AccountGroupViewController copie.xib"; sourceTree = "<group>"; };
+		03A0A012280EAE1C0081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AccountGroupViewController.xib; sourceTree = "<group>"; };
+		03A0A013280EAE1C0081682C /* AccountGroupViewDragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewDragDrop.swift; sourceTree = "<group>"; };
+		03A0A014280EAE1C0081682C /* CurtainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurtainViewController.swift; sourceTree = "<group>"; };
+		03A0A015280EAE1C0081682C /* CurtainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurtainViewController.xib; sourceTree = "<group>"; };
+		03A0A016280EAE1C0081682C /* AccountGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewController.swift; sourceTree = "<group>"; };
+		03A0A017280EAE1C0081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/AccountGroupViewController.strings; sourceTree = "<group>"; };
+		03A0A018280EAE1C0081682C /* AccountGroupViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountGroupViewDelegate.swift; sourceTree = "<group>"; };
+		03A0A02E280EAE760081682C /* EntityAccount+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityAccount+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03A0A02F280EAE760081682C /* EntityTransactions+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityTransactions+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03A0A031280EAE760081682C /* ListTransactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactions.swift; sourceTree = "<group>"; };
+		03A0A032280EAE760081682C /* PaymentMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMode.swift; sourceTree = "<group>"; };
+		03A0A033280EAE760081682C /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		03A0A034280EAE760081682C /* Identite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identite.swift; sourceTree = "<group>"; };
+		03A0A035280EAE760081682C /* Rubrique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rubrique.swift; sourceTree = "<group>"; };
+		03A0A036280EAE760081682C /* Cheques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheques.swift; sourceTree = "<group>"; };
+		03A0A037280EAE760081682C /* Statut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statut.swift; sourceTree = "<group>"; };
+		03A0A038280EAE760081682C /* BanqueStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanqueStatement.swift; sourceTree = "<group>"; };
+		03A0A039280EAE760081682C /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		03A0A03A280EAE760081682C /* rubrique.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rubrique.plist; sourceTree = "<group>"; };
+		03A0A03B280EAE760081682C /* rubrique.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rubrique.csv; sourceTree = "<group>"; };
+		03A0A03C280EAE760081682C /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		03A0A03D280EAE760081682C /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
+		03A0A03E280EAE760081682C /* EntityRubric+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityRubric+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03A0A03F280EAE760081682C /* EntityCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03A0A040280EAE760081682C /* EntityTransactions+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityTransactions+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03A0A041280EAE760081682C /* EntityCategory+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03A0A042280EAE760081682C /* EntityAccount+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityAccount+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03A0A043280EAE760081682C /* EntityRubric+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityRubric+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03A0A05A280EAEE60081682C /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformable.swift; sourceTree = "<group>"; };
+		03A0A05B280EAEE60081682C /* MLTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLTextField.swift; sourceTree = "<group>"; };
+		03A0A05C280EAEE60081682C /* NSUserInterfaceItemIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserInterfaceItemIdentifier.swift; sourceTree = "<group>"; };
+		03A0A05D280EAEE60081682C /* NSWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSWindow.swift; sourceTree = "<group>"; };
+		03A0A05E280EAEE60081682C /* DSFFloatLabelledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFFloatLabelledTextField.swift; sourceTree = "<group>"; };
+		03A0A05F280EAEE60081682C /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		03A0A060280EAEE60081682C /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		03A0A061280EAEE60081682C /* NVDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVDate.swift; sourceTree = "<group>"; };
+		03A0A064280EAEE60081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/notification.strings; sourceTree = "<group>"; };
+		03A0A065280EAEE60081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/notification.strings; sourceTree = "<group>"; };
+		03A0A066280EAEE60081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/notification.strings; sourceTree = "<group>"; };
+		03A0A067280EAEE60081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/notification.strings; sourceTree = "<group>"; };
+		03A0A068280EAEE60081682C /* NotificationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsHelper.swift; sourceTree = "<group>"; };
+		03A0A069280EAEE60081682C /* NotificationActionsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationActionsEnum.swift; sourceTree = "<group>"; };
+		03A0A06A280EAEE60081682C /* UNCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNCenter.swift; sourceTree = "<group>"; };
+		03A0A06B280EAEE60081682C /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		03A0A06C280EAEE60081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/notification.strings; sourceTree = "<group>"; };
+		03A0A06D280EAEE60081682C /* NSOpenPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSOpenPanel.swift; sourceTree = "<group>"; };
+		03A0A06E280EAEE60081682C /* NotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		03A0A06F280EAEE60081682C /* NSTableRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTableRowView.swift; sourceTree = "<group>"; };
+		03A0A070280EAEE60081682C /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		03A0A071280EAEE60081682C /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		03A0A072280EAEE60081682C /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		03A0A073280EAEE60081682C /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		03A0A074280EAEE60081682C /* NSPasteboard+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSPasteboard+Additions.swift"; sourceTree = "<group>"; };
+		03A0A075280EAEE60081682C /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		03A0A076280EAEE60081682C /* NSTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTableCellView.swift; sourceTree = "<group>"; };
+		03A0A077280EAEE60081682C /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		03A0A078280EAEE60081682C /* ManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObject.swift; sourceTree = "<group>"; };
+		03A0A09C280EB0230081682C /* NSPredicateEditorRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicateEditorRow.swift; sourceTree = "<group>"; };
+		03A0A09D280EB0230081682C /* NSPredicateEditorRowTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicateEditorRowTemplate.swift; sourceTree = "<group>"; };
+		03A0A09E280EB0230081682C /* AdvancedFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedFilterViewController.swift; sourceTree = "<group>"; };
+		03A0A09F280EB0230081682C /* AdvancedFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedFilterViewController.xib; sourceTree = "<group>"; };
+		03A0A0A5280EB04B0081682C /* Localizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
+		03A0A0A6280EB04B0081682C /* AccessibilityImageDescriptions.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AccessibilityImageDescriptions.strings; sourceTree = "<group>"; };
+		03A0A0A8280EB04B0081682C /* ImportWindowControllerMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowControllerMenuDelegate.swift; sourceTree = "<group>"; };
+		03A0A0A9280EB04B0081682C /* ImportWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowController.swift; sourceTree = "<group>"; };
+		03A0A0AA280EB04B0081682C /* TTFormatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTFormatViewController.swift; sourceTree = "<group>"; };
+		03A0A0AB280EB04B0081682C /* ImportSchedulersWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportSchedulersWindowController.swift; sourceTree = "<group>"; };
+		03A0A0AC280EB04B0081682C /* ImportBankStatementWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportBankStatementWindowController.swift; sourceTree = "<group>"; };
+		03A0A0AD280EB04B0081682C /* ImportTransactionsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportTransactionsWindowController.swift; sourceTree = "<group>"; };
+		03A0A0AE280EB04B0081682C /* TTFormatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTFormatViewController.xib; sourceTree = "<group>"; };
+		03A0A0AF280EB04B0081682C /* ImportWindowControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowControllerExtension.swift; sourceTree = "<group>"; };
+		03A0A0B1280EB04B0081682C /* CSVParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		03A0A0B2280EB04B0081682C /* CSVWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVWriter.swift; sourceTree = "<group>"; };
+		03A0A0B3280EB04B0081682C /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		03A0A0B4280EB04B0081682C /* CSVParserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVParserDelegate.swift; sourceTree = "<group>"; };
+		03A0A0B5280EB04B0081682C /* CSVConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVConfig.swift; sourceTree = "<group>"; };
+		03A0A0B6280EB04B0081682C /* ImportWindowControllerParserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportWindowControllerParserDelegate.swift; sourceTree = "<group>"; };
+		03A0A0B7280EB04B0081682C /* TTFormatViewControllerAccessory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTFormatViewControllerAccessory.xib; sourceTree = "<group>"; };
+		03A0A0B8280EB04B0081682C /* ImportWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImportWindowController.xib; sourceTree = "<group>"; };
+		03A0A0CD280EB0740081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/AccountViewController.strings; sourceTree = "<group>"; };
+		03A0A0CF280EB0740081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/GeneralViewController.strings; sourceTree = "<group>"; };
+		03A0A0D1280EB0740081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/PersonViewController.strings; sourceTree = "<group>"; };
+		03A0A0D2280EB0740081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AccountViewController.strings; sourceTree = "<group>"; };
+		03A0A0D3280EB0740081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GeneralViewController.strings; sourceTree = "<group>"; };
+		03A0A0D4280EB0740081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PersonViewController.strings; sourceTree = "<group>"; };
+		03A0A0D6280EB0740081682C /* PreferencesWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		03A0A0D7280EB0740081682C /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		03A0A0D8280EB0740081682C /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
+		03A0A0D9280EB0740081682C /* Preferenceable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferenceable.swift; sourceTree = "<group>"; };
+		03A0A0DA280EB0740081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AccountViewController.strings; sourceTree = "<group>"; };
+		03A0A0DB280EB0740081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/GeneralViewController.strings; sourceTree = "<group>"; };
+		03A0A0DC280EB0740081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PersonViewController.strings; sourceTree = "<group>"; };
+		03A0A0DD280EB0740081682C /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		03A0A0DE280EB0740081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/AccountViewController.strings; sourceTree = "<group>"; };
+		03A0A0DF280EB0740081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/GeneralViewController.strings; sourceTree = "<group>"; };
+		03A0A0E0280EB0740081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/PersonViewController.strings; sourceTree = "<group>"; };
+		03A0A0E2280EB0740081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AccountViewController.xib; sourceTree = "<group>"; };
+		03A0A0E4280EB0740081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PersonViewController.xib; sourceTree = "<group>"; };
+		03A0A0E6280EB0740081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GeneralViewController.xib; sourceTree = "<group>"; };
+		03A0A0E7280EB0740081682C /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		03A0A0E8280EB0740081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/AccountViewController.strings; sourceTree = "<group>"; };
+		03A0A0E9280EB0740081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/GeneralViewController.strings; sourceTree = "<group>"; };
+		03A0A0EA280EB0740081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/PersonViewController.strings; sourceTree = "<group>"; };
+		03A0A0EB280EB0740081682C /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		03A0A0EE280EB0740081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/MyDB.sqlite; sourceTree = "<group>"; };
+		03A0A0EF280EB0740081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/MyDB.sqlite; sourceTree = "<group>"; };
+		03A0A0F0280EB0740081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = file; name = es; path = es.lproj/MyDB.sqlite; sourceTree = "<group>"; };
+		03A0A0F1280EB0740081682C /* curtain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = curtain.jpg; sourceTree = "<group>"; };
+		03A0A0F2280EB0740081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = file; name = it; path = it.lproj/MyDB.sqlite; sourceTree = "<group>"; };
+		03A0A0F3280EB0740081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/MyDB.sqlite; sourceTree = "<group>"; };
+		03A0A0F4280EB0740081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file; name = fr; path = fr.lproj/MyDB.sqlite; sourceTree = "<group>"; };
+		03A0A0F7280EB0740081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A0A0F8280EB0740081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A0A0F9280EB0740081682C /* ListTransactionsSchedulers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsSchedulers.swift; sourceTree = "<group>"; };
+		03A0A0FA280EB0740081682C /* ListTransactionsPasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsPasteboard.swift; sourceTree = "<group>"; };
+		03A0A0FB280EB0740081682C /* ListTransactionsTextColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsTextColor.swift; sourceTree = "<group>"; };
+		03A0A0FC280EB0740081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A0A0FD280EB0740081682C /* ListTransactionsController+Expansion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListTransactionsController+Expansion.swift"; sourceTree = "<group>"; };
+		03A0A0FE280EB0740081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A0A0FF280EB0740081682C /* ListTransactionsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsDataSource.swift; sourceTree = "<group>"; };
+		03A0A101280EB0740081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ListTransactionsController.storyboard; sourceTree = "<group>"; };
+		03A0A102280EB0740081682C /* ListTransactionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsController.swift; sourceTree = "<group>"; };
+		03A0A103280EB0740081682C /* ListTransactionsmenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsmenuDelegate.swift; sourceTree = "<group>"; };
+		03A0A104280EB0740081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ListTransactionsController.strings; sourceTree = "<group>"; };
+		03A0A105280EB0740081682C /* ListTransactionsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransactionsDelegate.swift; sourceTree = "<group>"; };
+		03A0A108280EB0740081682C /* PaymentModePieController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentModePieController.xib; sourceTree = "<group>"; };
+		03A0A109280EB0740081682C /* PaymentModePieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentModePieController.swift; sourceTree = "<group>"; };
+		03A0A10B280EB0740081682C /* IncomeExpenseBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomeExpenseBarController.xib; sourceTree = "<group>"; };
+		03A0A10C280EB0740081682C /* IncomeExpensePieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeExpensePieController.swift; sourceTree = "<group>"; };
+		03A0A10D280EB0740081682C /* IncomeExpensePieController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomeExpensePieController.xib; sourceTree = "<group>"; };
+		03A0A10E280EB0740081682C /* IncomeExpenseBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeExpenseBarController.swift; sourceTree = "<group>"; };
+		03A0A110280EB0740081682C /* CategoryBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryBarController.xib; sourceTree = "<group>"; };
+		03A0A111280EB0740081682C /* CategoryBarController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryBarController1.swift; sourceTree = "<group>"; };
+		03A0A112280EB0740081682C /* CategoryBarController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryBarController1.xib; sourceTree = "<group>"; };
+		03A0A113280EB0740081682C /* CategoryBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryBarController.swift; sourceTree = "<group>"; };
+		03A0A115280EB0740081682C /* RubricPieController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubricPieController.xib; sourceTree = "<group>"; };
+		03A0A116280EB0740081682C /* RubricBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubricBarController.swift; sourceTree = "<group>"; };
+		03A0A117280EB0740081682C /* RubricPieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubricPieController.swift; sourceTree = "<group>"; };
+		03A0A118280EB0740081682C /* RubricBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubricBarController.xib; sourceTree = "<group>"; };
+		03A0A119280EB0740081682C /* CommonGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonGraph.swift; sourceTree = "<group>"; };
+		03A0A11D280EB0750081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/IdentiteViewController.strings; sourceTree = "<group>"; };
+		03A0A11E280EB0750081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/IdentiteViewController.strings; sourceTree = "<group>"; };
+		03A0A11F280EB0750081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/IdentiteViewController.strings; sourceTree = "<group>"; };
+		03A0A120280EB0750081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/IdentiteViewController.strings; sourceTree = "<group>"; };
+		03A0A122280EB0750081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/IdentiteViewController.xib; sourceTree = "<group>"; };
+		03A0A123280EB0750081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/IdentiteViewController.strings; sourceTree = "<group>"; };
+		03A0A124280EB0750081682C /* IdentiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentiteViewController.swift; sourceTree = "<group>"; };
+		03A0A127280EB0750081682C /* RubriqueViewDragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewDragDrop.swift; sourceTree = "<group>"; };
+		03A0A128280EB0750081682C /* RubriqueViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewDelegate.swift; sourceTree = "<group>"; };
+		03A0A129280EB0750081682C /* RubriqueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubriqueViewController.xib; sourceTree = "<group>"; };
+		03A0A12B280EB0750081682C /* ColorUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtilities.swift; sourceTree = "<group>"; };
+		03A0A12C280EB0750081682C /* ComboColorWellCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboColorWellCell.swift; sourceTree = "<group>"; };
+		03A0A12D280EB0750081682C /* ColorGridController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGridController.swift; sourceTree = "<group>"; };
+		03A0A12E280EB0750081682C /* ComboColorWell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboColorWell.swift; sourceTree = "<group>"; };
+		03A0A12F280EB0750081682C /* MouseTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseTracker.swift; sourceTree = "<group>"; };
+		03A0A130280EB0750081682C /* ComboColorWellImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ComboColorWellImages.xcassets; sourceTree = "<group>"; };
+		03A0A131280EB0750081682C /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		03A0A132280EB0750081682C /* ColorGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGridView.swift; sourceTree = "<group>"; };
+		03A0A134280EB0750081682C /* RubriqueModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A135280EB0750081682C /* CategorieModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategorieModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A136280EB0750081682C /* RubriqueModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubriqueModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A137280EB0750081682C /* CategorieModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A138280EB0750081682C /* RubriqueViewAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewAction.swift; sourceTree = "<group>"; };
+		03A0A139280EB0750081682C /* RubriqueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubriqueViewController.swift; sourceTree = "<group>"; };
+		03A0A13A280EB0750081682C /* ParameterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParameterController.xib; sourceTree = "<group>"; };
+		03A0A13C280EB0750081682C /* ModeOfPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeOfPaymentViewController.swift; sourceTree = "<group>"; };
+		03A0A13D280EB0750081682C /* ModeModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModeModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A13E280EB0750081682C /* ModeModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A13F280EB0750081682C /* ModeOfPaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModeOfPaymentViewController.xib; sourceTree = "<group>"; };
+		03A0A155280EB0750081682C /* PreferenceOperationViewControllerPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceOperationViewControllerPopUp.swift; sourceTree = "<group>"; };
+		03A0A156280EB0750081682C /* PreferenceOperationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceOperationViewController.swift; sourceTree = "<group>"; };
+		03A0A157280EB0750081682C /* PreferenceOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceOperationViewController.xib; sourceTree = "<group>"; };
+		03A0A159280EB0750081682C /* ChequiersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChequiersViewController.xib; sourceTree = "<group>"; };
+		03A0A15A280EB0750081682C /* ChequiersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChequiersViewController.swift; sourceTree = "<group>"; };
+		03A0A15B280EB0750081682C /* ChequierModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChequierModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A15C280EB0750081682C /* ChequierModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChequierModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A15D280EB0750081682C /* ParameterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterController.swift; sourceTree = "<group>"; };
+		03A0A160280EB0750081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SchedulerViewController.strings; sourceTree = "<group>"; };
+		03A0A161280EB0750081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SchedulerViewController.strings; sourceTree = "<group>"; };
+		03A0A162280EB0750081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SchedulerViewController.strings; sourceTree = "<group>"; };
+		03A0A163280EB0750081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/SchedulerViewController.strings; sourceTree = "<group>"; };
+		03A0A165280EB0750081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SchedulerViewController.xib; sourceTree = "<group>"; };
+		03A0A166280EB0750081682C /* SchedulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
+		03A0A167280EB0750081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SchedulerViewController.strings; sourceTree = "<group>"; };
+		03A0A16A280EB0750081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SchedulersSaisieController.strings; sourceTree = "<group>"; };
+		03A0A16B280EB0750081682C /* SchedulersSaisieControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersSaisieControllerDelegate.swift; sourceTree = "<group>"; };
+		03A0A16C280EB0750081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SchedulersSaisieController.strings; sourceTree = "<group>"; };
+		03A0A16D280EB0750081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SchedulersSaisieController.strings; sourceTree = "<group>"; };
+		03A0A16E280EB0750081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/SchedulersSaisieController.strings; sourceTree = "<group>"; };
+		03A0A170280EB0750081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SchedulersSaisieController.xib; sourceTree = "<group>"; };
+		03A0A171280EB0750081682C /* SchedulersSaisieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersSaisieController.swift; sourceTree = "<group>"; };
+		03A0A172280EB0750081682C /* SchedulersSaisieControllerPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulersSaisieControllerPopUp.swift; sourceTree = "<group>"; };
+		03A0A173280EB0750081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SchedulersSaisieController.strings; sourceTree = "<group>"; };
+		03A0A1D8280EB0B00081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Feeds.plist; sourceTree = "<group>"; };
+		03A0A1D9280EB0B00081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Feeds.plist; sourceTree = "<group>"; };
+		03A0A1DA280EB0B00081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Feeds.plist; sourceTree = "<group>"; };
+		03A0A1DB280EB0B00081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/Feeds.plist; sourceTree = "<group>"; };
+		03A0A1DC280EB0B00081682C /* SourceListViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewDataSource.swift; sourceTree = "<group>"; };
+		03A0A1DD280EB0B00081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Feeds.plist; sourceTree = "<group>"; };
+		03A0A1DE280EB0B00081682C /* SourceListViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewDelegate.swift; sourceTree = "<group>"; };
+		03A0A1DF280EB0B00081682C /* SourceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceListViewController.swift; sourceTree = "<group>"; };
+		03A0A1E0280EB0B00081682C /* SourceListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceListViewController.xib; sourceTree = "<group>"; };
+		03A0A1E1280EB0B00081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Feeds.plist; sourceTree = "<group>"; };
+		03A0A1E2280EB0B00081682C /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		03A0A1E5280EB0B10081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TransactionViewController.strings; sourceTree = "<group>"; };
+		03A0A1E7280EB0B10081682C /* SousOperationComboBoxDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SousOperationComboBoxDelegate.swift; sourceTree = "<group>"; };
+		03A0A1E8280EB0B10081682C /* SousOperationModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SousOperationModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A1E9280EB0B10081682C /* SousOperationModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SousOperationModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A1EA280EB0B10081682C /* SousOperationAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SousOperationAction.swift; sourceTree = "<group>"; };
+		03A0A1EB280EB0B10081682C /* TransactionViewControllerPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewControllerPopUp.swift; sourceTree = "<group>"; };
+		03A0A1EC280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TransactionViewController.strings; sourceTree = "<group>"; };
+		03A0A1EE280EB0B10081682C /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
+		03A0A1EF280EB0B10081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TransactionViewController.strings; sourceTree = "<group>"; };
+		03A0A1F0280EB0B10081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TransactionViewController.strings; sourceTree = "<group>"; };
+		03A0A1F2280EB0B10081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TransactionViewController.xib; sourceTree = "<group>"; };
+		03A0A1F3280EB0B10081682C /* TransactionViewControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewControllerAction.swift; sourceTree = "<group>"; };
+		03A0A1F4280EB0B10081682C /* TransactionViewControllerOutlineDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewControllerOutlineDelegate.swift; sourceTree = "<group>"; };
+		03A0A1F5280EB0B10081682C /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		03A0A1F6280EB0B10081682C /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		03A0A1F7280EB0B10081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TransactionViewController.strings; sourceTree = "<group>"; };
+		03A0A1F8280EB0B10081682C /* TransactionViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewControllerDelegate.swift; sourceTree = "<group>"; };
+		03A0A1F9280EB0B10081682C /* AvatarInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarInfo.swift; sourceTree = "<group>"; };
+		03A0A1FB280EB0B10081682C /* CSwiftV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSwiftV.swift; sourceTree = "<group>"; };
+		03A0A1FD280EB0B10081682C /* CommunShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunShared.swift; sourceTree = "<group>"; };
+		03A0A1FF280EB0B10081682C /* SliderViewVerticalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewVerticalController.xib; sourceTree = "<group>"; };
+		03A0A200280EB0B10081682C /* RangeSliderVertical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderVertical.swift; sourceTree = "<group>"; };
+		03A0A201280EB0B10081682C /* SliderViewHorizontalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewHorizontalController.xib; sourceTree = "<group>"; };
+		03A0A202280EB0B10081682C /* SliderViewVerticalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewVerticalController.swift; sourceTree = "<group>"; };
+		03A0A203280EB0B10081682C /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		03A0A204280EB0B10081682C /* SliderViewHorizontalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewHorizontalController.swift; sourceTree = "<group>"; };
+		03A0A205280EB0B10081682C /* RangeSliderHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderHorizontal.swift; sourceTree = "<group>"; };
+		03A0A206280EB0B10081682C /* SliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewController.xib; sourceTree = "<group>"; };
+		03A0A208280EB0B10081682C /* eventually.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = eventually.m4r; sourceTree = "<group>"; };
+		03A0A20B280EB0B10081682C /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		03A0A20C280EB0B10081682C /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		03A0A20E280EB0B10081682C /* RectMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectMarker.swift; sourceTree = "<group>"; };
+		03A0A20F280EB0B10081682C /* TresorerieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TresorerieViewController.swift; sourceTree = "<group>"; };
+		03A0A210280EB0B10081682C /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		03A0A211280EB0B10081682C /* TresorerieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TresorerieViewController.xib; sourceTree = "<group>"; };
+		03A0A214280EB0B10081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
+		03A0A216280EB0B10081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
+		03A0A217280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
+		03A0A218280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
+		03A0A219280EB0B10081682C /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
+		03A0A21A280EB0B10081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
+		03A0A21B280EB0B10081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
+		03A0A21C280EB0B10081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
+		03A0A21D280EB0B10081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
+		03A0A21E280EB0B10081682C /* BankStatementModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankStatementModalWindowController.swift; sourceTree = "<group>"; };
+		03A0A220280EB0B10081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BankStatementModalWindowController.xib; sourceTree = "<group>"; };
+		03A0A222280EB0B10081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ListBankStatementController.xib; sourceTree = "<group>"; };
+		03A0A223280EB0B10081682C /* ListBankStatementControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementControllerAction.swift; sourceTree = "<group>"; };
+		03A0A224280EB0B10081682C /* ListBankStatementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementController.swift; sourceTree = "<group>"; };
+		03A0A225280EB0B10081682C /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		03A0A226280EB0B10081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
+		03A0A227280EB0B10081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
+		03A0A22A280EB0B10081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SplashScreenWindowController.strings; sourceTree = "<group>"; };
+		03A0A22C280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SplashScreenWindowController.xib; sourceTree = "<group>"; };
+		03A0A22D280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SplashScreenWindowController.strings; sourceTree = "<group>"; };
+		03A0A22E280EB0B10081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SplashScreenWindowController.strings; sourceTree = "<group>"; };
+		03A0A22F280EB0B10081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/SplashScreenWindowController.strings; sourceTree = "<group>"; };
+		03A0A230280EB0B10081682C /* SplashScreenWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenWindowController.swift; sourceTree = "<group>"; };
+		03A0A231280EB0B10081682C /* TulsiDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TulsiDocumentController.swift; sourceTree = "<group>"; };
+		03A0A232280EB0B10081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SplashScreenWindowController.strings; sourceTree = "<group>"; };
+		03A0A233280EB0B10081682C /* SplashScreenRecentDocumentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreenRecentDocumentView.xib; sourceTree = "<group>"; };
+		03A0A267280EB14A0081682C /* ViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegate.swift; sourceTree = "<group>"; };
+		03A0A269280EB17A0081682C /* DocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
+		03A0A26B280EB1EB0081682C /* MainWindowTransactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowTransactions.swift; sourceTree = "<group>"; };
+		03A0A26C280EB1EB0081682C /* MyPrintViewTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewTableView.swift; sourceTree = "<group>"; };
+		03A0A26D280EB1EB0081682C /* MyPrintViewOutlineOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewOutlineOld.swift; sourceTree = "<group>"; };
+		03A0A26E280EB1EB0081682C /* MyPrintViewOutline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrintViewOutline.swift; sourceTree = "<group>"; };
+		03A0A26F280EB1EB0081682C /* MainWindowToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolBar.swift; sourceTree = "<group>"; };
+		03A0A270280EB1EB0081682C /* MainWindowBankStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowBankStatement.swift; sourceTree = "<group>"; };
+		03A0A271280EB1EB0081682C /* MainWindowSchedulers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowSchedulers.swift; sourceTree = "<group>"; };
+		03A0A272280EB1EB0081682C /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		03A0A27B280EB23D0081682C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		03A0A27C280EB23D0081682C /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
+		03A0A27D280EB23D0081682C /* README_fr.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_fr.md; sourceTree = "<group>"; };
+		03A0A27E280EB23D0081682C /* version StoryBoard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "version StoryBoard.md"; sourceTree = "<group>"; };
+		03A0A285280EC1830081682C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +565,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A0A097280EAFD10081682C /* LaunchAtLogin in Frameworks */,
+				03A0A094280EAFA40081682C /* Charts in Frameworks */,
+				03A0A09A280EAFFA0081682C /* SwiftDate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +577,10 @@
 		03A09FD9280EAD340081682C = {
 			isa = PBXGroup;
 			children = (
+				03A0A27C280EB23D0081682C /* appcast.xml */,
+				03A0A27D280EB23D0081682C /* README_fr.md */,
+				03A0A27B280EB23D0081682C /* README.md */,
+				03A0A27E280EB23D0081682C /* version StoryBoard.md */,
 				03A09FE4280EAD340081682C /* Bergerac */,
 				03A09FE3280EAD340081682C /* Products */,
 			);
@@ -57,16 +597,606 @@
 		03A09FE4280EAD340081682C /* Bergerac */ = {
 			isa = PBXGroup;
 			children = (
+				03A09FFA280EAD420081682C /* Group */,
 				03A09FE5280EAD340081682C /* AppDelegate.swift */,
 				03A09FE7280EAD340081682C /* ViewController.swift */,
+				03A0A267280EB14A0081682C /* ViewControllerDelegate.swift */,
+				03A0A269280EB17A0081682C /* DocumentController.swift */,
 				03A09FE9280EAD340081682C /* Document.swift */,
 				03A09FEE280EAD370081682C /* Assets.xcassets */,
-				03A09FF0280EAD380081682C /* Main.storyboard */,
 				03A09FF3280EAD380081682C /* Info.plist */,
 				03A09FF4280EAD380081682C /* Bergerac.entitlements */,
 				03A09FEB280EAD340081682C /* Document.xcdatamodeld */,
+				03A0A285280EC1830081682C /* Main.storyboard */,
+				03A0A270280EB1EB0081682C /* MainWindowBankStatement.swift */,
+				03A0A272280EB1EB0081682C /* MainWindowController.swift */,
+				03A0A271280EB1EB0081682C /* MainWindowSchedulers.swift */,
+				03A0A26F280EB1EB0081682C /* MainWindowToolBar.swift */,
+				03A0A26B280EB1EB0081682C /* MainWindowTransactions.swift */,
+				03A0A26E280EB1EB0081682C /* MyPrintViewOutline.swift */,
+				03A0A26D280EB1EB0081682C /* MyPrintViewOutlineOld.swift */,
+				03A0A26C280EB1EB0081682C /* MyPrintViewTableView.swift */,
 			);
 			path = Bergerac;
+			sourceTree = "<group>";
+		};
+		03A09FFA280EAD420081682C /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A209280EB0B10081682C /* AccountTracking */,
+				03A0A207280EB0B10081682C /* Sounds */,
+				03A0A1D6280EB0B00081682C /* SourceList */,
+				03A0A228280EB0B10081682C /* SplashScreen */,
+				03A0A1E3280EB0B10081682C /* Transactions */,
+				03A0A1FA280EB0B10081682C /* Util */,
+				03A0A0F5280EB0740081682C /* ListTransactions */,
+				03A0A0CB280EB0740081682C /* Preferences */,
+				03A0A106280EB0740081682C /* Rapports */,
+				03A0A11A280EB0750081682C /* ReferenceAccount */,
+				03A0A0EC280EB0740081682C /* Resource */,
+				03A0A0A4280EB04B0081682C /* Generated */,
+				03A0A0A7280EB04B0081682C /* Import */,
+				03A0A09B280EB0230081682C /* Filter */,
+				03A0A059280EAEE60081682C /* Extension */,
+				03A0A02D280EAE760081682C /* CoreData */,
+				03A09FFB280EAE1C0081682C /* AccountGroup */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		03A09FFB280EAE1C0081682C /* AccountGroup */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A005280EAE1C0081682C /* AccountGroupTableCellView.swift */,
+				03A0A00F280EAE1C0081682C /* AccountGroupViewController copie.xib */,
+				03A09FFC280EAE1C0081682C /* AccountGroupViewController.strings */,
+				03A0A016280EAE1C0081682C /* AccountGroupViewController.swift */,
+				03A0A011280EAE1C0081682C /* AccountGroupViewController.xib */,
+				03A0A00E280EAE1C0081682C /* AccountGroupViewControllerAction.swift */,
+				03A0A008280EAE1C0081682C /* AccountGroupViewDataSource.swift */,
+				03A0A018280EAE1C0081682C /* AccountGroupViewDelegate.swift */,
+				03A0A013280EAE1C0081682C /* AccountGroupViewDragDrop.swift */,
+				03A0A014280EAE1C0081682C /* CurtainViewController.swift */,
+				03A0A015280EAE1C0081682C /* CurtainViewController.xib */,
+				03A0A009280EAE1C0081682C /* ModalAccountGroup */,
+				03A09FFE280EAE1C0081682C /* PopUp */,
+			);
+			path = AccountGroup;
+			sourceTree = "<group>";
+		};
+		03A09FFE280EAE1C0081682C /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				03A09FFF280EAE1C0081682C /* KSRetailCollectionViewItem.xib */,
+				03A0A000280EAE1C0081682C /* KSRetailCollectionViewItem.swift */,
+				03A0A001280EAE1C0081682C /* PopOverModalViewController.xib */,
+				03A0A002280EAE1C0081682C /* KSBackgroundView.swift */,
+				03A0A003280EAE1C0081682C /* PopOverModalViewController.swift */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		03A0A009280EAE1C0081682C /* ModalAccountGroup */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A00A280EAE1C0081682C /* GroupModalWindowController.swift */,
+				03A0A00B280EAE1C0081682C /* GroupModalWindowController.xib */,
+				03A0A00C280EAE1C0081682C /* AccountModalWindowController.swift */,
+				03A0A00D280EAE1C0081682C /* AccountModalWindowController.xib */,
+			);
+			path = ModalAccountGroup;
+			sourceTree = "<group>";
+		};
+		03A0A02D280EAE760081682C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A02E280EAE760081682C /* EntityAccount+CoreDataClass.swift */,
+				03A0A02F280EAE760081682C /* EntityTransactions+CoreDataClass.swift */,
+				03A0A030280EAE760081682C /* Util */,
+				03A0A03E280EAE760081682C /* EntityRubric+CoreDataClass.swift */,
+				03A0A03F280EAE760081682C /* EntityCategory+CoreDataProperties.swift */,
+				03A0A040280EAE760081682C /* EntityTransactions+CoreDataProperties.swift */,
+				03A0A041280EAE760081682C /* EntityCategory+CoreDataClass.swift */,
+				03A0A042280EAE760081682C /* EntityAccount+CoreDataProperties.swift */,
+				03A0A043280EAE760081682C /* EntityRubric+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		03A0A030280EAE760081682C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A031280EAE760081682C /* ListTransactions.swift */,
+				03A0A032280EAE760081682C /* PaymentMode.swift */,
+				03A0A033280EAE760081682C /* Categories.swift */,
+				03A0A034280EAE760081682C /* Identite.swift */,
+				03A0A035280EAE760081682C /* Rubrique.swift */,
+				03A0A036280EAE760081682C /* Cheques.swift */,
+				03A0A037280EAE760081682C /* Statut.swift */,
+				03A0A038280EAE760081682C /* BanqueStatement.swift */,
+				03A0A039280EAE760081682C /* Scheduler.swift */,
+				03A0A03A280EAE760081682C /* rubrique.plist */,
+				03A0A03B280EAE760081682C /* rubrique.csv */,
+				03A0A03C280EAE760081682C /* Account.swift */,
+				03A0A03D280EAE760081682C /* Preference.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		03A0A059280EAEE60081682C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A05A280EAEE60081682C /* Transformable.swift */,
+				03A0A05B280EAEE60081682C /* MLTextField.swift */,
+				03A0A05C280EAEE60081682C /* NSUserInterfaceItemIdentifier.swift */,
+				03A0A05D280EAEE60081682C /* NSWindow.swift */,
+				03A0A05E280EAEE60081682C /* DSFFloatLabelledTextField.swift */,
+				03A0A05F280EAEE60081682C /* ChartView.swift */,
+				03A0A060280EAEE60081682C /* Error.swift */,
+				03A0A061280EAEE60081682C /* NVDate.swift */,
+				03A0A062280EAEE60081682C /* Notification */,
+				03A0A06D280EAEE60081682C /* NSOpenPanel.swift */,
+				03A0A06E280EAEE60081682C /* NotificationCenter.swift */,
+				03A0A06F280EAEE60081682C /* NSTableRowView.swift */,
+				03A0A070280EAEE60081682C /* NSImage.swift */,
+				03A0A071280EAEE60081682C /* Notification.swift */,
+				03A0A072280EAEE60081682C /* HeaderCell.swift */,
+				03A0A073280EAEE60081682C /* String.swift */,
+				03A0A074280EAEE60081682C /* NSPasteboard+Additions.swift */,
+				03A0A075280EAEE60081682C /* Debug.swift */,
+				03A0A076280EAEE60081682C /* NSTableCellView.swift */,
+				03A0A077280EAEE60081682C /* Calendar.swift */,
+				03A0A078280EAEE60081682C /* ManagedObject.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		03A0A062280EAEE60081682C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A063280EAEE60081682C /* notification.strings */,
+				03A0A068280EAEE60081682C /* NotificationsHelper.swift */,
+				03A0A069280EAEE60081682C /* NotificationActionsEnum.swift */,
+				03A0A06A280EAEE60081682C /* UNCenter.swift */,
+				03A0A06B280EAEE60081682C /* NotificationHandler.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		03A0A09B280EB0230081682C /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A09C280EB0230081682C /* NSPredicateEditorRow.swift */,
+				03A0A09D280EB0230081682C /* NSPredicateEditorRowTemplate.swift */,
+				03A0A09E280EB0230081682C /* AdvancedFilterViewController.swift */,
+				03A0A09F280EB0230081682C /* AdvancedFilterViewController.xib */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		03A0A0A4280EB04B0081682C /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A0A5280EB04B0081682C /* Localizations.swift */,
+				03A0A0A6280EB04B0081682C /* AccessibilityImageDescriptions.strings */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		03A0A0A7280EB04B0081682C /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A0A8280EB04B0081682C /* ImportWindowControllerMenuDelegate.swift */,
+				03A0A0A9280EB04B0081682C /* ImportWindowController.swift */,
+				03A0A0AA280EB04B0081682C /* TTFormatViewController.swift */,
+				03A0A0AB280EB04B0081682C /* ImportSchedulersWindowController.swift */,
+				03A0A0AC280EB04B0081682C /* ImportBankStatementWindowController.swift */,
+				03A0A0AD280EB04B0081682C /* ImportTransactionsWindowController.swift */,
+				03A0A0AE280EB04B0081682C /* TTFormatViewController.xib */,
+				03A0A0AF280EB04B0081682C /* ImportWindowControllerExtension.swift */,
+				03A0A0B0280EB04B0081682C /* CSV */,
+				03A0A0B6280EB04B0081682C /* ImportWindowControllerParserDelegate.swift */,
+				03A0A0B7280EB04B0081682C /* TTFormatViewControllerAccessory.xib */,
+				03A0A0B8280EB04B0081682C /* ImportWindowController.xib */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		03A0A0B0280EB04B0081682C /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A0B1280EB04B0081682C /* CSVParser.swift */,
+				03A0A0B2280EB04B0081682C /* CSVWriter.swift */,
+				03A0A0B3280EB04B0081682C /* CSV.swift */,
+				03A0A0B4280EB04B0081682C /* CSVParserDelegate.swift */,
+				03A0A0B5280EB04B0081682C /* CSVConfig.swift */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		03A0A0CB280EB0740081682C /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A0CC280EB0740081682C /* AccountViewController.strings */,
+				03A0A0CE280EB0740081682C /* GeneralViewController.strings */,
+				03A0A0D0280EB0740081682C /* PersonViewController.strings */,
+				03A0A0D5280EB0740081682C /* Preferences */,
+				03A0A0DD280EB0740081682C /* PersonViewController.swift */,
+				03A0A0E1280EB0740081682C /* AccountViewController.xib */,
+				03A0A0E3280EB0740081682C /* PersonViewController.xib */,
+				03A0A0E5280EB0740081682C /* GeneralViewController.xib */,
+				03A0A0E7280EB0740081682C /* GeneralViewController.swift */,
+				03A0A0EB280EB0740081682C /* AccountViewController.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		03A0A0D5280EB0740081682C /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A0D6280EB0740081682C /* PreferencesWindowController.swift */,
+				03A0A0D7280EB0740081682C /* util.swift */,
+				03A0A0D8280EB0740081682C /* PreferencesTabViewController.swift */,
+				03A0A0D9280EB0740081682C /* Preferenceable.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		03A0A0EC280EB0740081682C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A0ED280EB0740081682C /* MyDB.sqlite */,
+				03A0A0F1280EB0740081682C /* curtain.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		03A0A0F5280EB0740081682C /* ListTransactions */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A0F6280EB0740081682C /* ListTransactionsController.strings */,
+				03A0A0F9280EB0740081682C /* ListTransactionsSchedulers.swift */,
+				03A0A0FA280EB0740081682C /* ListTransactionsPasteboard.swift */,
+				03A0A0FB280EB0740081682C /* ListTransactionsTextColor.swift */,
+				03A0A0FD280EB0740081682C /* ListTransactionsController+Expansion.swift */,
+				03A0A0FF280EB0740081682C /* ListTransactionsDataSource.swift */,
+				03A0A100280EB0740081682C /* ListTransactionsController.storyboard */,
+				03A0A102280EB0740081682C /* ListTransactionsController.swift */,
+				03A0A103280EB0740081682C /* ListTransactionsmenuDelegate.swift */,
+				03A0A105280EB0740081682C /* ListTransactionsDelegate.swift */,
+			);
+			path = ListTransactions;
+			sourceTree = "<group>";
+		};
+		03A0A106280EB0740081682C /* Rapports */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A107280EB0740081682C /* PaymentModePie */,
+				03A0A10A280EB0740081682C /* IncomeExpense */,
+				03A0A10F280EB0740081682C /* CategoryBarGraph */,
+				03A0A114280EB0740081682C /* Rubric */,
+				03A0A119280EB0740081682C /* CommonGraph.swift */,
+			);
+			path = Rapports;
+			sourceTree = "<group>";
+		};
+		03A0A107280EB0740081682C /* PaymentModePie */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A108280EB0740081682C /* PaymentModePieController.xib */,
+				03A0A109280EB0740081682C /* PaymentModePieController.swift */,
+			);
+			path = PaymentModePie;
+			sourceTree = "<group>";
+		};
+		03A0A10A280EB0740081682C /* IncomeExpense */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A10B280EB0740081682C /* IncomeExpenseBarController.xib */,
+				03A0A10C280EB0740081682C /* IncomeExpensePieController.swift */,
+				03A0A10D280EB0740081682C /* IncomeExpensePieController.xib */,
+				03A0A10E280EB0740081682C /* IncomeExpenseBarController.swift */,
+			);
+			path = IncomeExpense;
+			sourceTree = "<group>";
+		};
+		03A0A10F280EB0740081682C /* CategoryBarGraph */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A110280EB0740081682C /* CategoryBarController.xib */,
+				03A0A111280EB0740081682C /* CategoryBarController1.swift */,
+				03A0A112280EB0740081682C /* CategoryBarController1.xib */,
+				03A0A113280EB0740081682C /* CategoryBarController.swift */,
+			);
+			path = CategoryBarGraph;
+			sourceTree = "<group>";
+		};
+		03A0A114280EB0740081682C /* Rubric */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A115280EB0740081682C /* RubricPieController.xib */,
+				03A0A116280EB0740081682C /* RubricBarController.swift */,
+				03A0A117280EB0740081682C /* RubricPieController.swift */,
+				03A0A118280EB0740081682C /* RubricBarController.xib */,
+			);
+			path = Rubric;
+			sourceTree = "<group>";
+		};
+		03A0A11A280EB0750081682C /* ReferenceAccount */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A11B280EB0750081682C /* Identity */,
+				03A0A125280EB0750081682C /* Parameter */,
+				03A0A15E280EB0750081682C /* Schedulers */,
+			);
+			path = ReferenceAccount;
+			sourceTree = "<group>";
+		};
+		03A0A11B280EB0750081682C /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A11C280EB0750081682C /* IdentiteViewController.strings */,
+				03A0A121280EB0750081682C /* IdentiteViewController.xib */,
+				03A0A124280EB0750081682C /* IdentiteViewController.swift */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		03A0A125280EB0750081682C /* Parameter */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A126280EB0750081682C /* Rubrique */,
+				03A0A13A280EB0750081682C /* ParameterController.xib */,
+				03A0A13B280EB0750081682C /* ModePaiement */,
+				03A0A154280EB0750081682C /* PreferenceOperation */,
+				03A0A158280EB0750081682C /* Chequier */,
+				03A0A15D280EB0750081682C /* ParameterController.swift */,
+			);
+			path = Parameter;
+			sourceTree = "<group>";
+		};
+		03A0A126280EB0750081682C /* Rubrique */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A127280EB0750081682C /* RubriqueViewDragDrop.swift */,
+				03A0A128280EB0750081682C /* RubriqueViewDelegate.swift */,
+				03A0A129280EB0750081682C /* RubriqueViewController.xib */,
+				03A0A12A280EB0750081682C /* Combo Color Well */,
+				03A0A133280EB0750081682C /* AddModal */,
+				03A0A138280EB0750081682C /* RubriqueViewAction.swift */,
+				03A0A139280EB0750081682C /* RubriqueViewController.swift */,
+			);
+			path = Rubrique;
+			sourceTree = "<group>";
+		};
+		03A0A12A280EB0750081682C /* Combo Color Well */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A12B280EB0750081682C /* ColorUtilities.swift */,
+				03A0A12C280EB0750081682C /* ComboColorWellCell.swift */,
+				03A0A12D280EB0750081682C /* ColorGridController.swift */,
+				03A0A12E280EB0750081682C /* ComboColorWell.swift */,
+				03A0A12F280EB0750081682C /* MouseTracker.swift */,
+				03A0A130280EB0750081682C /* ComboColorWellImages.xcassets */,
+				03A0A131280EB0750081682C /* ColorView.swift */,
+				03A0A132280EB0750081682C /* ColorGridView.swift */,
+			);
+			path = "Combo Color Well";
+			sourceTree = "<group>";
+		};
+		03A0A133280EB0750081682C /* AddModal */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A134280EB0750081682C /* RubriqueModalWindowController.swift */,
+				03A0A135280EB0750081682C /* CategorieModalWindowController.xib */,
+				03A0A136280EB0750081682C /* RubriqueModalWindowController.xib */,
+				03A0A137280EB0750081682C /* CategorieModalWindowController.swift */,
+			);
+			path = AddModal;
+			sourceTree = "<group>";
+		};
+		03A0A13B280EB0750081682C /* ModePaiement */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A13C280EB0750081682C /* ModeOfPaymentViewController.swift */,
+				03A0A13D280EB0750081682C /* ModeModalWindowController.xib */,
+				03A0A13E280EB0750081682C /* ModeModalWindowController.swift */,
+				03A0A13F280EB0750081682C /* ModeOfPaymentViewController.xib */,
+			);
+			path = ModePaiement;
+			sourceTree = "<group>";
+		};
+		03A0A154280EB0750081682C /* PreferenceOperation */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A155280EB0750081682C /* PreferenceOperationViewControllerPopUp.swift */,
+				03A0A156280EB0750081682C /* PreferenceOperationViewController.swift */,
+				03A0A157280EB0750081682C /* PreferenceOperationViewController.xib */,
+			);
+			path = PreferenceOperation;
+			sourceTree = "<group>";
+		};
+		03A0A158280EB0750081682C /* Chequier */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A159280EB0750081682C /* ChequiersViewController.xib */,
+				03A0A15A280EB0750081682C /* ChequiersViewController.swift */,
+				03A0A15B280EB0750081682C /* ChequierModalWindowController.swift */,
+				03A0A15C280EB0750081682C /* ChequierModalWindowController.xib */,
+			);
+			path = Chequier;
+			sourceTree = "<group>";
+		};
+		03A0A15E280EB0750081682C /* Schedulers */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A15F280EB0750081682C /* SchedulerViewController.strings */,
+				03A0A164280EB0750081682C /* SchedulerViewController.xib */,
+				03A0A166280EB0750081682C /* SchedulerViewController.swift */,
+				03A0A168280EB0750081682C /* SchedulersSaisie */,
+			);
+			path = Schedulers;
+			sourceTree = "<group>";
+		};
+		03A0A168280EB0750081682C /* SchedulersSaisie */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A169280EB0750081682C /* SchedulersSaisieController.strings */,
+				03A0A16B280EB0750081682C /* SchedulersSaisieControllerDelegate.swift */,
+				03A0A16F280EB0750081682C /* SchedulersSaisieController.xib */,
+				03A0A171280EB0750081682C /* SchedulersSaisieController.swift */,
+				03A0A172280EB0750081682C /* SchedulersSaisieControllerPopUp.swift */,
+			);
+			path = SchedulersSaisie;
+			sourceTree = "<group>";
+		};
+		03A0A1D6280EB0B00081682C /* SourceList */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A1D7280EB0B00081682C /* Feeds.plist */,
+				03A0A1DC280EB0B00081682C /* SourceListViewDataSource.swift */,
+				03A0A1DE280EB0B00081682C /* SourceListViewDelegate.swift */,
+				03A0A1DF280EB0B00081682C /* SourceListViewController.swift */,
+				03A0A1E0280EB0B00081682C /* SourceListViewController.xib */,
+				03A0A1E2280EB0B00081682C /* Feed.swift */,
+			);
+			path = SourceList;
+			sourceTree = "<group>";
+		};
+		03A0A1E3280EB0B10081682C /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A1E4280EB0B10081682C /* TransactionViewController.strings */,
+				03A0A1E6280EB0B10081682C /* SplitTransaction */,
+				03A0A1EB280EB0B10081682C /* TransactionViewControllerPopUp.swift */,
+				03A0A1ED280EB0B10081682C /* Suggestions Popup */,
+				03A0A1F1280EB0B10081682C /* TransactionViewController.xib */,
+				03A0A1F3280EB0B10081682C /* TransactionViewControllerAction.swift */,
+				03A0A1F4280EB0B10081682C /* TransactionViewControllerOutlineDelegate.swift */,
+				03A0A1F5280EB0B10081682C /* AvatarView.swift */,
+				03A0A1F6280EB0B10081682C /* TransactionViewController.swift */,
+				03A0A1F8280EB0B10081682C /* TransactionViewControllerDelegate.swift */,
+				03A0A1F9280EB0B10081682C /* AvatarInfo.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		03A0A1E6280EB0B10081682C /* SplitTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A1E7280EB0B10081682C /* SousOperationComboBoxDelegate.swift */,
+				03A0A1E8280EB0B10081682C /* SousOperationModalWindowController.xib */,
+				03A0A1E9280EB0B10081682C /* SousOperationModalWindowController.swift */,
+				03A0A1EA280EB0B10081682C /* SousOperationAction.swift */,
+			);
+			path = SplitTransaction;
+			sourceTree = "<group>";
+		};
+		03A0A1ED280EB0B10081682C /* Suggestions Popup */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A1EE280EB0B10081682C /* AutoCompleteTextField.swift */,
+			);
+			path = "Suggestions Popup";
+			sourceTree = "<group>";
+		};
+		03A0A1FA280EB0B10081682C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A1FB280EB0B10081682C /* CSwiftV.swift */,
+				03A0A1FC280EB0B10081682C /* Shared */,
+				03A0A1FE280EB0B10081682C /* RangeSlider */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		03A0A1FC280EB0B10081682C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A1FD280EB0B10081682C /* CommunShared.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		03A0A1FE280EB0B10081682C /* RangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A1FF280EB0B10081682C /* SliderViewVerticalController.xib */,
+				03A0A200280EB0B10081682C /* RangeSliderVertical.swift */,
+				03A0A201280EB0B10081682C /* SliderViewHorizontalController.xib */,
+				03A0A202280EB0B10081682C /* SliderViewVerticalController.swift */,
+				03A0A203280EB0B10081682C /* RangeSlider.swift */,
+				03A0A204280EB0B10081682C /* SliderViewHorizontalController.swift */,
+				03A0A205280EB0B10081682C /* RangeSliderHorizontal.swift */,
+				03A0A206280EB0B10081682C /* SliderViewController.xib */,
+			);
+			path = RangeSlider;
+			sourceTree = "<group>";
+		};
+		03A0A207280EB0B10081682C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A208280EB0B10081682C /* eventually.m4r */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		03A0A209280EB0B10081682C /* AccountTracking */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A20A280EB0B10081682C /* Web */,
+				03A0A20D280EB0B10081682C /* Tresorerie */,
+				03A0A212280EB0B10081682C /* BankStatement */,
+			);
+			path = AccountTracking;
+			sourceTree = "<group>";
+		};
+		03A0A20A280EB0B10081682C /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A20B280EB0B10081682C /* WebViewController.swift */,
+				03A0A20C280EB0B10081682C /* WebViewController.xib */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		03A0A20D280EB0B10081682C /* Tresorerie */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A20E280EB0B10081682C /* RectMarker.swift */,
+				03A0A20F280EB0B10081682C /* TresorerieViewController.swift */,
+				03A0A210280EB0B10081682C /* DateValueFormatter.swift */,
+				03A0A211280EB0B10081682C /* TresorerieViewController.xib */,
+			);
+			path = Tresorerie;
+			sourceTree = "<group>";
+		};
+		03A0A212280EB0B10081682C /* BankStatement */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A213280EB0B10081682C /* BankStatementModalWindowController.strings */,
+				03A0A215280EB0B10081682C /* ListBankStatementController.strings */,
+				03A0A219280EB0B10081682C /* PurchasesDetailView.xib */,
+				03A0A21E280EB0B10081682C /* BankStatementModalWindowController.swift */,
+				03A0A21F280EB0B10081682C /* BankStatementModalWindowController.xib */,
+				03A0A221280EB0B10081682C /* ListBankStatementController.xib */,
+				03A0A223280EB0B10081682C /* ListBankStatementControllerAction.swift */,
+				03A0A224280EB0B10081682C /* ListBankStatementController.swift */,
+				03A0A225280EB0B10081682C /* DragView.swift */,
+			);
+			path = BankStatement;
+			sourceTree = "<group>";
+		};
+		03A0A228280EB0B10081682C /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				03A0A229280EB0B10081682C /* SplashScreenWindowController.strings */,
+				03A0A22B280EB0B10081682C /* SplashScreenWindowController.xib */,
+				03A0A230280EB0B10081682C /* SplashScreenWindowController.swift */,
+				03A0A231280EB0B10081682C /* TulsiDocumentController.swift */,
+				03A0A233280EB0B10081682C /* SplashScreenRecentDocumentView.xib */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +1215,11 @@
 			dependencies = (
 			);
 			name = Bergerac;
+			packageProductDependencies = (
+				03A0A093280EAFA40081682C /* Charts */,
+				03A0A096280EAFD10081682C /* LaunchAtLogin */,
+				03A0A099280EAFFA0081682C /* SwiftDate */,
+			);
 			productName = Bergerac;
 			productReference = 03A09FE2280EAD340081682C /* Bergerac.app */;
 			productType = "com.apple.product-type.application";
@@ -111,8 +1246,17 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				es,
+				it,
+				fr,
 			);
 			mainGroup = 03A09FD9280EAD340081682C;
+			packageReferences = (
+				03A0A092280EAFA40081682C /* XCRemoteSwiftPackageReference "Charts" */,
+				03A0A095280EAFD10081682C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				03A0A098280EAFFA0081682C /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
 			productRefGroup = 03A09FE3280EAD340081682C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,8 +1271,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A0A258280EB0B10081682C /* TresorerieViewController.xib in Resources */,
+				03A0A1A7280EB0750081682C /* ComboColorWellImages.xcassets in Resources */,
+				03A0A191280EB0750081682C /* IncomeExpensePieController.xib in Resources */,
+				03A0A254280EB0B10081682C /* WebViewController.xib in Resources */,
+				03A0A193280EB0750081682C /* CategoryBarController.xib in Resources */,
+				03A0A281280EB23D0081682C /* README_fr.md in Resources */,
+				03A0A01A280EAE1C0081682C /* KSRetailCollectionViewItem.xib in Resources */,
+				03A0A195280EB0750081682C /* CategoryBarController1.xib in Resources */,
+				03A0A25A280EB0B10081682C /* ListBankStatementController.strings in Resources */,
+				03A0A174280EB0750081682C /* AccountViewController.strings in Resources */,
+				03A0A050280EAE760081682C /* rubrique.csv in Resources */,
+				03A0A262280EB0B10081682C /* SplashScreenWindowController.strings in Resources */,
+				03A0A27F280EB23D0081682C /* README.md in Resources */,
+				03A0A0A3280EB0230081682C /* AdvancedFilterViewController.xib in Resources */,
+				03A0A183280EB0750081682C /* ListTransactionsController.strings in Resources */,
+				03A0A1B2280EB0750081682C /* ModeModalWindowController.xib in Resources */,
+				03A0A1CC280EB0750081682C /* ChequierModalWindowController.xib in Resources */,
+				03A0A189280EB0750081682C /* ListTransactionsController.storyboard in Resources */,
+				03A0A1C9280EB0750081682C /* ChequiersViewController.xib in Resources */,
+				03A0A1B4280EB0750081682C /* ModeOfPaymentViewController.xib in Resources */,
+				03A0A182280EB0750081682C /* curtain.jpg in Resources */,
+				03A0A280280EB23D0081682C /* appcast.xml in Resources */,
+				03A0A263280EB0B10081682C /* SplashScreenWindowController.xib in Resources */,
+				03A0A19A280EB0750081682C /* RubricBarController.xib in Resources */,
+				03A0A17D280EB0750081682C /* PersonViewController.xib in Resources */,
+				03A0A1D3280EB0750081682C /* SchedulersSaisieController.xib in Resources */,
+				03A0A234280EB0B10081682C /* Feeds.plist in Resources */,
+				03A0A02A280EAE1C0081682C /* CurtainViewController.xib in Resources */,
+				03A0A0CA280EB04B0081682C /* ImportWindowController.xib in Resources */,
+				03A0A241280EB0B10081682C /* TransactionViewController.xib in Resources */,
+				03A0A252280EB0B10081682C /* eventually.m4r in Resources */,
+				03A0A1CE280EB0750081682C /* SchedulerViewController.strings in Resources */,
 				03A09FEF280EAD370081682C /* Assets.xcassets in Resources */,
-				03A09FF2280EAD380081682C /* Main.storyboard in Resources */,
+				03A0A25B280EB0B10081682C /* PurchasesDetailView.xib in Resources */,
+				03A0A19D280EB0750081682C /* IdentiteViewController.xib in Resources */,
+				03A0A23A280EB0B10081682C /* TransactionViewController.strings in Resources */,
+				03A0A01C280EAE1C0081682C /* PopOverModalViewController.xib in Resources */,
+				03A0A1A1280EB0750081682C /* RubriqueViewController.xib in Resources */,
+				03A0A027280EAE1C0081682C /* AccountGroupViewController.xib in Resources */,
+				03A0A1AC280EB0750081682C /* RubriqueModalWindowController.xib in Resources */,
+				03A0A0BA280EB04B0081682C /* AccessibilityImageDescriptions.strings in Resources */,
+				03A0A176280EB0750081682C /* PersonViewController.strings in Resources */,
+				03A0A1B0280EB0750081682C /* ParameterController.xib in Resources */,
+				03A0A286280EC1830081682C /* Main.storyboard in Resources */,
+				03A0A19C280EB0750081682C /* IdentiteViewController.strings in Resources */,
+				03A0A175280EB0750081682C /* GeneralViewController.strings in Resources */,
+				03A0A024280EAE1C0081682C /* AccountModalWindowController.xib in Resources */,
+				03A0A022280EAE1C0081682C /* GroupModalWindowController.xib in Resources */,
+				03A0A081280EAEE60081682C /* notification.strings in Resources */,
+				03A0A23C280EB0B10081682C /* SousOperationModalWindowController.xib in Resources */,
+				03A0A1CF280EB0750081682C /* SchedulerViewController.xib in Resources */,
+				03A0A282280EB23D0081682C /* version StoryBoard.md in Resources */,
+				03A0A1D1280EB0750081682C /* SchedulersSaisieController.strings in Resources */,
+				03A0A25E280EB0B10081682C /* ListBankStatementController.xib in Resources */,
+				03A0A181280EB0750081682C /* MyDB.sqlite in Resources */,
+				03A0A0C9280EB04B0081682C /* TTFormatViewControllerAccessory.xib in Resources */,
+				03A0A0C1280EB04B0081682C /* TTFormatViewController.xib in Resources */,
+				03A0A259280EB0B10081682C /* BankStatementModalWindowController.strings in Resources */,
+				03A0A25D280EB0B10081682C /* BankStatementModalWindowController.xib in Resources */,
+				03A0A251280EB0B10081682C /* SliderViewController.xib in Resources */,
+				03A0A019280EAE1C0081682C /* AccountGroupViewController.strings in Resources */,
+				03A0A24C280EB0B10081682C /* SliderViewHorizontalController.xib in Resources */,
+				03A0A17C280EB0750081682C /* AccountViewController.xib in Resources */,
+				03A0A04F280EAE760081682C /* rubrique.plist in Resources */,
+				03A0A238280EB0B10081682C /* SourceListViewController.xib in Resources */,
+				03A0A026280EAE1C0081682C /* AccountGroupViewController copie.xib in Resources */,
+				03A0A1C8280EB0750081682C /* PreferenceOperationViewController.xib in Resources */,
+				03A0A266280EB0B10081682C /* SplashScreenRecentDocumentView.xib in Resources */,
+				03A0A1AB280EB0750081682C /* CategorieModalWindowController.xib in Resources */,
+				03A0A17E280EB0750081682C /* GeneralViewController.xib in Resources */,
+				03A0A197280EB0750081682C /* RubricPieController.xib in Resources */,
+				03A0A18D280EB0750081682C /* PaymentModePieController.xib in Resources */,
+				03A0A24A280EB0B10081682C /* SliderViewVerticalController.xib in Resources */,
+				03A0A18F280EB0750081682C /* IncomeExpenseBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +1355,462 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A0A020280EAE1C0081682C /* AccountGroupViewDataSource.swift in Sources */,
+				03A0A25C280EB0B10081682C /* BankStatementModalWindowController.swift in Sources */,
+				03A0A186280EB0750081682C /* ListTransactionsTextColor.swift in Sources */,
+				03A0A04D280EAE760081682C /* BanqueStatement.swift in Sources */,
+				03A0A1A6280EB0750081682C /* MouseTracker.swift in Sources */,
+				03A0A199280EB0750081682C /* RubricPieController.swift in Sources */,
+				03A0A0C6280EB04B0081682C /* CSVParserDelegate.swift in Sources */,
+				03A0A239280EB0B10081682C /* Feed.swift in Sources */,
+				03A0A0A2280EB0230081682C /* AdvancedFilterViewController.swift in Sources */,
+				03A0A279280EB1EB0081682C /* MainWindowSchedulers.swift in Sources */,
+				03A0A184280EB0750081682C /* ListTransactionsSchedulers.swift in Sources */,
+				03A0A187280EB0750081682C /* ListTransactionsController+Expansion.swift in Sources */,
+				03A0A1CD280EB0750081682C /* ParameterController.swift in Sources */,
+				03A0A24E280EB0B10081682C /* RangeSlider.swift in Sources */,
+				03A0A0C4280EB04B0081682C /* CSVWriter.swift in Sources */,
+				03A0A24D280EB0B10081682C /* SliderViewVerticalController.swift in Sources */,
+				03A0A244280EB0B10081682C /* AvatarView.swift in Sources */,
+				03A0A049280EAE760081682C /* Identite.swift in Sources */,
+				03A0A24F280EB0B10081682C /* SliderViewHorizontalController.swift in Sources */,
+				03A0A046280EAE760081682C /* ListTransactions.swift in Sources */,
+				03A0A1AA280EB0750081682C /* RubriqueModalWindowController.swift in Sources */,
+				03A0A27A280EB1EB0081682C /* MainWindowController.swift in Sources */,
+				03A0A1B1280EB0750081682C /* ModeOfPaymentViewController.swift in Sources */,
+				03A0A17F280EB0750081682C /* GeneralViewController.swift in Sources */,
+				03A0A19E280EB0750081682C /* IdentiteViewController.swift in Sources */,
+				03A0A01D280EAE1C0081682C /* KSBackgroundView.swift in Sources */,
+				03A0A1A2280EB0750081682C /* ColorUtilities.swift in Sources */,
+				03A0A08E280EAEE60081682C /* Debug.swift in Sources */,
+				03A0A044280EAE760081682C /* EntityAccount+CoreDataClass.swift in Sources */,
+				03A0A236280EB0B10081682C /* SourceListViewDelegate.swift in Sources */,
+				03A0A188280EB0750081682C /* ListTransactionsDataSource.swift in Sources */,
+				03A0A242280EB0B10081682C /* TransactionViewControllerAction.swift in Sources */,
+				03A0A0BF280EB04B0081682C /* ImportBankStatementWindowController.swift in Sources */,
+				03A0A18A280EB0750081682C /* ListTransactionsController.swift in Sources */,
+				03A0A045280EAE760081682C /* EntityTransactions+CoreDataClass.swift in Sources */,
+				03A0A01B280EAE1C0081682C /* KSRetailCollectionViewItem.swift in Sources */,
+				03A0A250280EB0B10081682C /* RangeSliderHorizontal.swift in Sources */,
+				03A0A194280EB0750081682C /* CategoryBarController1.swift in Sources */,
+				03A0A248280EB0B10081682C /* CSwiftV.swift in Sources */,
+				03A0A0BB280EB04B0081682C /* ImportWindowControllerMenuDelegate.swift in Sources */,
 				03A09FED280EAD340081682C /* Document.xcdatamodeld in Sources */,
+				03A0A0C7280EB04B0081682C /* CSVConfig.swift in Sources */,
+				03A0A18E280EB0750081682C /* PaymentModePieController.swift in Sources */,
+				03A0A257280EB0B10081682C /* DateValueFormatter.swift in Sources */,
+				03A0A275280EB1EB0081682C /* MyPrintViewOutlineOld.swift in Sources */,
+				03A0A247280EB0B10081682C /* AvatarInfo.swift in Sources */,
+				03A0A058280EAE760081682C /* EntityRubric+CoreDataProperties.swift in Sources */,
+				03A0A082280EAEE60081682C /* NotificationsHelper.swift in Sources */,
+				03A0A1AF280EB0750081682C /* RubriqueViewController.swift in Sources */,
+				03A0A17A280EB0750081682C /* Preferenceable.swift in Sources */,
+				03A0A1CB280EB0750081682C /* ChequierModalWindowController.swift in Sources */,
 				03A09FE8280EAD340081682C /* ViewController.swift in Sources */,
+				03A0A07C280EAEE60081682C /* NSWindow.swift in Sources */,
+				03A0A048280EAE760081682C /* Categories.swift in Sources */,
+				03A0A278280EB1EB0081682C /* MainWindowBankStatement.swift in Sources */,
+				03A0A01E280EAE1C0081682C /* PopOverModalViewController.swift in Sources */,
+				03A0A053280EAE760081682C /* EntityRubric+CoreDataClass.swift in Sources */,
+				03A0A08D280EAEE60081682C /* NSPasteboard+Additions.swift in Sources */,
+				03A0A180280EB0750081682C /* AccountViewController.swift in Sources */,
+				03A0A23D280EB0B10081682C /* SousOperationModalWindowController.swift in Sources */,
+				03A0A1D0280EB0750081682C /* SchedulerViewController.swift in Sources */,
+				03A0A0A1280EB0230081682C /* NSPredicateEditorRowTemplate.swift in Sources */,
+				03A0A02B280EAE1C0081682C /* AccountGroupViewController.swift in Sources */,
+				03A0A084280EAEE60081682C /* UNCenter.swift in Sources */,
+				03A0A1CA280EB0750081682C /* ChequiersViewController.swift in Sources */,
+				03A0A08B280EAEE60081682C /* HeaderCell.swift in Sources */,
+				03A0A240280EB0B10081682C /* AutoCompleteTextField.swift in Sources */,
+				03A0A23F280EB0B10081682C /* TransactionViewControllerPopUp.swift in Sources */,
+				03A0A235280EB0B10081682C /* SourceListViewDataSource.swift in Sources */,
+				03A0A0C8280EB04B0081682C /* ImportWindowControllerParserDelegate.swift in Sources */,
+				03A0A1AD280EB0750081682C /* CategorieModalWindowController.swift in Sources */,
+				03A0A1D2280EB0750081682C /* SchedulersSaisieControllerDelegate.swift in Sources */,
+				03A0A23E280EB0B10081682C /* SousOperationAction.swift in Sources */,
+				03A0A261280EB0B10081682C /* DragView.swift in Sources */,
+				03A0A051280EAE760081682C /* Account.swift in Sources */,
 				03A09FE6280EAD340081682C /* AppDelegate.swift in Sources */,
+				03A0A0BC280EB04B0081682C /* ImportWindowController.swift in Sources */,
+				03A0A08A280EAEE60081682C /* Notification.swift in Sources */,
+				03A0A07A280EAEE60081682C /* MLTextField.swift in Sources */,
+				03A0A274280EB1EB0081682C /* MyPrintViewTableView.swift in Sources */,
+				03A0A277280EB1EB0081682C /* MainWindowToolBar.swift in Sources */,
+				03A0A0BE280EB04B0081682C /* ImportSchedulersWindowController.swift in Sources */,
+				03A0A057280EAE760081682C /* EntityAccount+CoreDataProperties.swift in Sources */,
+				03A0A080280EAEE60081682C /* NVDate.swift in Sources */,
+				03A0A0C5280EB04B0081682C /* CSV.swift in Sources */,
+				03A0A0BD280EB04B0081682C /* TTFormatViewController.swift in Sources */,
+				03A0A273280EB1EB0081682C /* MainWindowTransactions.swift in Sources */,
+				03A0A087280EAEE60081682C /* NotificationCenter.swift in Sources */,
+				03A0A047280EAE760081682C /* PaymentMode.swift in Sources */,
+				03A0A246280EB0B10081682C /* TransactionViewControllerDelegate.swift in Sources */,
+				03A0A1A3280EB0750081682C /* ComboColorWellCell.swift in Sources */,
+				03A0A26A280EB17A0081682C /* DocumentController.swift in Sources */,
 				03A09FEA280EAD340081682C /* Document.swift in Sources */,
+				03A0A0A0280EB0230081682C /* NSPredicateEditorRow.swift in Sources */,
+				03A0A190280EB0750081682C /* IncomeExpensePieController.swift in Sources */,
+				03A0A054280EAE760081682C /* EntityCategory+CoreDataProperties.swift in Sources */,
+				03A0A1A8280EB0750081682C /* ColorView.swift in Sources */,
+				03A0A088280EAEE60081682C /* NSTableRowView.swift in Sources */,
+				03A0A08C280EAEE60081682C /* String.swift in Sources */,
+				03A0A02C280EAE1C0081682C /* AccountGroupViewDelegate.swift in Sources */,
+				03A0A04C280EAE760081682C /* Statut.swift in Sources */,
+				03A0A260280EB0B10081682C /* ListBankStatementController.swift in Sources */,
+				03A0A052280EAE760081682C /* Preference.swift in Sources */,
+				03A0A04E280EAE760081682C /* Scheduler.swift in Sources */,
+				03A0A055280EAE760081682C /* EntityTransactions+CoreDataProperties.swift in Sources */,
+				03A0A185280EB0750081682C /* ListTransactionsPasteboard.swift in Sources */,
+				03A0A249280EB0B10081682C /* CommunShared.swift in Sources */,
+				03A0A0C2280EB04B0081682C /* ImportWindowControllerExtension.swift in Sources */,
+				03A0A23B280EB0B10081682C /* SousOperationComboBoxDelegate.swift in Sources */,
+				03A0A1C7280EB0750081682C /* PreferenceOperationViewController.swift in Sources */,
+				03A0A237280EB0B10081682C /* SourceListViewController.swift in Sources */,
+				03A0A1A5280EB0750081682C /* ComboColorWell.swift in Sources */,
+				03A0A198280EB0750081682C /* RubricBarController.swift in Sources */,
+				03A0A179280EB0750081682C /* PreferencesTabViewController.swift in Sources */,
+				03A0A268280EB14A0081682C /* ViewControllerDelegate.swift in Sources */,
+				03A0A1AE280EB0750081682C /* RubriqueViewAction.swift in Sources */,
+				03A0A086280EAEE60081682C /* NSOpenPanel.swift in Sources */,
+				03A0A085280EAEE60081682C /* NotificationHandler.swift in Sources */,
+				03A0A243280EB0B10081682C /* TransactionViewControllerOutlineDelegate.swift in Sources */,
+				03A0A056280EAE760081682C /* EntityCategory+CoreDataClass.swift in Sources */,
+				03A0A1A4280EB0750081682C /* ColorGridController.swift in Sources */,
+				03A0A025280EAE1C0081682C /* AccountGroupViewControllerAction.swift in Sources */,
+				03A0A1C6280EB0750081682C /* PreferenceOperationViewControllerPopUp.swift in Sources */,
+				03A0A08F280EAEE60081682C /* NSTableCellView.swift in Sources */,
+				03A0A0C0280EB04B0081682C /* ImportTransactionsWindowController.swift in Sources */,
+				03A0A0C3280EB04B0081682C /* CSVParser.swift in Sources */,
+				03A0A04A280EAE760081682C /* Rubrique.swift in Sources */,
+				03A0A023280EAE1C0081682C /* AccountModalWindowController.swift in Sources */,
+				03A0A021280EAE1C0081682C /* GroupModalWindowController.swift in Sources */,
+				03A0A029280EAE1C0081682C /* CurtainViewController.swift in Sources */,
+				03A0A18C280EB0750081682C /* ListTransactionsDelegate.swift in Sources */,
+				03A0A196280EB0750081682C /* CategoryBarController.swift in Sources */,
+				03A0A24B280EB0B10081682C /* RangeSliderVertical.swift in Sources */,
+				03A0A01F280EAE1C0081682C /* AccountGroupTableCellView.swift in Sources */,
+				03A0A07D280EAEE60081682C /* DSFFloatLabelledTextField.swift in Sources */,
+				03A0A04B280EAE760081682C /* Cheques.swift in Sources */,
+				03A0A1D5280EB0750081682C /* SchedulersSaisieControllerPopUp.swift in Sources */,
+				03A0A255280EB0B10081682C /* RectMarker.swift in Sources */,
+				03A0A19B280EB0750081682C /* CommonGraph.swift in Sources */,
+				03A0A264280EB0B10081682C /* SplashScreenWindowController.swift in Sources */,
+				03A0A1B3280EB0750081682C /* ModeModalWindowController.swift in Sources */,
+				03A0A18B280EB0750081682C /* ListTransactionsmenuDelegate.swift in Sources */,
+				03A0A1A9280EB0750081682C /* ColorGridView.swift in Sources */,
+				03A0A0B9280EB04B0081682C /* Localizations.swift in Sources */,
+				03A0A177280EB0750081682C /* PreferencesWindowController.swift in Sources */,
+				03A0A17B280EB0750081682C /* PersonViewController.swift in Sources */,
+				03A0A079280EAEE60081682C /* Transformable.swift in Sources */,
+				03A0A253280EB0B10081682C /* WebViewController.swift in Sources */,
+				03A0A178280EB0750081682C /* util.swift in Sources */,
+				03A0A091280EAEE60081682C /* ManagedObject.swift in Sources */,
+				03A0A192280EB0750081682C /* IncomeExpenseBarController.swift in Sources */,
+				03A0A083280EAEE60081682C /* NotificationActionsEnum.swift in Sources */,
+				03A0A19F280EB0750081682C /* RubriqueViewDragDrop.swift in Sources */,
+				03A0A089280EAEE60081682C /* NSImage.swift in Sources */,
+				03A0A25F280EB0B10081682C /* ListBankStatementControllerAction.swift in Sources */,
+				03A0A265280EB0B10081682C /* TulsiDocumentController.swift in Sources */,
+				03A0A276280EB1EB0081682C /* MyPrintViewOutline.swift in Sources */,
+				03A0A07E280EAEE60081682C /* ChartView.swift in Sources */,
+				03A0A256280EB0B10081682C /* TresorerieViewController.swift in Sources */,
+				03A0A028280EAE1C0081682C /* AccountGroupViewDragDrop.swift in Sources */,
+				03A0A1A0280EB0750081682C /* RubriqueViewDelegate.swift in Sources */,
+				03A0A245280EB0B10081682C /* TransactionViewController.swift in Sources */,
+				03A0A07F280EAEE60081682C /* Error.swift in Sources */,
+				03A0A07B280EAEE60081682C /* NSUserInterfaceItemIdentifier.swift in Sources */,
+				03A0A1D4280EB0750081682C /* SchedulersSaisieController.swift in Sources */,
+				03A0A090280EAEE60081682C /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03A09FF0280EAD380081682C /* Main.storyboard */ = {
+		03A09FFC280EAE1C0081682C /* AccountGroupViewController.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03A09FF1280EAD380081682C /* Base */,
+				03A09FFD280EAE1C0081682C /* de */,
+				03A0A004280EAE1C0081682C /* en */,
+				03A0A006280EAE1C0081682C /* es */,
+				03A0A007280EAE1C0081682C /* it */,
+				03A0A017280EAE1C0081682C /* fr */,
 			);
-			name = Main.storyboard;
+			name = AccountGroupViewController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A00F280EAE1C0081682C /* AccountGroupViewController copie.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A010280EAE1C0081682C /* Base */,
+			);
+			name = "AccountGroupViewController copie.xib";
+			sourceTree = "<group>";
+		};
+		03A0A011280EAE1C0081682C /* AccountGroupViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A012280EAE1C0081682C /* Base */,
+			);
+			name = AccountGroupViewController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A063280EAEE60081682C /* notification.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A064280EAEE60081682C /* de */,
+				03A0A065280EAEE60081682C /* en */,
+				03A0A066280EAEE60081682C /* es */,
+				03A0A067280EAEE60081682C /* it */,
+				03A0A06C280EAEE60081682C /* fr */,
+			);
+			name = notification.strings;
+			sourceTree = "<group>";
+		};
+		03A0A0CC280EB0740081682C /* AccountViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0CD280EB0740081682C /* de */,
+				03A0A0D2280EB0740081682C /* en */,
+				03A0A0DA280EB0740081682C /* es */,
+				03A0A0DE280EB0740081682C /* it */,
+				03A0A0E8280EB0740081682C /* fr */,
+			);
+			name = AccountViewController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A0CE280EB0740081682C /* GeneralViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0CF280EB0740081682C /* de */,
+				03A0A0D3280EB0740081682C /* en */,
+				03A0A0DB280EB0740081682C /* es */,
+				03A0A0DF280EB0740081682C /* it */,
+				03A0A0E9280EB0740081682C /* fr */,
+			);
+			name = GeneralViewController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A0D0280EB0740081682C /* PersonViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0D1280EB0740081682C /* de */,
+				03A0A0D4280EB0740081682C /* en */,
+				03A0A0DC280EB0740081682C /* es */,
+				03A0A0E0280EB0740081682C /* it */,
+				03A0A0EA280EB0740081682C /* fr */,
+			);
+			name = PersonViewController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A0E1280EB0740081682C /* AccountViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0E2280EB0740081682C /* Base */,
+			);
+			name = AccountViewController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A0E3280EB0740081682C /* PersonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0E4280EB0740081682C /* Base */,
+			);
+			name = PersonViewController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A0E5280EB0740081682C /* GeneralViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0E6280EB0740081682C /* Base */,
+			);
+			name = GeneralViewController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A0ED280EB0740081682C /* MyDB.sqlite */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0EE280EB0740081682C /* de */,
+				03A0A0EF280EB0740081682C /* en */,
+				03A0A0F0280EB0740081682C /* es */,
+				03A0A0F2280EB0740081682C /* it */,
+				03A0A0F3280EB0740081682C /* Base */,
+				03A0A0F4280EB0740081682C /* fr */,
+			);
+			name = MyDB.sqlite;
+			sourceTree = "<group>";
+		};
+		03A0A0F6280EB0740081682C /* ListTransactionsController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A0F7280EB0740081682C /* de */,
+				03A0A0F8280EB0740081682C /* en */,
+				03A0A0FC280EB0740081682C /* es */,
+				03A0A0FE280EB0740081682C /* it */,
+				03A0A104280EB0740081682C /* fr */,
+			);
+			name = ListTransactionsController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A100280EB0740081682C /* ListTransactionsController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A101280EB0740081682C /* Base */,
+			);
+			name = ListTransactionsController.storyboard;
+			sourceTree = "<group>";
+		};
+		03A0A11C280EB0750081682C /* IdentiteViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A11D280EB0750081682C /* de */,
+				03A0A11E280EB0750081682C /* en */,
+				03A0A11F280EB0750081682C /* es */,
+				03A0A120280EB0750081682C /* it */,
+				03A0A123280EB0750081682C /* fr */,
+			);
+			name = IdentiteViewController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A121280EB0750081682C /* IdentiteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A122280EB0750081682C /* Base */,
+			);
+			name = IdentiteViewController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A15F280EB0750081682C /* SchedulerViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A160280EB0750081682C /* de */,
+				03A0A161280EB0750081682C /* en */,
+				03A0A162280EB0750081682C /* es */,
+				03A0A163280EB0750081682C /* it */,
+				03A0A167280EB0750081682C /* fr */,
+			);
+			name = SchedulerViewController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A164280EB0750081682C /* SchedulerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A165280EB0750081682C /* Base */,
+			);
+			name = SchedulerViewController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A169280EB0750081682C /* SchedulersSaisieController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A16A280EB0750081682C /* de */,
+				03A0A16C280EB0750081682C /* en */,
+				03A0A16D280EB0750081682C /* es */,
+				03A0A16E280EB0750081682C /* it */,
+				03A0A173280EB0750081682C /* fr */,
+			);
+			name = SchedulersSaisieController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A16F280EB0750081682C /* SchedulersSaisieController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A170280EB0750081682C /* Base */,
+			);
+			name = SchedulersSaisieController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A1D7280EB0B00081682C /* Feeds.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A1D8280EB0B00081682C /* de */,
+				03A0A1D9280EB0B00081682C /* en */,
+				03A0A1DA280EB0B00081682C /* es */,
+				03A0A1DB280EB0B00081682C /* it */,
+				03A0A1DD280EB0B00081682C /* Base */,
+				03A0A1E1280EB0B00081682C /* fr */,
+			);
+			name = Feeds.plist;
+			sourceTree = "<group>";
+		};
+		03A0A1E4280EB0B10081682C /* TransactionViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A1E5280EB0B10081682C /* de */,
+				03A0A1EC280EB0B10081682C /* en */,
+				03A0A1EF280EB0B10081682C /* es */,
+				03A0A1F0280EB0B10081682C /* it */,
+				03A0A1F7280EB0B10081682C /* fr */,
+			);
+			name = TransactionViewController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A1F1280EB0B10081682C /* TransactionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A1F2280EB0B10081682C /* Base */,
+			);
+			name = TransactionViewController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A213280EB0B10081682C /* BankStatementModalWindowController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A214280EB0B10081682C /* de */,
+				03A0A217280EB0B10081682C /* en */,
+				03A0A21A280EB0B10081682C /* es */,
+				03A0A21C280EB0B10081682C /* it */,
+				03A0A226280EB0B10081682C /* fr */,
+			);
+			name = BankStatementModalWindowController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A215280EB0B10081682C /* ListBankStatementController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A216280EB0B10081682C /* de */,
+				03A0A218280EB0B10081682C /* en */,
+				03A0A21B280EB0B10081682C /* es */,
+				03A0A21D280EB0B10081682C /* it */,
+				03A0A227280EB0B10081682C /* fr */,
+			);
+			name = ListBankStatementController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A21F280EB0B10081682C /* BankStatementModalWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A220280EB0B10081682C /* Base */,
+			);
+			name = BankStatementModalWindowController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A221280EB0B10081682C /* ListBankStatementController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A222280EB0B10081682C /* Base */,
+			);
+			name = ListBankStatementController.xib;
+			sourceTree = "<group>";
+		};
+		03A0A229280EB0B10081682C /* SplashScreenWindowController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A22A280EB0B10081682C /* de */,
+				03A0A22D280EB0B10081682C /* en */,
+				03A0A22E280EB0B10081682C /* es */,
+				03A0A22F280EB0B10081682C /* it */,
+				03A0A232280EB0B10081682C /* fr */,
+			);
+			name = SplashScreenWindowController.strings;
+			sourceTree = "<group>";
+		};
+		03A0A22B280EB0B10081682C /* SplashScreenWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A0A22C280EB0B10081682C /* en */,
+			);
+			name = SplashScreenWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,7 +1949,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.8;
 				PRODUCT_BUNDLE_IDENTIFIER = thierry.Bergerac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -321,7 +1977,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.8;
 				PRODUCT_BUNDLE_IDENTIFIER = thierry.Bergerac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -351,6 +2007,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03A0A092280EAFA40081682C /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+		03A0A095280EAFD10081682C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		03A0A098280EAFFA0081682C /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03A0A093280EAFA40081682C /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03A0A092280EAFA40081682C /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		03A0A096280EAFD10081682C /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03A0A095280EAFD10081682C /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+		03A0A099280EAFFA0081682C /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03A0A098280EAFFA0081682C /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		03A09FEB280EAD340081682C /* Document.xcdatamodeld */ = {

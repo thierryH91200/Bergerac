@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="13196"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="WebViewController" customModule="comptaGraph" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="ybC-iU-1kT" id="pzJ-gW-UX9"/>
+                <outlet property="myWebView" destination="bMb-NU-6qj" id="3Gv-FA-u5T"/>
+                <outlet property="view" destination="MH9-LY-oxR" id="fbm-U6-Pwj"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="webView" id="MH9-LY-oxR">
+            <rect key="frame" x="0.0" y="0.0" width="704" height="576"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bMb-NU-6qj">
+                    <rect key="frame" x="0.0" y="0.0" width="704" height="516"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences" minimumFontSize="4"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="ybC-iU-1kT">
+                    <rect key="frame" x="344" y="250" width="16" height="16"/>
+                </progressIndicator>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9Tc-8c-40b">
+                    <rect key="frame" x="141" y="530" width="462" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="462" id="FAU-hV-4KQ"/>
+                        <constraint firstAttribute="height" constant="30" id="iDb-Pw-LSr"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="1l8-eD-Mh1">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lKC-ls-mOt">
+                    <rect key="frame" x="20" y="530" width="106" height="30"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GY5-85-o6j">
+                            <rect key="frame" x="0.0" y="-1" width="30" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="sKq-iZ-tiw"/>
+                                <constraint firstAttribute="height" constant="30" id="uKU-ct-N6t"/>
+                            </constraints>
+                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSHomeTemplate" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DSc-Pl-HfL">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TlA-EO-rh7">
+                            <rect key="frame" x="38" y="-1" width="30" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="PA9-8F-1z2"/>
+                                <constraint firstAttribute="height" constant="30" id="ySZ-Hy-jJp"/>
+                            </constraints>
+                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSLeftFacingTriangleTemplate" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9wX-Rh-amP">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VCG-K0-VJb">
+                            <rect key="frame" x="76" y="-1" width="30" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="9vQ-61-t6I"/>
+                                <constraint firstAttribute="height" constant="30" id="Iry-Xd-8aI"/>
+                            </constraints>
+                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSRightFacingTriangleTemplate" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WqG-b3-yG9">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tI3-3N-r6e">
+                    <rect key="frame" x="611" y="529" width="30" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="5p9-zL-KTq"/>
+                        <constraint firstAttribute="height" constant="30" id="Nr4-Hj-QJN"/>
+                    </constraints>
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSRefreshFreestandingTemplate" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="k2t-aC-yAX">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="9Tc-8c-40b" firstAttribute="leading" secondItem="lKC-ls-mOt" secondAttribute="trailing" constant="15" id="0v3-Gp-xV1"/>
+                <constraint firstAttribute="trailing" secondItem="bMb-NU-6qj" secondAttribute="trailing" id="1Ml-gM-DoK"/>
+                <constraint firstItem="9Tc-8c-40b" firstAttribute="top" secondItem="MH9-LY-oxR" secondAttribute="top" constant="16" id="7KL-fg-gIC"/>
+                <constraint firstItem="bMb-NU-6qj" firstAttribute="leading" secondItem="MH9-LY-oxR" secondAttribute="leading" id="DG0-1H-TIf"/>
+                <constraint firstItem="ybC-iU-1kT" firstAttribute="centerY" secondItem="bMb-NU-6qj" secondAttribute="centerY" id="HLM-n8-o3E"/>
+                <constraint firstItem="9Tc-8c-40b" firstAttribute="top" secondItem="tI3-3N-r6e" secondAttribute="top" id="NOc-t9-kMC"/>
+                <constraint firstItem="ybC-iU-1kT" firstAttribute="centerX" secondItem="bMb-NU-6qj" secondAttribute="centerX" id="SDC-nh-P8n"/>
+                <constraint firstItem="9Tc-8c-40b" firstAttribute="bottom" secondItem="lKC-ls-mOt" secondAttribute="bottom" id="hJt-69-0ua"/>
+                <constraint firstItem="tI3-3N-r6e" firstAttribute="leading" secondItem="9Tc-8c-40b" secondAttribute="trailing" constant="8" symbolic="YES" id="kOq-fp-8tf"/>
+                <constraint firstAttribute="bottom" secondItem="bMb-NU-6qj" secondAttribute="bottom" id="lxG-iX-hj0"/>
+                <constraint firstItem="9Tc-8c-40b" firstAttribute="leading" secondItem="MH9-LY-oxR" secondAttribute="leading" constant="141" id="sLV-Ov-5Ci"/>
+                <constraint firstItem="bMb-NU-6qj" firstAttribute="top" secondItem="MH9-LY-oxR" secondAttribute="top" constant="60" id="y4w-wA-SXt"/>
+            </constraints>
+            <point key="canvasLocation" x="-142" y="181"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSHomeTemplate" width="14" height="14"/>
+        <image name="NSLeftFacingTriangleTemplate" width="9" height="12"/>
+        <image name="NSRefreshFreestandingTemplate" width="14" height="14"/>
+        <image name="NSRightFacingTriangleTemplate" width="9" height="12"/>
+    </resources>
+</document>

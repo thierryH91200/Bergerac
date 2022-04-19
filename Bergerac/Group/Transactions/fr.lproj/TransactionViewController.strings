@@ -1,0 +1,108 @@
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "3Kd-qU-2vr"; */
+"3Kd-qU-2vr.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Nom"; ObjectID = "3lM-W1-Ueq"; */
+"3lM-W1-Ueq.title" = "Nom";
+
+/* Class = "NSButtonCell"; title = "Creation mode"; ObjectID = "5Vt-JO-eHx"; */
+"5Vt-JO-eHx.title" = "Creation mode";
+
+/* Class = "NSMenuItem"; title = "Réalisé"; ObjectID = "7K5-sG-uvX"; */
+"7K5-sG-uvX.title" = "Réalisé";
+
+/* Class = "NSTextFieldCell"; title = "Number"; ObjectID = "8c0-aE-WOW"; */
+"8c0-aE-WOW.title" = "Numéro";
+
+/* Class = "NSTableColumn"; headerCell.title = "Sub-operation"; ObjectID = "BaG-Ny-W5A"; */
+"BaG-Ny-W5A.headerCell.title" = "Sub-operation";
+
+/* Class = "NSTextFieldCell"; title = "Transaction date"; ObjectID = "DgC-Yt-I9a"; */
+"DgC-Yt-I9a.title" = "Date de la Transaction ";
+
+/* Class = "NSTextFieldCell"; title = "Statut"; ObjectID = "KOz-n3-1bG"; */
+"KOz-n3-1bG.title" = "Statut";
+
+/* Class = "NSTextFieldCell"; title = "Add a split transaction"; ObjectID = "Kez-P4-uLX"; */
+"Kez-P4-uLX.title" = "Add a split transaction";
+
+/* Class = "NSTextFieldCell"; title = "Bank statement"; ObjectID = "LZg-7e-ZOh"; */
+"LZg-7e-ZOh.title" = "Relevé bancaire";
+
+/* Class = "NSTextFieldCell"; title = "Linked account"; ObjectID = "MID-DS-K3I"; */
+"MID-DS-K3I.title" = "Linked account";
+
+/* Class = "NSTextFieldCell"; title = "Intitulé"; ObjectID = "N5m-FQ-0eU"; */
+"N5m-FQ-0eU.title" = "Intitulé";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "O56-55-rg3"; */
+"O56-55-rg3.title" = "Save";
+
+/* Class = "NSMenuItem"; title = "Edit transaction"; ObjectID = "O7i-rP-jKG"; */
+"O7i-rP-jKG.title" = "Edit transaction";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "QY3-0N-fx4"; */
+"QY3-0N-fx4.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "SR5-JG-XNZ"; */
+"SR5-JG-XNZ.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Edit Operation"; ObjectID = "TAF-tm-rJ7"; */
+"TAF-tm-rJ7.title" = "Edit Operation";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "TQT-Jb-GfJ"; */
+"TQT-Jb-GfJ.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Engagé"; ObjectID = "UI6-qu-DiP"; */
+"UI6-qu-DiP.title" = "Engagé";
+
+/* Class = "NSMenuItem"; title = "Add Operation"; ObjectID = "VtX-y2-hO6"; */
+"VtX-y2-hO6.title" = "Add Operation";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "drL-Wu-P6D"; */
+"drL-Wu-P6D.title" = "Item 2";
+
+/* Class = "NSButtonCell"; title = "Transaction"; ObjectID = "hFD-G4-FOE"; */
+"hFD-G4-FOE.title" = "Transaction";
+
+/* Class = "NSTextFieldCell"; title = "Pointing date"; ObjectID = "hye-wO-8d4"; */
+"hye-wO-8d4.title" = "Pointing date";
+
+/* Class = "NSButtonCell"; title = "Creation mode"; ObjectID = "imH-56-LpJ"; */
+"imH-56-LpJ.title" = "Creation mode";
+
+/* Class = "NSMenuItem"; title = "Add transaction"; ObjectID = "jcE-Wr-YbQ"; */
+"jcE-Wr-YbQ.title" = "Add transaction";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "kh3-53-QoU"; */
+"kh3-53-QoU.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Prénom"; ObjectID = "okW-Ze-Dvq"; */
+"okW-Ze-Dvq.title" = "Prénom";
+
+/* Class = "NSMenuItem"; title = "Remove transacion"; ObjectID = "osS-Vv-07S"; */
+"osS-Vv-07S.title" = "Remove transacion";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "p4E-G9-3tp"; */
+"p4E-G9-3tp.title" = "Item 1";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "qRn-tw-gIV"; */
+"qRn-tw-gIV.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Split Transactions"; ObjectID = "r1R-Hw-Rbk"; */
+"r1R-Hw-Rbk.title" = "Split Transactions";
+
+/* Class = "NSTextFieldCell"; title = "Amount"; ObjectID = "r76-3s-NXd"; */
+"r76-3s-NXd.title" = "Amount";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "uqp-LK-iT0"; */
+"uqp-LK-iT0.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Mode"; ObjectID = "xmS-EK-UWx"; */
+"xmS-EK-UWx.title" = "Mode";
+
+/* Class = "NSMenuItem"; title = "Remove Operation"; ObjectID = "zQq-ss-8Vv"; */
+"zQq-ss-8Vv.title" = "Remove Operation";
+
+/* Class = "NSMenuItem"; title = "Planned"; ObjectID = "zz3-G1-phr"; */
+"zz3-G1-phr.title" = "Planned";

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20036.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20036.2"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="KSRetailCollectionViewItem" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="itemImageView" destination="Viw-C2-hvg" id="QMn-hY-5SC"/>
+                <outlet property="label" destination="Y4S-S0-UFa" id="lKS-7O-byQ"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="Bpc-5R-GJk"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="118" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="yaa-Ec-NFR" customClass="KSWhiteBackgroundView" customModule="Bergerac" customModuleProvider="target">
+                    <rect key="frame" x="10" y="10" width="98" height="81"/>
+                    <subviews>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Viw-C2-hvg">
+                            <rect key="frame" x="24" y="33" width="50" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="2jm-Ti-Qx0"/>
+                            </constraints>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSActionTemplate" id="ZzU-hU-SgJ"/>
+                            <color key="contentTintColor" name="Color"/>
+                        </imageView>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y4S-S0-UFa">
+                            <rect key="frame" x="-2" y="0.0" width="94" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="RYC-jR-Z2G">
+                                <font key="font" metaFont="system" size="10"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Viw-C2-hvg" firstAttribute="centerX" secondItem="yaa-Ec-NFR" secondAttribute="centerX" id="UKK-n2-ud2"/>
+                        <constraint firstItem="Viw-C2-hvg" firstAttribute="centerY" secondItem="yaa-Ec-NFR" secondAttribute="centerY" id="grP-4J-Gef"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="yaa-Ec-NFR" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="10" id="Ht1-Km-hZM"/>
+                <constraint firstAttribute="trailing" secondItem="yaa-Ec-NFR" secondAttribute="trailing" constant="10" id="Qyb-4q-bFd"/>
+                <constraint firstItem="yaa-Ec-NFR" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="10" id="glo-AI-qUj"/>
+                <constraint firstAttribute="bottom" secondItem="yaa-Ec-NFR" secondAttribute="bottom" constant="10" id="gym-kG-Vaf"/>
+            </constraints>
+            <point key="canvasLocation" x="0.0" y="-122.5"/>
+        </customView>
+        <collectionViewItem id="Ryv-3j-gYl" customClass="KSRetailCollectionViewItem" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Viw-C2-hvg" id="sI6-MN-yax"/>
+                <outlet property="itemImageView" destination="-2" id="8c7-9M-iba"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="15" height="15"/>
+        <namedColor name="Color">
+            <color red="0.58700001239776611" green="0.82300001382827759" blue="0.76700001955032349" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

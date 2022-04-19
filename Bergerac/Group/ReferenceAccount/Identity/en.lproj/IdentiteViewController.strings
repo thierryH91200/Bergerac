@@ -1,0 +1,204 @@
+
+/* Class = "NSTextFieldCell"; title = "Téléphone"; ObjectID = "0O9-Bc-TGv"; */
+"0O9-Bc-TGv.title" = "Téléphone";
+
+/* Class = "NSTextFieldCell"; title = "Email"; ObjectID = "0ot-5S-i6Y"; */
+"0ot-5S-i6Y.title" = "Email";
+
+/* Class = "NSTextFieldCell"; title = "Clé"; ObjectID = "3R9-V2-2dO"; */
+"3R9-V2-2dO.title" = "Clé";
+
+/* Class = "NSBox"; title = "Report initial"; ObjectID = "4DS-lT-4iE"; */
+"4DS-lT-4iE.title" = "Report initial";
+
+/* Class = "NSBox"; title = "Références bancaires"; ObjectID = "4hM-Ff-5Nn"; */
+"4hM-Ff-5Nn.title" = "Références bancaires";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234"; ObjectID = "50d-L9-XTa"; */
+"50d-L9-XTa.placeholderString" = "1234";
+
+/* Class = "NSBox"; title = "Banque"; ObjectID = "7RD-eT-MQM"; */
+"7RD-eT-MQM.title" = "Banque";
+
+/* Class = "NSTabViewItem"; label = "Identite"; ObjectID = "7m8-z7-DVF"; */
+"7m8-z7-DVF.label" = "Identite";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Name"; ObjectID = "7ss-K6-p2D"; */
+"7ss-K6-p2D.placeholderString" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Nom"; ObjectID = "9lc-Fu-BzE"; */
+"9lc-Fu-BzE.title" = "Nom";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Adresse"; ObjectID = "B9H-Cw-Ede"; */
+"B9H-Cw-Ede.placeholderString" = "Adresse";
+
+/* Class = "NSTextFieldCell"; placeholderString = "12345"; ObjectID = "Bae-rd-DoE"; */
+"Bae-rd-DoE.placeholderString" = "12345";
+
+/* Class = "NSTextFieldCell"; title = "Engaged"; ObjectID = "CXd-Cu-avU"; */
+"CXd-Cu-avU.title" = "Engaged";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Prenom"; ObjectID = "CeY-AR-AZe"; */
+"CeY-AR-AZe.placeholderString" = "Prenom";
+
+/* Class = "NSTextFieldCell"; title = "BIC"; ObjectID = "D1u-hp-iOR"; */
+"D1u-hp-iOR.title" = "BIC";
+
+/* Class = "NSTabViewItem"; label = "Compte"; ObjectID = "DR6-hp-Muc"; */
+"DR6-hp-Muc.label" = "Compte";
+
+/* Class = "NSTextFieldCell"; title = "Mobile"; ObjectID = "Db0-xH-ZZz"; */
+"Db0-xH-ZZz.title" = "Mobile";
+
+/* Class = "NSTextFieldCell"; title = "CP"; ObjectID = "EC6-yY-Hdw"; */
+"EC6-yY-Hdw.title" = "CP";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Ville"; ObjectID = "Ebz-5d-N8K"; */
+"Ebz-5d-N8K.placeholderString" = "Ville";
+
+/* Class = "NSTextFieldCell"; placeholderString = "12"; ObjectID = "Evf-sz-kmR"; */
+"Evf-sz-kmR.placeholderString" = "12";
+
+/* Class = "NSTextFieldCell"; title = "Indicatif"; ObjectID = "F4f-SF-gvf"; */
+"F4f-SF-gvf.title" = "Indicatif";
+
+/* Class = "NSBox"; title = "Contact"; ObjectID = "FBQ-W9-YnG"; */
+"FBQ-W9-YnG.title" = "Contact";
+
+/* Class = "NSTextFieldCell"; title = "Ville"; ObjectID = "FFT-Iq-bFx"; */
+"FFT-Iq-bFx.title" = "Ville";
+
+/* Class = "NSTextFieldCell"; title = "Executed"; ObjectID = "HGf-tf-tQg"; */
+"HGf-tf-tQg.title" = "Executed";
+
+/* Class = "NSTextFieldCell"; title = "Complément"; ObjectID = "HOd-ZA-7Zm"; */
+"HOd-ZA-7Zm.title" = "Complément";
+
+/* Class = "NSTextFieldCell"; placeholderString = "CC00"; ObjectID = "Ifx-qs-j2S"; */
+"Ifx-qs-j2S.placeholderString" = "CC00";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Pays"; ObjectID = "Lh3-Ow-fXA"; */
+"Lh3-Ow-fXA.placeholderString" = "Pays";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234"; ObjectID = "NAg-ac-b01"; */
+"NAg-ac-b01.placeholderString" = "1234";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Function"; ObjectID = "Sdz-L8-sun"; */
+"Sdz-L8-sun.placeholderString" = "Function";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Email"; ObjectID = "TNt-bE-e8F"; */
+"TNt-bE-e8F.placeholderString" = "Email";
+
+/* Class = "NSTextFieldCell"; title = "¤ 0.00"; ObjectID = "TjC-hZ-IBO"; */
+"TjC-hZ-IBO.title" = "¤ 0.00";
+
+/* Class = "NSTextFieldCell"; title = "Prenom"; ObjectID = "V0B-UI-u4y"; */
+"V0B-UI-u4y.title" = "Prenom";
+
+/* Class = "NSTextFieldCell"; placeholderString = "12345"; ObjectID = "Vj9-cj-nAh"; */
+"Vj9-cj-nAh.placeholderString" = "12345";
+
+/* Class = "NSTextFieldCell"; placeholderString = "CP"; ObjectID = "WOJ-fs-tgD"; */
+"WOJ-fs-tgD.placeholderString" = "CP";
+
+/* Class = "NSTextFieldCell"; title = "Ville"; ObjectID = "Wse-GR-cVZ"; */
+"Wse-GR-cVZ.title" = "Ville";
+
+/* Class = "NSTextFieldCell"; title = "Adresse"; ObjectID = "Xli-xM-jT4"; */
+"Xli-xM-jT4.title" = "Adresse";
+
+/* Class = "NSTextFieldCell"; title = "IBAN"; ObjectID = "YGN-fb-SwR"; */
+"YGN-fb-SwR.title" = "IBAN";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Adresse"; ObjectID = "Z1X-E6-SfF"; */
+"Z1X-E6-SfF.placeholderString" = "Adresse";
+
+/* Class = "NSTextFieldCell"; title = "CP"; ObjectID = "aVv-9n-1ZW"; */
+"aVv-9n-1ZW.title" = "CP";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234"; ObjectID = "aa2-ko-z9r"; */
+"aa2-ko-z9r.placeholderString" = "1234";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Nom"; ObjectID = "aeG-q8-0rR"; */
+"aeG-q8-0rR.placeholderString" = "Nom";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Banque"; ObjectID = "au6-lT-ND3"; */
+"au6-lT-ND3.placeholderString" = "Banque";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234"; ObjectID = "cRo-Fs-Mcb"; */
+"cRo-Fs-Mcb.placeholderString" = "1234";
+
+/* Class = "NSTextFieldCell"; placeholderString = "CP"; ObjectID = "cyx-Sd-syE"; */
+"cyx-Sd-syE.placeholderString" = "CP";
+
+/* Class = "NSTextFieldCell"; title = "Complement"; ObjectID = "gGX-ap-sKb"; */
+"gGX-ap-sKb.title" = "Complement";
+
+/* Class = "NSTextFieldCell"; title = "Téléphone"; ObjectID = "gHS-qT-Pxx"; */
+"gHS-qT-Pxx.title" = "Téléphone";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234"; ObjectID = "hMv-wN-zQ8"; */
+"hMv-wN-zQ8.placeholderString" = "1234";
+
+/* Class = "NSTabViewItem"; label = "Banque"; ObjectID = "hT1-FN-647"; */
+"hT1-FN-647.label" = "Banque";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Téléphone"; ObjectID = "kkL-eJ-iC9"; */
+"kkL-eJ-iC9.placeholderString" = "Téléphone";
+
+/* Class = "NSTextFieldCell"; title = "¤ 0.00"; ObjectID = "ktg-fp-3fT"; */
+"ktg-fp-3fT.title" = "¤ 0.00";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Mobile"; ObjectID = "mVI-Qu-DWo"; */
+"mVI-Qu-DWo.placeholderString" = "Mobile";
+
+/* Class = "NSTextFieldCell"; title = "¤ 0.00"; ObjectID = "nao-EA-RR7"; */
+"nao-EA-RR7.title" = "¤ 0.00";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234"; ObjectID = "oS5-Uu-bfd"; */
+"oS5-Uu-bfd.placeholderString" = "1234";
+
+/* Class = "NSTextFieldCell"; title = "Compte"; ObjectID = "ptr-zH-Yq9"; */
+"ptr-zH-Yq9.title" = "Compte";
+
+/* Class = "NSTextFieldCell"; placeholderString = "12"; ObjectID = "rfW-eW-Wyh"; */
+"rfW-eW-Wyh.placeholderString" = "12";
+
+/* Class = "NSTextFieldCell"; title = "Fonction"; ObjectID = "sda-Kp-qsK"; */
+"sda-Kp-qsK.title" = "Fonction";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234"; ObjectID = "tfm-Zp-02w"; */
+"tfm-Zp-02w.placeholderString" = "1234";
+
+/* Class = "NSTextFieldCell"; title = "Banque"; ObjectID = "tyY-YO-l7H"; */
+"tyY-YO-l7H.title" = "Banque";
+
+/* Class = "NSBox"; title = "Identité"; ObjectID = "v0D-zD-bNW"; */
+"v0D-zD-bNW.title" = "Identité";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Ville"; ObjectID = "vx5-rR-X0y"; */
+"vx5-rR-X0y.placeholderString" = "Ville";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1234567891A"; ObjectID = "x96-IU-ahh"; */
+"x96-IU-ahh.placeholderString" = "1234567891A";
+
+/* Class = "NSTextFieldCell"; title = "Nom"; ObjectID = "xAL-gc-Nli"; */
+"xAL-gc-Nli.title" = "Nom";
+
+/* Class = "NSTextFieldCell"; title = "Pays"; ObjectID = "xpj-nb-gor"; */
+"xpj-nb-gor.title" = "Pays";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Adresse"; ObjectID = "yRD-dY-hVU"; */
+"yRD-dY-hVU.placeholderString" = "Adresse";
+
+/* Class = "NSTextFieldCell"; title = "Adresse"; ObjectID = "yXA-aD-kyZ"; */
+"yXA-aD-kyZ.title" = "Adresse";
+
+/* Class = "NSTextFieldCell"; title = "Planned"; ObjectID = "ygJ-Cs-opz"; */
+"ygJ-Cs-opz.title" = "Planned";
+
+/* Class = "NSTextFieldCell"; title = "Banque"; ObjectID = "yyx-ui-qZY"; */
+"yyx-ui-qZY.title" = "Banque";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Complement"; ObjectID = "zPy-ZH-01f"; */
+"zPy-ZH-01f.placeholderString" = "Complement";

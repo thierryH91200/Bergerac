@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PaymentModePieController" customModule="Pegase" customModuleProvider="target">
+            <connections>
+                <outlet property="chartView" destination="sp1-e6-fUo" id="6Q1-Dc-Hlj"/>
+                <outlet property="chartView2" destination="Ebf-7R-fLs" id="d74-ak-sDi"/>
+                <outlet property="splitView" destination="jN2-EV-ZRb" id="I0N-Xa-FQA"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="964" height="522"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <splitView dividerStyle="thin" translatesAutoresizingMaskIntoConstraints="NO" id="jN2-EV-ZRb">
+                    <rect key="frame" x="0.0" y="0.0" width="964" height="522"/>
+                    <subviews>
+                        <customView id="Mkz-ih-Vge">
+                            <rect key="frame" x="0.0" y="0.0" width="964" height="522"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <customView identifier="Income" translatesAutoresizingMaskIntoConstraints="NO" id="Ebf-7R-fLs" customClass="PieChartView" customModule="Charts">
+                                    <rect key="frame" x="20" y="0.0" width="452" height="502"/>
+                                </customView>
+                                <customView identifier="Expense" translatesAutoresizingMaskIntoConstraints="NO" id="sp1-e6-fUo" customClass="PieChartView" customModule="Charts">
+                                    <rect key="frame" x="492" y="0.0" width="452" height="502"/>
+                                </customView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Ebf-7R-fLs" firstAttribute="top" secondItem="Mkz-ih-Vge" secondAttribute="top" constant="20" id="2ih-Lb-JmN"/>
+                                <constraint firstItem="sp1-e6-fUo" firstAttribute="height" secondItem="Ebf-7R-fLs" secondAttribute="height" id="RjX-PT-r8h"/>
+                                <constraint firstAttribute="trailing" secondItem="sp1-e6-fUo" secondAttribute="trailing" constant="20" id="Ru9-hP-kJB"/>
+                                <constraint firstItem="sp1-e6-fUo" firstAttribute="top" secondItem="Mkz-ih-Vge" secondAttribute="top" constant="20" id="gc5-QP-iaT"/>
+                                <constraint firstItem="sp1-e6-fUo" firstAttribute="leading" secondItem="Ebf-7R-fLs" secondAttribute="trailing" constant="20" id="hS7-Rk-Lwf"/>
+                                <constraint firstItem="Ebf-7R-fLs" firstAttribute="leading" secondItem="Mkz-ih-Vge" secondAttribute="leading" constant="20" id="is5-DN-6Bm"/>
+                                <constraint firstAttribute="bottom" secondItem="Ebf-7R-fLs" secondAttribute="bottom" id="x8X-M0-0fo"/>
+                                <constraint firstItem="sp1-e6-fUo" firstAttribute="width" secondItem="Ebf-7R-fLs" secondAttribute="width" id="xph-el-OIK"/>
+                            </constraints>
+                        </customView>
+                    </subviews>
+                    <holdingPriorities>
+                        <real value="250"/>
+                    </holdingPriorities>
+                </splitView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="jN2-EV-ZRb" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="7Yg-EW-sV7"/>
+                <constraint firstItem="jN2-EV-ZRb" firstAttribute="bottom" secondItem="Hz6-mo-xeY" secondAttribute="bottom" id="nSN-gk-kf4"/>
+                <constraint firstItem="jN2-EV-ZRb" firstAttribute="trailing" secondItem="Hz6-mo-xeY" secondAttribute="trailing" id="sTS-qc-Sg4"/>
+                <constraint firstItem="jN2-EV-ZRb" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="xt6-Yz-bM6"/>
+            </constraints>
+            <point key="canvasLocation" x="-214" y="127"/>
+        </customView>
+    </objects>
+</document>

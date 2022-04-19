@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="IncomeExpensePieController" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="chartView" destination="z74-Nq-JAK" id="EGa-ft-mrN"/>
+                <outlet property="chartView2" destination="7a0-8S-dva" id="DxG-M9-xxc"/>
+                <outlet property="splitView" destination="5la-h7-4wX" id="ou1-Y6-vow"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="56m-QI-2bx"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="763" height="402"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <splitView dividerStyle="thin" translatesAutoresizingMaskIntoConstraints="NO" id="5la-h7-4wX">
+                    <rect key="frame" x="0.0" y="0.0" width="763" height="402"/>
+                    <subviews>
+                        <customView id="w2C-dB-R3l">
+                            <rect key="frame" x="0.0" y="0.0" width="763" height="402"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <customView identifier="Recette" translatesAutoresizingMaskIntoConstraints="NO" id="z74-Nq-JAK" customClass="PieChartView" customModule="Charts">
+                                    <rect key="frame" x="20" y="0.0" width="352" height="382"/>
+                                </customView>
+                                <customView identifier="Depense" translatesAutoresizingMaskIntoConstraints="NO" id="7a0-8S-dva" customClass="PieChartView" customModule="Charts">
+                                    <rect key="frame" x="392" y="0.0" width="351" height="382"/>
+                                </customView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="7a0-8S-dva" firstAttribute="top" secondItem="w2C-dB-R3l" secondAttribute="top" constant="20" id="7kP-vq-vOF"/>
+                                <constraint firstAttribute="bottom" secondItem="z74-Nq-JAK" secondAttribute="bottom" id="7yZ-MW-dfx"/>
+                                <constraint firstItem="7a0-8S-dva" firstAttribute="height" secondItem="z74-Nq-JAK" secondAttribute="height" id="EdG-CR-txF"/>
+                                <constraint firstItem="z74-Nq-JAK" firstAttribute="top" secondItem="w2C-dB-R3l" secondAttribute="top" constant="20" id="Gcp-2T-R0i"/>
+                                <constraint firstItem="7a0-8S-dva" firstAttribute="width" secondItem="z74-Nq-JAK" secondAttribute="width" id="RZH-Vg-qXh"/>
+                                <constraint firstAttribute="trailing" secondItem="7a0-8S-dva" secondAttribute="trailing" constant="20" id="e2S-IV-new"/>
+                                <constraint firstItem="z74-Nq-JAK" firstAttribute="leading" secondItem="w2C-dB-R3l" secondAttribute="leading" constant="20" id="jYb-3n-Kaw"/>
+                                <constraint firstItem="7a0-8S-dva" firstAttribute="leading" secondItem="z74-Nq-JAK" secondAttribute="trailing" constant="20" id="keg-6c-eRq"/>
+                            </constraints>
+                        </customView>
+                    </subviews>
+                    <holdingPriorities>
+                        <real value="250"/>
+                    </holdingPriorities>
+                </splitView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="5la-h7-4wX" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="POz-Bt-vQ3"/>
+                <constraint firstItem="5la-h7-4wX" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="X2h-tZ-fKo"/>
+                <constraint firstAttribute="bottom" secondItem="5la-h7-4wX" secondAttribute="bottom" id="has-qe-D6S"/>
+                <constraint firstAttribute="trailing" secondItem="5la-h7-4wX" secondAttribute="trailing" id="xsa-I7-DFD"/>
+            </constraints>
+            <point key="canvasLocation" x="104.5" y="274"/>
+        </customView>
+    </objects>
+</document>

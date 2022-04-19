@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ParameterController" customModule="Pegase" customModuleProvider="target">
+            <connections>
+                <outlet property="tabView" destination="SD7-zH-ngO" id="NTF-jI-sD0"/>
+                <outlet property="view" destination="rtP-x9-NgI" id="ETK-PZ-DZM"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <view wantsLayer="YES" id="rtP-x9-NgI">
+            <rect key="frame" x="0.0" y="0.0" width="765" height="451"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <tabView translatesAutoresizingMaskIntoConstraints="NO" id="SD7-zH-ngO">
+                    <rect key="frame" x="-7" y="-10" width="779" height="467"/>
+                    <font key="font" metaFont="system"/>
+                    <tabViewItems>
+                        <tabViewItem label="Mode" identifier="" id="PIA-T3-lwZ">
+                            <view key="view" id="ITX-Zo-cA8">
+                                <rect key="frame" x="10" y="33" width="759" height="421"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                        </tabViewItem>
+                        <tabViewItem label="Rubric" identifier="" id="VNA-ZA-kMg">
+                            <view key="view" id="JrQ-9o-8O7">
+                                <rect key="frame" x="10" y="33" width="729" height="389"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                        </tabViewItem>
+                        <tabViewItem label="Check" identifier="" id="Xep-NN-fnP">
+                            <view key="view" id="wOA-sV-ovB">
+                                <rect key="frame" x="10" y="33" width="759" height="421"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                        </tabViewItem>
+                    </tabViewItems>
+                </tabView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="SD7-zH-ngO" firstAttribute="top" secondItem="rtP-x9-NgI" secondAttribute="top" id="0eG-vv-fyD"/>
+                <constraint firstItem="SD7-zH-ngO" firstAttribute="leading" secondItem="rtP-x9-NgI" secondAttribute="leading" id="YMB-Oy-on6"/>
+                <constraint firstAttribute="trailing" secondItem="SD7-zH-ngO" secondAttribute="trailing" id="yTp-4R-ajh"/>
+                <constraint firstAttribute="bottom" secondItem="SD7-zH-ngO" secondAttribute="bottom" id="z88-yp-xdA"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="155"/>
+        </view>
+    </objects>
+</document>

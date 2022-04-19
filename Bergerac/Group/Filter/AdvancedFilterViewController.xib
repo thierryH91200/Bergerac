@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="AdvancedFilterViewController" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="predicateEditor" destination="k3b-vK-mfn" id="arp-Xr-ixc"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="1106" height="382"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tvC-hv-B4U">
+                    <rect key="frame" x="1034" y="13" width="69" height="32"/>
+                    <buttonCell key="cell" type="push" title="Apply" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LZZ-6Z-4iW">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="generateQuery:" target="-2" id="iy9-XK-n7a"/>
+                    </connections>
+                </button>
+                <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ST-oF-GDY">
+                    <rect key="frame" x="0.0" y="50" width="1106" height="332"/>
+                    <clipView key="contentView" id="FQc-hM-lJw">
+                        <rect key="frame" x="1" y="1" width="1104" height="330"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <predicateEditor verticalHuggingPriority="750" nestingMode="compound" canRemoveAllRows="YES" rowHeight="32" id="k3b-vK-mfn">
+                                <rect key="frame" x="0.0" y="0.0" width="1104" height="330"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <rowTemplates>
+                                    <predicateEditorRowTemplate rowType="compound" id="KfA-rC-rv2">
+                                        <popUpMenus>
+                                            <menu id="dvw-Kz-K1g">
+                                                <items>
+                                                    <menuItem title="Any" state="on" id="tiH-kl-FXK">
+                                                        <integer key="representedObject" value="2"/>
+                                                    </menuItem>
+                                                    <menuItem title="All" id="i0c-0a-eDz">
+                                                        <integer key="representedObject" value="1"/>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                            <menu id="z0D-bk-aJ3">
+                                                <items>
+                                                    <menuItem title="of the following are true" state="on" id="GpC-sy-WSg"/>
+                                                </items>
+                                            </menu>
+                                        </popUpMenus>
+                                    </predicateEditorRowTemplate>
+                                </rowTemplates>
+                                <connections>
+                                    <action selector="predicateEditorAction:" target="-2" id="UTn-jo-OuX"/>
+                                </connections>
+                            </predicateEditor>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="YEw-Wd-94U">
+                        <rect key="frame" x="-100" y="-100" width="360" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="zDr-hs-nv3">
+                        <rect key="frame" x="336" y="1" width="15" height="84"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="0ST-oF-GDY" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="69o-TT-kM4"/>
+                <constraint firstItem="0ST-oF-GDY" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="74l-pv-RVh"/>
+                <constraint firstItem="tvC-hv-B4U" firstAttribute="top" secondItem="0ST-oF-GDY" secondAttribute="bottom" constant="10" id="9O9-cS-zRa"/>
+                <constraint firstItem="tvC-hv-B4U" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="Wx6-ad-YDq"/>
+                <constraint firstAttribute="trailing" secondItem="0ST-oF-GDY" secondAttribute="trailing" id="Yc2-tF-rWJ"/>
+                <constraint firstAttribute="trailing" secondItem="tvC-hv-B4U" secondAttribute="trailing" constant="10" id="dbS-wn-XZN"/>
+                <constraint firstAttribute="bottom" secondItem="0ST-oF-GDY" secondAttribute="bottom" constant="50" id="iwM-F3-ya9"/>
+            </constraints>
+            <point key="canvasLocation" x="177" y="160"/>
+        </customView>
+    </objects>
+</document>

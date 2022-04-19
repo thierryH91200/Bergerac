@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TresorerieViewController" customModule="Pegase" customModuleProvider="target">
+            <connections>
+                <outlet property="chartView" destination="cne-RV-0jA" id="D1c-DL-snf"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="viewHorizontal" destination="2Zr-3f-7td" id="3sK-x4-h6I"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="tresorerieView" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="1057" height="609"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="2Zr-3f-7td">
+                    <rect key="frame" x="0.0" y="0.0" width="1057" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="GTw-D8-L4b"/>
+                    </constraints>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="cne-RV-0jA" customClass="LineChartView" customModule="Charts">
+                    <rect key="frame" x="0.0" y="80" width="1057" height="529"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="2Zr-3f-7td" firstAttribute="top" secondItem="cne-RV-0jA" secondAttribute="bottom" id="3qW-mB-WM7"/>
+                <constraint firstAttribute="bottom" secondItem="2Zr-3f-7td" secondAttribute="bottom" id="84a-5u-hsK"/>
+                <constraint firstAttribute="trailing" secondItem="cne-RV-0jA" secondAttribute="trailing" id="In5-qg-YFz"/>
+                <constraint firstItem="2Zr-3f-7td" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="LBz-M9-ogQ"/>
+                <constraint firstAttribute="trailing" secondItem="2Zr-3f-7td" secondAttribute="trailing" id="YQj-kH-k5g"/>
+                <constraint firstItem="cne-RV-0jA" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="fLA-rE-WNP"/>
+                <constraint firstItem="cne-RV-0jA" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="trc-o0-w7O"/>
+            </constraints>
+            <point key="canvasLocation" x="-169.5" y="336.5"/>
+        </customView>
+    </objects>
+</document>

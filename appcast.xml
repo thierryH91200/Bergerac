@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Bergerac 1.6.0</title>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Wed, 24 Nov 2021 16:25:49 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/thierryH91200/Bergerac/releases/download/1.6.0/Bergerac.1.6.0.zip" length="1533817" type="application/octet-stream" sparkle:edSignature="kgIb+sXxczr3Ugr6rYnH+ww1aIL98l0l0wksdS3HtnFzLUUjcD/gPTeV2GAzWJpyzocQ45r1TN6x3AqrPoTkBg=="/>
+        </item>
+    </channel>
+</rss>

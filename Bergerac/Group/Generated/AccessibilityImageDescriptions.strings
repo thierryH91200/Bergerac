@@ -1,0 +1,13 @@
+/* Map Image Name to Accessibility Description */
+
+"NSPreferencesGeneral" = "NSPreferencesGeneral";
+"NSAdvanced" = "NSAdvanced";
+"NSRemoveTemplate" = "NSRemoveTemplate";
+"OpenProject" = "OpenProject";
+"NSAddTemplate" = "NSAddTemplate";
+"NSColorPanel" = "NSColorPanel";
+
+"NewProject" = "NewProject";
+"OpenProject" = "OpenProject";
+"DockBottom_alt" = "DockBottom_alt";
+"DockLeft_alt" = "DockLeft_alt";

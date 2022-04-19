@@ -1,0 +1,168 @@
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "1Dx-1X-ied"; */
+"1Dx-1X-ied.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Créer les opérations prévus  jusqu'au"; ObjectID = "1yl-IP-2m2"; */
+"1yl-IP-2m2.title" = "Créer les opérations prévus  jusqu'au";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date pointage"; ObjectID = "8YN-Ur-793"; */
+"8YN-Ur-793.headerCell.title" = "Date pointage";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "91D-SN-btd"; */
+"91D-SN-btd.title" = "Label";
+
+/* Class = "NSTableColumn"; headerCell.title = "LIbellé"; ObjectID = "AJz-cF-1Lb"; */
+"AJz-cF-1Lb.headerCell.title" = "LIbellé";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "CfA-MO-si0"; */
+"CfA-MO-si0.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "recette"; ObjectID = "DUn-Wo-lZy"; */
+"DUn-Wo-lZy.headerCell.title" = "recette";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Dqb-LB-V2C"; */
+"Dqb-LB-V2C.title" = "Label";
+
+/* Class = "NSTableColumn"; headerCell.title = "Mode"; ObjectID = "EC9-lu-0SD"; */
+"EC9-lu-0SD.headerCell.title" = "Mode";
+
+/* Class = "NSTableColumn"; headerCell.title = "solde"; ObjectID = "Ezd-wG-WRa"; */
+"Ezd-wG-WRa.headerCell.title" = "solde";
+
+/* Class = "NSTextFieldCell"; title = "Final balance"; ObjectID = "HHl-GU-kes"; */
+"HHl-GU-kes.title" = "Final balance";
+
+/* Class = "NSTableColumn"; headerCell.title = "Montant"; ObjectID = "HuG-sm-ruO"; */
+"HuG-sm-ruO.headerCell.title" = "Montant";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "HxS-1G-dWM"; */
+"HxS-1G-dWM.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date transaction"; ObjectID = "IAP-gn-MQw"; */
+"IAP-gn-MQw.headerCell.title" = "Date transaction";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "IaH-k0-21Q"; */
+"IaH-k0-21Q.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "IfL-iv-AW3"; */
+"IfL-iv-AW3.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "JWn-k4-HIS"; */
+"JWn-k4-HIS.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "PCk-Jx-NcY"; */
+"PCk-Jx-NcY.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Rubrique"; ObjectID = "QmG-US-IZQ"; */
+"QmG-US-IZQ.headerCell.title" = "Rubrique";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "TMH-9a-JLO"; */
+"TMH-9a-JLO.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Tpr-bx-FHJ"; */
+"Tpr-bx-FHJ.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "TsE-qC-aZZ"; */
+"TsE-qC-aZZ.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "VhR-W0-zkq"; */
+"VhR-W0-zkq.title" = "Label";
+
+/* Class = "NSTableColumn"; headerCell.title = "depense"; ObjectID = "W1U-GV-Tul"; */
+"W1U-GV-Tul.headerCell.title" = "depense";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "WsH-d6-MoX"; */
+"WsH-d6-MoX.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "XES-zK-kzS"; */
+"XES-zK-kzS.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "XH3-7h-aTV"; */
+"XH3-7h-aTV.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Zos-hb-SWP"; */
+"Zos-hb-SWP.title" = "Text Cell";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "bVj-lS-VBb"; */
+"bVj-lS-VBb.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "bnN-nn-0Gj"; */
+"bnN-nn-0Gj.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "cfc-hL-UMS"; */
+"cfc-hL-UMS.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "diE-GA-fbL"; */
+"diE-GA-fbL.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "efJ-Fr-cGA"; */
+"efJ-Fr-cGA.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "f6S-XH-km3"; */
+"f6S-XH-km3.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "checkNumber"; ObjectID = "fLz-am-WUc"; */
+"fLz-am-WUc.headerCell.title" = "checkNumber";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "gC2-FG-X82"; */
+"gC2-FG-X82.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Real balance"; ObjectID = "gMS-6Q-EGu"; */
+"gMS-6Q-EGu.title" = "Real balance";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "hIn-H2-TzE"; */
+"hIn-H2-TzE.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Statut"; ObjectID = "iZZ-V3-XPp"; */
+"iZZ-V3-XPp.headerCell.title" = "Statut";
+
+/* Class = "NSTableColumn"; headerCell.title = "Categorie"; ObjectID = "izq-ED-lIf"; */
+"izq-ED-lIf.headerCell.title" = "Categorie";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "jeI-4X-O5T"; */
+"jeI-4X-O5T.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "jws-hh-Wn3"; */
+"jws-hh-Wn3.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "n2i-JC-Nza"; */
+"n2i-JC-Nza.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "nAY-TI-yB1"; */
+"nAY-TI-yB1.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ptR-dI-hzV"; */
+"ptR-dI-hzV.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "qyC-uP-xOf"; */
+"qyC-uP-xOf.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "roV-pN-PrZ"; */
+"roV-pN-PrZ.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "tSl-xt-etr"; */
+"tSl-xt-etr.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "bankStatement"; ObjectID = "tq5-Ng-lvA"; */
+"tq5-Ng-lvA.headerCell.title" = "bankStatement";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "ucS-KL-1vJ"; */
+"ucS-KL-1vJ.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Liée"; ObjectID = "v73-hJ-ZA5"; */
+"v73-hJ-ZA5.headerCell.title" = "Liée";
+
+/* Class = "NSTextFieldCell"; title = "Bank balance"; ObjectID = "vQG-TY-8WS"; */
+"vQG-TY-8WS.title" = "Bank balance";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "wMV-Ye-tqc"; */
+"wMV-Ye-tqc.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "xO5-dQ-gXR"; */
+"xO5-dQ-gXR.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "xv4-o7-zwL"; */
+"xv4-o7-zwL.title" = "Table View Cell";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "zVN-g7-60N"; */
+"zVN-g7-60N.title" = "Box";

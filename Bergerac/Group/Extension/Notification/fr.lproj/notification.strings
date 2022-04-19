@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  NotificationTest
+
+  Created by thierryH24 on 22/02/2021.
+  Copyright © 2021 Dmitry MIkhaltchenkov. All rights reserved.
+*/
+
+
+"Hello" = "Bonjour";
+"Bye" = "Aurevoir";

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="RubricPieController" customModule="Pegase" customModuleProvider="target">
+            <connections>
+                <outlet property="chartView" destination="oLn-Ak-tLf" id="81A-WK-ZtN"/>
+                <outlet property="chartView2" destination="1V6-0s-Ew1" id="UBw-jF-eEf"/>
+                <outlet property="splitView" destination="fla-cp-v2o" id="jTx-oc-AOZ"/>
+                <outlet property="view" destination="P5g-aW-x4r" id="xeQ-Cp-flH"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <view wantsLayer="YES" id="P5g-aW-x4r">
+            <rect key="frame" x="0.0" y="0.0" width="964" height="565"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <splitView dividerStyle="thin" translatesAutoresizingMaskIntoConstraints="NO" id="fla-cp-v2o">
+                    <rect key="frame" x="0.0" y="0.0" width="964" height="565"/>
+                    <subviews>
+                        <customView id="vqq-Ph-FXl">
+                            <rect key="frame" x="0.0" y="0.0" width="964" height="565"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <customView identifier="Income" translatesAutoresizingMaskIntoConstraints="NO" id="1V6-0s-Ew1" customClass="PieChartView" customModule="Charts">
+                                    <rect key="frame" x="20" y="0.0" width="452" height="545"/>
+                                </customView>
+                                <customView identifier="Depense" translatesAutoresizingMaskIntoConstraints="NO" id="oLn-Ak-tLf" customClass="PieChartView" customModule="Charts">
+                                    <rect key="frame" x="492" y="0.0" width="452" height="545"/>
+                                </customView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="1V6-0s-Ew1" firstAttribute="leading" secondItem="vqq-Ph-FXl" secondAttribute="leading" constant="20" id="4Xy-qT-3pj"/>
+                                <constraint firstItem="oLn-Ak-tLf" firstAttribute="leading" secondItem="1V6-0s-Ew1" secondAttribute="trailing" constant="20" id="7iI-FI-esp"/>
+                                <constraint firstItem="oLn-Ak-tLf" firstAttribute="width" secondItem="1V6-0s-Ew1" secondAttribute="width" id="MbB-dF-zEE"/>
+                                <constraint firstAttribute="trailing" secondItem="oLn-Ak-tLf" secondAttribute="trailing" constant="20" id="fdP-Ru-al3"/>
+                                <constraint firstAttribute="bottom" secondItem="1V6-0s-Ew1" secondAttribute="bottom" id="h8R-Ib-zYQ"/>
+                                <constraint firstItem="oLn-Ak-tLf" firstAttribute="top" secondItem="vqq-Ph-FXl" secondAttribute="top" constant="20" id="p0e-eC-ITI"/>
+                                <constraint firstItem="1V6-0s-Ew1" firstAttribute="top" secondItem="vqq-Ph-FXl" secondAttribute="top" constant="20" id="qaX-v4-kb1"/>
+                                <constraint firstItem="oLn-Ak-tLf" firstAttribute="height" secondItem="1V6-0s-Ew1" secondAttribute="height" id="z5f-LE-Zrd"/>
+                            </constraints>
+                        </customView>
+                    </subviews>
+                    <holdingPriorities>
+                        <real value="250"/>
+                    </holdingPriorities>
+                </splitView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fla-cp-v2o" firstAttribute="leading" secondItem="P5g-aW-x4r" secondAttribute="leading" id="Ghz-Aj-SVY"/>
+                <constraint firstAttribute="trailing" secondItem="fla-cp-v2o" secondAttribute="trailing" id="qng-oS-7As"/>
+                <constraint firstItem="fla-cp-v2o" firstAttribute="top" secondItem="P5g-aW-x4r" secondAttribute="top" id="usZ-NR-1cw"/>
+                <constraint firstAttribute="bottom" secondItem="fla-cp-v2o" secondAttribute="bottom" id="yaP-Pg-oZ7"/>
+            </constraints>
+            <point key="canvasLocation" x="419" y="856.5"/>
+        </view>
+    </objects>
+</document>

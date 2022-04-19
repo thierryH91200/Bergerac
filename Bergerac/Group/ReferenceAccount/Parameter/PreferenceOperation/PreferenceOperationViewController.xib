@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferenceOperationViewController" customModule="Bergerac" customModuleProvider="target">
+            <connections>
+                <outlet property="comboBoxCategory" destination="E6q-9J-T44" id="LaD-Y1-gXM"/>
+                <outlet property="comboBoxMode" destination="TqD-Il-pU0" id="Kgf-08-8NF"/>
+                <outlet property="comboBoxRubrique" destination="m92-QY-gZD" id="LZi-6B-KKx"/>
+                <outlet property="comboBoxStatut" destination="UnO-bv-PY0" id="eCz-eD-hsc"/>
+                <outlet property="signeButton" destination="EUf-QX-rea" id="1Av-PH-Z8c"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="735" height="372"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <box title="Valeurs par défaut pour les transactions pour ce compte." translatesAutoresizingMaskIntoConstraints="NO" id="cVA-GL-zRx">
+                    <rect key="frame" x="115" y="82" width="574" height="198"/>
+                    <view key="contentView" id="5ii-5Y-4KF">
+                        <rect key="frame" x="3" y="3" width="568" height="172"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <gridView xPlacement="leading" yPlacement="bottom" rowAlignment="none" translatesAutoresizingMaskIntoConstraints="NO" id="1Cm-VL-R1U">
+                                <rect key="frame" x="20" y="17" width="527" height="138"/>
+                                <rows>
+                                    <gridRow yPlacement="center" id="Sjy-nm-9YP"/>
+                                    <gridRow id="IED-B1-Bwm"/>
+                                    <gridRow yPlacement="center" id="5hs-ni-Rtq"/>
+                                    <gridRow id="nuH-dT-nWK"/>
+                                    <gridRow id="6Cf-7C-oea"/>
+                                </rows>
+                                <columns>
+                                    <gridColumn id="v1N-C1-dPO"/>
+                                    <gridColumn id="2LV-YU-Rzu"/>
+                                    <gridColumn id="cCX-Gu-1JS"/>
+                                    <gridColumn id="qvb-Qu-lTK"/>
+                                    <gridColumn id="XMj-ne-meX"/>
+                                </columns>
+                                <gridCells>
+                                    <gridCell row="Sjy-nm-9YP" column="v1N-C1-dPO" id="Qsm-wp-nhh">
+                                        <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TtV-Ea-f6Q" userLabel="Statut">
+                                            <rect key="frame" x="-2" y="121" width="41" height="16"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Statut" id="szp-D2-OsY">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </gridCell>
+                                    <gridCell row="Sjy-nm-9YP" column="2LV-YU-Rzu" id="3k0-5S-16T">
+                                        <comboBox key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UnO-bv-PY0">
+                                            <rect key="frame" x="43" y="115" width="158" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="155" id="83S-za-Mqw"/>
+                                            </constraints>
+                                            <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="pg7-jr-6sK">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                <objectValues>
+                                                    <string>Item 1</string>
+                                                    <string>Item 2</string>
+                                                    <string>Item 3</string>
+                                                </objectValues>
+                                            </comboBoxCell>
+                                        </comboBox>
+                                    </gridCell>
+                                    <gridCell row="Sjy-nm-9YP" column="cCX-Gu-1JS" id="xfM-G2-QAt"/>
+                                    <gridCell row="Sjy-nm-9YP" column="qvb-Qu-lTK" id="sBS-FL-rZ0">
+                                        <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OhJ-ft-810">
+                                            <rect key="frame" x="308" y="121" width="59" height="16"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Rubrique" id="3YE-kM-41W">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </gridCell>
+                                    <gridCell row="Sjy-nm-9YP" column="XMj-ne-meX" id="LFO-mJ-ZL1">
+                                        <comboBox key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m92-QY-gZD">
+                                            <rect key="frame" x="372" y="115" width="158" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="155" id="bm1-Q8-ldI"/>
+                                            </constraints>
+                                            <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="neS-OC-HCc">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                <objectValues>
+                                                    <string>Item 1</string>
+                                                    <string>Item 2</string>
+                                                    <string>Item 3</string>
+                                                </objectValues>
+                                            </comboBoxCell>
+                                        </comboBox>
+                                    </gridCell>
+                                    <gridCell row="IED-B1-Bwm" column="v1N-C1-dPO" id="lr7-Ho-d5D"/>
+                                    <gridCell row="IED-B1-Bwm" column="2LV-YU-Rzu" id="9be-jO-hxU"/>
+                                    <gridCell row="IED-B1-Bwm" column="cCX-Gu-1JS" id="oDA-Uy-CIw"/>
+                                    <gridCell row="IED-B1-Bwm" column="qvb-Qu-lTK" id="s7R-LM-FQA"/>
+                                    <gridCell row="IED-B1-Bwm" column="XMj-ne-meX" id="1IJ-DI-TU1"/>
+                                    <gridCell row="5hs-ni-Rtq" column="v1N-C1-dPO" id="5xs-fN-ghW">
+                                        <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="z3L-jN-uWY">
+                                            <rect key="frame" x="-2" y="60" width="39" height="16"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Mode" id="Rlm-YS-bGl">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </gridCell>
+                                    <gridCell row="5hs-ni-Rtq" column="2LV-YU-Rzu" xPlacement="fill" id="Q14-sL-JgR">
+                                        <comboBox key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TqD-Il-pU0">
+                                            <rect key="frame" x="43" y="54" width="158" height="25"/>
+                                            <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="PBu-ZA-HoF">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                <objectValues>
+                                                    <string>Item 1</string>
+                                                    <string>Item 2</string>
+                                                    <string>Item 3</string>
+                                                </objectValues>
+                                            </comboBoxCell>
+                                        </comboBox>
+                                    </gridCell>
+                                    <gridCell row="5hs-ni-Rtq" column="cCX-Gu-1JS" id="fnX-NF-y1b"/>
+                                    <gridCell row="5hs-ni-Rtq" column="qvb-Qu-lTK" id="gb4-eH-Q7b">
+                                        <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sMV-na-hNR" userLabel="Category">
+                                            <rect key="frame" x="308" y="60" width="60" height="16"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Category" id="Rs3-uX-Vy2">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </gridCell>
+                                    <gridCell row="5hs-ni-Rtq" column="XMj-ne-meX" id="W5L-84-XoK">
+                                        <comboBox key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="E6q-9J-T44">
+                                            <rect key="frame" x="372" y="54" width="158" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="155" id="J3O-J0-S7J"/>
+                                            </constraints>
+                                            <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="GXS-HY-ANu">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                <objectValues>
+                                                    <string>Item 1</string>
+                                                    <string>Item 2</string>
+                                                    <string>Item 3</string>
+                                                </objectValues>
+                                            </comboBoxCell>
+                                        </comboBox>
+                                    </gridCell>
+                                    <gridCell row="nuH-dT-nWK" column="v1N-C1-dPO" id="GJi-re-DoF"/>
+                                    <gridCell row="nuH-dT-nWK" column="2LV-YU-Rzu" id="vmI-25-uk4"/>
+                                    <gridCell row="nuH-dT-nWK" column="cCX-Gu-1JS" id="TkZ-qm-FCY"/>
+                                    <gridCell row="nuH-dT-nWK" column="qvb-Qu-lTK" id="oTc-WH-D6c"/>
+                                    <gridCell row="nuH-dT-nWK" column="XMj-ne-meX" id="UTx-ht-IPY"/>
+                                    <gridCell row="6Cf-7C-oea" column="v1N-C1-dPO" id="ky0-ll-Gab"/>
+                                    <gridCell row="6Cf-7C-oea" column="2LV-YU-Rzu" id="BSi-5J-iH8"/>
+                                    <gridCell row="6Cf-7C-oea" column="cCX-Gu-1JS" id="HlJ-O5-d5q">
+                                        <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Wfx-ZN-wCV">
+                                            <rect key="frame" x="202" y="0.0" width="104" height="16"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="Signe par défaut" id="Fwj-ge-Ae3">
+                                                <font key="font" usesAppearanceFont="YES"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </gridCell>
+                                    <gridCell row="6Cf-7C-oea" column="qvb-Qu-lTK" id="y3c-28-2Zs">
+                                        <button key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EUf-QX-rea">
+                                            <rect key="frame" x="310" y="0.0" width="15" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="8Nm-Uc-nRK"/>
+                                                <constraint firstAttribute="width" constant="15" id="Upq-AD-Vqv"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="add" imagePosition="only" alignment="center" alternateImage="minus" lineBreakMode="truncatingTail" imageScaling="proportionallyDown" inset="2" id="8cD-nu-w7e">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                                <connections>
+                                                    <action selector="actionSigne:" target="-2" id="7wf-z1-8LL"/>
+                                                </connections>
+                                            </buttonCell>
+                                        </button>
+                                    </gridCell>
+                                    <gridCell row="6Cf-7C-oea" column="XMj-ne-meX" id="IDa-rD-h6J"/>
+                                </gridCells>
+                            </gridView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="1Cm-VL-R1U" firstAttribute="centerY" secondItem="5ii-5Y-4KF" secondAttribute="centerY" id="oPR-OI-dXE"/>
+                            <constraint firstItem="1Cm-VL-R1U" firstAttribute="centerX" secondItem="5ii-5Y-4KF" secondAttribute="centerX" id="xBT-fo-2f3"/>
+                        </constraints>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="568" id="NWq-tl-QOU"/>
+                        <constraint firstAttribute="height" constant="194" id="jPP-TN-Ud7"/>
+                    </constraints>
+                    <font key="titleFont" size="18" name="HelveticaNeue-Light"/>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstItem="cVA-GL-zRx" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" constant="3" id="EeS-Hf-4Sv"/>
+                <constraint firstItem="cVA-GL-zRx" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" constant="34" id="deV-56-LQA"/>
+            </constraints>
+            <point key="canvasLocation" x="169.5" y="205"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="add" width="256" height="256"/>
+        <image name="minus" width="256" height="256"/>
+    </resources>
+</document>
