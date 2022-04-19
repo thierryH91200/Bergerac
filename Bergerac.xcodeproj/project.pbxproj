@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036E711B280EFE8700B7D411 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036E711D280EFE8700B7D411 /* Localizable.strings */; };
 		03A09FE6280EAD340081682C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE5280EAD340081682C /* AppDelegate.swift */; };
 		03A09FE8280EAD340081682C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE7280EAD340081682C /* ViewController.swift */; };
 		03A09FEA280EAD340081682C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE9280EAD340081682C /* Document.swift */; };
@@ -253,6 +254,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		036E711C280EFE8700B7D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		036E711E280EFE8A00B7D411 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		036E711F280EFE8B00B7D411 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		036E7120280EFE8D00B7D411 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		036E7121280EFE8E00B7D411 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		03A09FE2280EAD340081682C /* Bergerac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bergerac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A09FE5280EAD340081682C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A09FE7280EAD340081682C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -599,6 +605,7 @@
 			children = (
 				03A09FFA280EAD420081682C /* Group */,
 				03A09FE5280EAD340081682C /* AppDelegate.swift */,
+				036E711D280EFE8700B7D411 /* Localizable.strings */,
 				03A09FE7280EAD340081682C /* ViewController.swift */,
 				03A0A267280EB14A0081682C /* ViewControllerDelegate.swift */,
 				03A0A269280EB17A0081682C /* DocumentController.swift */,
@@ -623,23 +630,23 @@
 		03A09FFA280EAD420081682C /* Group */ = {
 			isa = PBXGroup;
 			children = (
+				03A09FFB280EAE1C0081682C /* AccountGroup */,
 				03A0A209280EB0B10081682C /* AccountTracking */,
-				03A0A207280EB0B10081682C /* Sounds */,
-				03A0A1D6280EB0B00081682C /* SourceList */,
-				03A0A228280EB0B10081682C /* SplashScreen */,
-				03A0A1E3280EB0B10081682C /* Transactions */,
-				03A0A1FA280EB0B10081682C /* Util */,
+				03A0A02D280EAE760081682C /* CoreData */,
+				03A0A059280EAEE60081682C /* Extension */,
+				03A0A09B280EB0230081682C /* Filter */,
+				03A0A0A4280EB04B0081682C /* Generated */,
+				03A0A0A7280EB04B0081682C /* Import */,
 				03A0A0F5280EB0740081682C /* ListTransactions */,
 				03A0A0CB280EB0740081682C /* Preferences */,
 				03A0A106280EB0740081682C /* Rapports */,
 				03A0A11A280EB0750081682C /* ReferenceAccount */,
 				03A0A0EC280EB0740081682C /* Resource */,
-				03A0A0A4280EB04B0081682C /* Generated */,
-				03A0A0A7280EB04B0081682C /* Import */,
-				03A0A09B280EB0230081682C /* Filter */,
-				03A0A059280EAEE60081682C /* Extension */,
-				03A0A02D280EAE760081682C /* CoreData */,
-				03A09FFB280EAE1C0081682C /* AccountGroup */,
+				03A0A207280EB0B10081682C /* Sounds */,
+				03A0A1D6280EB0B00081682C /* SourceList */,
+				03A0A228280EB0B10081682C /* SplashScreen */,
+				03A0A1E3280EB0B10081682C /* Transactions */,
+				03A0A1FA280EB0B10081682C /* Util */,
 			);
 			path = Group;
 			sourceTree = "<group>";
@@ -1206,9 +1213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03A09FF7280EAD380081682C /* Build configuration list for PBXNativeTarget "Bergerac" */;
 			buildPhases = (
+				03A0A288280ED5A90081682C /* Run Laurine */,
 				03A09FDE280EAD340081682C /* Sources */,
 				03A09FDF280EAD340081682C /* Frameworks */,
 				03A09FE0280EAD340081682C /* Resources */,
+				03A0A289280ED5BB0081682C /* Copy Launch at Login Helper */,
+				036E7117280EF42700B7D411 /* Increment Build */,
 			);
 			buildRules = (
 			);
@@ -1281,6 +1291,7 @@
 				03A0A195280EB0750081682C /* CategoryBarController1.xib in Resources */,
 				03A0A25A280EB0B10081682C /* ListBankStatementController.strings in Resources */,
 				03A0A174280EB0750081682C /* AccountViewController.strings in Resources */,
+				036E711B280EFE8700B7D411 /* Localizable.strings in Resources */,
 				03A0A050280EAE760081682C /* rubrique.csv in Resources */,
 				03A0A262280EB0B10081682C /* SplashScreenWindowController.strings in Resources */,
 				03A0A27F280EB23D0081682C /* README.md in Resources */,
@@ -1349,6 +1360,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036E7117280EF42700B7D411 /* Increment Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print Test\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :Test $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n\n# buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n# buildNumber=$(($buildNumber + 1))\n# /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n\n";
+		};
+		03A0A288280ED5A90081682C /* Run Laurine */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Laurine";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -x\n\necho \"Bienvenu Laurine\"\n\n#--------- START OF CONFIGURATION\n\n# Get base path to project\nBASE_PATH=\"$PROJECT_DIR/$PROJECT_NAME\"\n\n# Get path to Laurine Generator script\nLAURINE_PATH=\"$PROJECT_DIR/ConfString/LaurineGenerator.swift\"\n\n# Get path to main localization file (usually english).\nSOURCE_PATH=\"$BASE_PATH/en.lproj/Localizable.strings\"\n\n# Get path to output. If you use ObjC version of output, set implementation file (.m), as header will be generated automatically\nOUTPUT_PATH=\"$BASE_PATH/Group/Generated/Localizations.swift\"\n\n#--------- END OF CONFIGURATION\n\nmkdir -p $LAURINE_BIN_PATH\n\n# Build laurine binary if necessary\nif [ ! -f $LAURINE_BIN_PATH ]; then\nenv -i swiftc -emit-executable -o$LAURINE_BIN_PATH $LAURINE_PATH\nfi\n\n# Add permission to generator for script execution\nchmod 755 \"$LAURINE_PATH\"\n\n# Actually generate output. -- CUSTOMIZE -- parameters to your needs (see documentation).\n# Will only re-generate script if something changed\nif [ \"$OUTPUT_PATH\" -ot \"$SOURCE_PATH\" ]; then\n    echo \"hello laurine\"\n\n    \"$LAURINE_PATH\" -i \"$SOURCE_PATH\" -o \"$OUTPUT_PATH\"\nfi\n\n";
+		};
+		03A0A289280ED5BB0081682C /* Copy Launch at Login Helper */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Launch at Login Helper";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03A09FDE280EAD340081682C /* Sources */ = {
@@ -1527,6 +1595,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		036E711D280EFE8700B7D411 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036E711C280EFE8700B7D411 /* en */,
+				036E711E280EFE8A00B7D411 /* fr */,
+				036E711F280EFE8B00B7D411 /* de */,
+				036E7120280EFE8D00B7D411 /* it */,
+				036E7121280EFE8E00B7D411 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		03A09FFC280EAE1C0081682C /* AccountGroupViewController.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

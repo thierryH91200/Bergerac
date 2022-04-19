@@ -1,0 +1,154 @@
+"Bye" = "Bye";
+
+
+/* MARK: -  Chart */
+"Chart.No_chart_Data_Available." = "No chart Data available."
+
+;/* MARK: -  Check */
+"Check.Delete" = "Supprimer";"Check.InformativeText" = "Are you sure you would like to delete the check ?";
+"Check.MessageText" = "Delete the check ?";
+"Document.Bank_Account" = "Bank account";
+"Document.Carte_de_crédit" = "Bank card";
+"Document.Compte_Courant" = "Compte courant";
+"Document.Epargne" = "Sauver";
+"Document.Especes" = "Cash account";
+"Document.File_Uploaded" = "File Uploaded";
+
+/* MARK: -  Document */
+"Document.IdName" = "Dupont";
+"Document.IdPrenom" = "Jean";
+"Document.OpenProjectPanelMessage" = "OpenProject";/* "General.Account" = "Account"; */
+"General.Account.Plural" = "%d accounts";
+"General.Account.Singular" = "1 account";
+"General.Account.Zero" = "0 compte";
+"General.Account1" = "Account1";
+"General.Amount" = "Amount";
+"General.BankAccount.Plural" = "Comptes bancaires";
+"General.BankAccount.Singular" = "Compte bancaire";
+"General.Cancel" = "Annuler";
+"General.Category" = "Categorie";
+"General.Date Operation" = "Date Transaction";
+"General.Date Pointage" = "Date Pointage";
+"General.Expenses" = "Dépenses";
+"General.Identity" = "Identity";
+"General.Income" = "Revenus";
+"General.Libelle" = "Comment";
+"General.Liste des opérations" = "Liste des transactions";
+"General.Mode Paiement" = "Mode Paiement";
+"General.Operation" = "Transaction";
+"General.Rubrique" = "Rubrique";
+"General.Scheduler" = "Scheduler";
+"General.Solde" = "Solde";
+"General.Statut" = "Statut";
+
+/* MARK: -  GroupeAccount */
+"GroupeAccount.Account.Menu.Add" = "Ajouter un compte";
+"GroupeAccount.Account.Menu.Edit" = "Edit an account";
+"GroupeAccount.Account.Menu.Remove" = "Delete an account";
+"GroupeAccount.Folder.Menu.Add" = "Add folder";
+"GroupeAccount.Folder.Menu.Edit" = "Edit folder";
+"GroupeAccount.Folder.Menu.Remove" = "Remove folder";
+"GroupeAccount.RemoveAlert.Cancel" = "Annuler";
+"GroupeAccount.RemoveAlert.Delete" = "Supprimer";
+"GroupeAccount.RemoveAlert.InformativeText" = "Are you sure you would like to delete this item ?";
+"GroupeAccount.RemoveAlert.MessageText" = "Supprimer cet élement";
+"Hello" = "Hello";
+"ImportSimplifiee.Menu.amount" = "Montant";
+
+/* MARK: -  ImportSimplifiee */
+"ImportSimplifiee.Menu.catégory" = "Categorie";
+"ImportSimplifiee.Menu.comment" = "Libellé";
+"ImportSimplifiee.Menu.datePointage" = "Date Pointage";
+"ImportSimplifiee.Menu.dateTransaction" = "Date Transaction";
+"ImportSimplifiee.Menu.ignoreCol" = "Ignore_Column";
+"ImportSimplifiee.Menu.modePaiement" = "Mode Paiement";
+"ImportSimplifiee.Menu.rubric" = "Rubric";
+"ImportSimplifiee.Menu.statut" = "Statut";
+"ImportSimplifiee.category" = "Category";
+"ImportSimplifiee.comment" = "Comment";
+"ImportSimplifiee.compte" = "account";
+"ImportSimplifiee.dateOperation" = "Date Transaction";
+"ImportSimplifiee.datePointage" = "Date Pointage";
+"ImportSimplifiee.mode" = "Mode Paiement";
+"ImportSimplifiee.montant" = "Amount";
+"ImportSimplifiee.statut" = "Statut";
+
+/* MARK: -  ListeOperation */
+"ListeOperation.info" = "Dépenses : %@ Revenus : %@ Total : %@";
+"ListeOperation.transaction.plural" = "%d opérations ";
+"ListeOperation.transaction.selectionnee.plural" = "%d opérations selectionnées ";
+"ListeOperation.transaction.selectionnee.singular" = "%d opération selectionnée ";
+"ListeOperation.transaction.singular" = "%d opérations ";
+
+
+"MenuBar.Rapports.Catégorie Bar" = "Catégorie Bar";
+"MenuBar.Rapports.Catégorie Bar1" = "Catégorie Bar1";
+"MenuBar.Rapports.Mode de paiement" = "Mode de paiement";
+"MenuBar.Rapports.Name" = "Rapports";
+"MenuBar.Rapports.Recette Depense" = "Recette Depense";
+"MenuBar.Rapports.Rubrique Bar" = "Rubrique";
+"MenuBar.Rapports.Rubrique Pie" = "Rubrique Pie";
+"MenuBar.RéférenceCompte.Identite" = "Identite";
+"MenuBar.RéférenceCompte.Name" = "Référence compte";
+"MenuBar.RéférenceCompte.Scheduler" = "Scheduler";
+"MenuBar.RéférenceCompte.Settings" = "Settings";
+
+/* MARK: -  MenuBar */
+"MenuBar.SuivieDeTresorerie.CourbeDeTrésorerie" = "Courbe de trésorerie";
+"MenuBar.SuivieDeTresorerie.ListeDesOpérations" = "Liste des opérations";
+"MenuBar.SuivieDeTresorerie.Name" = "Suivie de Tresorerie";
+"MenuBar.SuivieDeTresorerie.SiteWebDeLaBanque" = "Site Web de la banque";
+
+/* MARK: -  Mode */
+"Mode.Delete" = "Delete";
+"Mode.InformativeText" = "Are you sure you would like to delete the item ?";
+"Mode.MessageText" = "Supprimer cet élement";
+
+/* MARK: -  ModePaiement */
+"ModePaiement.Bank_Card" = "Carte Bancaire";
+"ModePaiement.Cheque" = "Chéque";
+"ModePaiement.Especes" = "Espéces";
+"ModePaiement.Prelevement" = "Prélevement";
+"ModePaiement.Remise" = "Remise";
+"ModePaiement.RetraitEspeces" = "Retrait espéces";
+"ModePaiement.Virement" = "Virement";
+
+/* MARK: -  RateConfigure */
+"RateConfigure.detailText" = "We look forward to your Star and Pull Request to make Pegase better and better : )\n⭐️⭐️⭐️⭐️⭐️?";
+"RateConfigure.ignoreButtonTitle" = "Perhaps later";
+"RateConfigure.likeButtonTitle" = "Star Now!";
+"RateConfigure.name" = "Love Pegase?";
+
+/* MARK: -  Rubric */
+"Rubric.Delete" = "Delete";
+"Rubric.InformativeText" = "L'élement supprimé ne pourra pas être restauré. Il sera remplacé dans les opérations par la valeur par défaut";
+"Rubric.MessageText" = "Delete this element";
+
+/* MARK: -  Statut */
+"Statut.Engaged" = "Engagé";
+"Statut.Planifie" = "Prévue";
+"Statut.Realise" = "Réalisé";
+
+/* MARK: -  TouchBar */
+"TouchBar.Delete" = "Delete";
+
+/* MARK: -  Transaction */
+"Transaction.Mode" = "Mode ";
+"Transaction.ModeCreation" = "Creative mode";
+"Transaction.ModeEdition" = "Editing mode";\r
+"Transaction.Multi" = "Multi";
+"Transaction.MultipleValue" = "Multiple value";
+"Transaction.NoTransfert" = "(no transfert)";
+"Transaction.operation" = "Transactions";
+
+/* MARK: -  alert */
+"alert.title_error" = "Error";
+"alert.title_info" = "Information";
+"alert.title_warning" = "Warning";
+
+/* MARK: -  searchMenu */
+"searchMenu.title.all" = "tous";
+"searchMenu.title.categorie" = "catégorie";
+"searchMenu.title.libelle" = "libellé";
+"searchMenu.title.menu" = "menu";
+"searchMenu.title.rubric" = "rubrique";
