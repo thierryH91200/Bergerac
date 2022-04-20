@@ -58,7 +58,7 @@ extension CSV {
                 if let bom = String.Encoding.BOM(bom0: buffer[0], bom1: buffer[1], bom2: buffer[2], bom3: buffer[3]) {
                     encoding = bom.encoding
                     if bom.length > 0 {
-                        buffer.removeFirst(bom.length)
+                        buffer.removeFirst(bom.length) 
                     }
                     if let decoded = String(bytes: buffer, encoding: encoding) {
                         string = decoded

@@ -7,6 +7,10 @@
 
 
 import Cocoa
+
+import NotificationCenter
+import UserNotifications
+
 //import Sparkle
 
 
@@ -50,10 +54,10 @@ class AppDelegate: NSObject, NSApplicationDelegate , NSUserNotificationCenterDel
 //    }
 
     
-    func userNotificationCenter(_ center: NSUserNotificationCenter, shouldPresent notification: NSUserNotification) -> Bool
-        {
-        return true
-        }
+//    func userNotificationCenter(_ center: UNUserNotificationCenter, shouldPresent notification: UNNotification) -> Bool
+//        {
+//        return true
+//        }
 
     func applicationWillFinishLaunching(_ notification: Notification) {
         

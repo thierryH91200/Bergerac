@@ -6,6 +6,7 @@
     //
 
 import AppKit
+import Quartz
 
 extension MainWindowController {
     
@@ -40,7 +41,9 @@ extension MainWindowController {
         panel.canChooseFiles = true
         panel.canChooseDirectories = false
         panel.allowsMultipleSelection = false
-        panel.allowedFileTypes = ["csv", "txt"]
+        
+        let allowedContentTypes : [UTType] = [.commaSeparatedText, .text]
+        panel.allowedContentTypes = allowedContentTypes
         
         panel.beginSheetModal(for: self.window!) { (result) in
             var content = ""
@@ -128,7 +131,10 @@ extension MainWindowController {
         let savePanel = NSSavePanel()
         savePanel.accessoryView = accessoryViewController?.view
         accessoryViewController?.config.isFirstRowAsHeader = (csvConfig?.isFirstRowAsHeader)!
-        savePanel.allowedFileTypes = ["csv"]
+        
+        let allowedContentTypes : [UTType] = [.commaSeparatedText]
+        savePanel.allowedContentTypes = allowedContentTypes
+        
         let name = defaultDraftName("Scheduler_")
         savePanel.nameFieldStringValue = name + ".csv" // <-- user editable prompt
         

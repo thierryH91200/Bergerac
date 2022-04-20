@@ -7,6 +7,8 @@
 //
 
 import AppKit
+import Quartz
+
 
 extension NSOpenPanel {
     var selectUrl: URL? {
@@ -15,7 +17,9 @@ extension NSOpenPanel {
         canChooseDirectories = false
         canChooseFiles = true
         canCreateDirectories = false
-        allowedFileTypes = ["csv", "txt"]
+        
+        allowedContentTypes = [.commaSeparatedText, .text]
+
         return runModal() == .OK ? urls.first : nil
     }
     //    var selectUrls: [URL]? {

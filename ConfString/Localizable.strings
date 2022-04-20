@@ -1,0 +1,114 @@
+
+
+"Bank_Accounts" = "Bank accounts";
+
+
+"Chart.No_chart_Data_Available." = "No chart data available.";
+
+
+"Compte.Are_You_Sure" = "Are you sure you would like to delete the account ?";
+
+
+"Compte.Delete" = "Delete";
+
+
+"Compte.Delete_The_Account" = "Delete the account ?";
+
+/* MARK: - Document */
+"Document.Bank_Account" = "Bank account";
+
+
+"Document.Carte_de_crédit" = "Bank card";
+
+
+"Document.Compte_Courant" = "Current account";
+
+
+"Document.Epargne" = "Saving";
+
+
+"Document.File_Uploaded" = "File Uploaded";
+
+
+"Document.OpenProjectPanelMessage" = "OpenProject";
+
+
+"General.Account" = "Account";
+
+
+"General.Amount" = "Amount";
+
+
+"General.Category" = "Category";
+
+
+"General.Compte.Plural" = "%d accounts";
+
+
+"General.Compte.Singular" = "1 account";
+
+
+"General.Compte.Zero" = "0 account";
+
+
+"General.DateOperation" = "Date Operation";
+
+
+"General.DatePointage" = "Date Pointage";
+
+
+"General.Libelle" = "Comment";
+
+
+"General.ModePaiement" = "Mode Paiement";
+
+
+"General.Rubrique" = "Rubric";
+
+
+"General.Statut" = "Statut";
+
+
+"Lelement_Supprime" = "L'élement supprimé ne peut pas être restauré. Il sera remplacé dans les opérations par la valeur par défaut";
+
+
+"ModePaiement.Bank_Card" = "Bank card";
+
+
+"ModePaiement.Cheque" = "Check";
+
+
+"ModePaiement.Especes" = "Espéces";
+
+
+"ModePaiement.Prelevement" = "Prélévement";
+
+
+"ModePaiement.Remise" = "Remise";
+
+
+"ModePaiement.Retrait Especes" = "Retrait espéces";
+
+
+"ModePaiement.Virement" = "Virement";
+
+
+"Operation.Mode_Creation" = "Mode création";
+
+
+"Operation.Mode_Edition" = "Mode édition";
+
+
+"Statut.Engaged" = "Engaged";
+
+
+"Statut.Planifie" = "Planned";
+
+
+"Statut.Realise" = "Executed";
+
+
+"Supprimer_Element" = "Supprimer cet élement ?";
+
+
+"Theme" = "Theme";
