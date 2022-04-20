@@ -18,6 +18,7 @@
 		032B523E2810866900AFED6B /* Capture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52332810866900AFED6B /* Capture3.png */; };
 		032B523F2810866900AFED6B /* Capture8.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52342810866900AFED6B /* Capture8.png */; };
 		032B52402810866900AFED6B /* Capture9.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52352810866900AFED6B /* Capture9.png */; };
+		032B52422810883500AFED6B /* appcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 032B52412810883500AFED6B /* appcast.xml */; };
 		036E711B280EFE8700B7D411 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036E711D280EFE8700B7D411 /* Localizable.strings */; };
 		03A09FE6280EAD340081682C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE5280EAD340081682C /* AppDelegate.swift */; };
 		03A09FE8280EAD340081682C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE7280EAD340081682C /* ViewController.swift */; };
@@ -276,6 +277,7 @@
 		032B52332810866900AFED6B /* Capture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture3.png; sourceTree = "<group>"; };
 		032B52342810866900AFED6B /* Capture8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture8.png; sourceTree = "<group>"; };
 		032B52352810866900AFED6B /* Capture9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture9.png; sourceTree = "<group>"; };
+		032B52412810883500AFED6B /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 		036E711C280EFE8700B7D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		036E711E280EFE8A00B7D411 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		036E711F280EFE8B00B7D411 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -623,6 +625,7 @@
 		03A09FD9280EAD340081682C = {
 			isa = PBXGroup;
 			children = (
+				032B52412810883500AFED6B /* appcast.xml */,
 				032B522A2810866900AFED6B /* Doc */,
 				03A0A27C280EB23D0081682C /* appcast.xml */,
 				03A0A27D280EB23D0081682C /* README_fr.md */,
@@ -1381,6 +1384,7 @@
 				03A0A022280EAE1C0081682C /* GroupModalWindowController.xib in Resources */,
 				03A0A081280EAEE60081682C /* notification.strings in Resources */,
 				03A0A23C280EB0B10081682C /* SousOperationModalWindowController.xib in Resources */,
+				032B52422810883500AFED6B /* appcast.xml in Resources */,
 				03A0A1CF280EB0750081682C /* SchedulerViewController.xib in Resources */,
 				03A0A282280EB23D0081682C /* version StoryBoard.md in Resources */,
 				03A0A1D1280EB0750081682C /* SchedulersSaisieController.strings in Resources */,
