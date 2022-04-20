@@ -13,6 +13,9 @@ final class Document: NSPersistentDocument {
     
     private var mainWindowController: MainWindowController?
     
+    public var isTransient: Bool = true
+
+    
     override init() {
         super.init()
         
@@ -60,6 +63,9 @@ final class Document: NSPersistentDocument {
     override func read(from data: Data, ofType typeName: String) throws {
         
         Swift.print("read(from data: Data, ofType typeName: String)")
+        
+        self.isTransient = false
+
             // Insert code here to read your document from the given data of the specified type.
             // If outError != NULL, ensure that you create and set an appropriate error when returning false.
             // You can also choose to override -readFromFileWrapper:ofType:error: or -readFromURL:ofType:error: instead.

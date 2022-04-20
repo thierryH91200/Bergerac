@@ -80,6 +80,7 @@ class AppDelegate: NSObject, NSApplicationDelegate , NSUserNotificationCenterDel
         defaults[kUserDefaultsKeyVisibleColumns] = dict as Any
         UserDefaults.standard.register(defaults: defaults)
         UserDefaults.standard.set(defaults, forKey: kUserDefaultsKeyVisibleColumns)
+        // for verify
 //        let dict1 = UserDefaults.standard.dictionary(forKey: kUserDefaultsKeyVisibleColumns)
 
             // Create the shared document controller.
