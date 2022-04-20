@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032B52362810866900AFED6B /* Pegase.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B522B2810866900AFED6B /* Pegase.png */; };
-		032B52372810866900AFED6B /* Capture10.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B522C2810866900AFED6B /* Capture10.png */; };
-		032B52382810866900AFED6B /* Capture7.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B522D2810866900AFED6B /* Capture7.png */; };
-		032B52392810866900AFED6B /* Capture6.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B522E2810866900AFED6B /* Capture6.png */; };
-		032B523A2810866900AFED6B /* Capture4.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B522F2810866900AFED6B /* Capture4.png */; };
-		032B523B2810866900AFED6B /* Capture5.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52302810866900AFED6B /* Capture5.png */; };
-		032B523C2810866900AFED6B /* Capture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52312810866900AFED6B /* Capture1.png */; };
-		032B523D2810866900AFED6B /* Capture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52322810866900AFED6B /* Capture2.png */; };
-		032B523E2810866900AFED6B /* Capture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52332810866900AFED6B /* Capture3.png */; };
-		032B523F2810866900AFED6B /* Capture8.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52342810866900AFED6B /* Capture8.png */; };
-		032B52402810866900AFED6B /* Capture9.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52352810866900AFED6B /* Capture9.png */; };
 		032B52422810883500AFED6B /* appcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 032B52412810883500AFED6B /* appcast.xml */; };
+		032B52932810919D00AFED6B /* Capture7.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52882810919C00AFED6B /* Capture7.png */; };
+		032B52942810919D00AFED6B /* Capture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52892810919D00AFED6B /* Capture2.png */; };
+		032B52952810919D00AFED6B /* Pegase.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B528A2810919D00AFED6B /* Pegase.png */; };
+		032B52962810919D00AFED6B /* Capture8.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B528B2810919D00AFED6B /* Capture8.png */; };
+		032B52972810919D00AFED6B /* Capture4.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B528C2810919D00AFED6B /* Capture4.png */; };
+		032B52982810919D00AFED6B /* Capture6.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B528D2810919D00AFED6B /* Capture6.png */; };
+		032B52992810919D00AFED6B /* Capture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B528E2810919D00AFED6B /* Capture3.png */; };
+		032B529A2810919D00AFED6B /* Capture10.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B528F2810919D00AFED6B /* Capture10.png */; };
+		032B529B2810919D00AFED6B /* Capture9.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52902810919D00AFED6B /* Capture9.png */; };
+		032B529C2810919D00AFED6B /* Capture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52912810919D00AFED6B /* Capture1.png */; };
+		032B529D2810919D00AFED6B /* Capture5.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B52922810919D00AFED6B /* Capture5.png */; };
 		036E711B280EFE8700B7D411 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036E711D280EFE8700B7D411 /* Localizable.strings */; };
 		03A09FE6280EAD340081682C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE5280EAD340081682C /* AppDelegate.swift */; };
 		03A09FE8280EAD340081682C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A09FE7280EAD340081682C /* ViewController.swift */; };
@@ -266,18 +266,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		032B522B2810866900AFED6B /* Pegase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pegase.png; sourceTree = "<group>"; };
-		032B522C2810866900AFED6B /* Capture10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture10.png; sourceTree = "<group>"; };
-		032B522D2810866900AFED6B /* Capture7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture7.png; sourceTree = "<group>"; };
-		032B522E2810866900AFED6B /* Capture6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture6.png; sourceTree = "<group>"; };
-		032B522F2810866900AFED6B /* Capture4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture4.png; sourceTree = "<group>"; };
-		032B52302810866900AFED6B /* Capture5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture5.png; sourceTree = "<group>"; };
-		032B52312810866900AFED6B /* Capture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture1.png; sourceTree = "<group>"; };
-		032B52322810866900AFED6B /* Capture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture2.png; sourceTree = "<group>"; };
-		032B52332810866900AFED6B /* Capture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture3.png; sourceTree = "<group>"; };
-		032B52342810866900AFED6B /* Capture8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture8.png; sourceTree = "<group>"; };
-		032B52352810866900AFED6B /* Capture9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture9.png; sourceTree = "<group>"; };
 		032B52412810883500AFED6B /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
+		032B52882810919C00AFED6B /* Capture7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture7.png; sourceTree = "<group>"; };
+		032B52892810919D00AFED6B /* Capture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture2.png; sourceTree = "<group>"; };
+		032B528A2810919D00AFED6B /* Pegase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pegase.png; sourceTree = "<group>"; };
+		032B528B2810919D00AFED6B /* Capture8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture8.png; sourceTree = "<group>"; };
+		032B528C2810919D00AFED6B /* Capture4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture4.png; sourceTree = "<group>"; };
+		032B528D2810919D00AFED6B /* Capture6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture6.png; sourceTree = "<group>"; };
+		032B528E2810919D00AFED6B /* Capture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture3.png; sourceTree = "<group>"; };
+		032B528F2810919D00AFED6B /* Capture10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture10.png; sourceTree = "<group>"; };
+		032B52902810919D00AFED6B /* Capture9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture9.png; sourceTree = "<group>"; };
+		032B52912810919D00AFED6B /* Capture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture1.png; sourceTree = "<group>"; };
+		032B52922810919D00AFED6B /* Capture5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture5.png; sourceTree = "<group>"; };
 		036E711C280EFE8700B7D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		036E711E280EFE8A00B7D411 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		036E711F280EFE8B00B7D411 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -604,20 +604,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		032B522A2810866900AFED6B /* Doc */ = {
+		032B525A2810912100AFED6B /* Doc */ = {
 			isa = PBXGroup;
 			children = (
-				032B522B2810866900AFED6B /* Pegase.png */,
-				032B522C2810866900AFED6B /* Capture10.png */,
-				032B522D2810866900AFED6B /* Capture7.png */,
-				032B522E2810866900AFED6B /* Capture6.png */,
-				032B522F2810866900AFED6B /* Capture4.png */,
-				032B52302810866900AFED6B /* Capture5.png */,
-				032B52312810866900AFED6B /* Capture1.png */,
-				032B52322810866900AFED6B /* Capture2.png */,
-				032B52332810866900AFED6B /* Capture3.png */,
-				032B52342810866900AFED6B /* Capture8.png */,
-				032B52352810866900AFED6B /* Capture9.png */,
+				032B52912810919D00AFED6B /* Capture1.png */,
+				032B52892810919D00AFED6B /* Capture2.png */,
+				032B528E2810919D00AFED6B /* Capture3.png */,
+				032B528C2810919D00AFED6B /* Capture4.png */,
+				032B52922810919D00AFED6B /* Capture5.png */,
+				032B528D2810919D00AFED6B /* Capture6.png */,
+				032B52882810919C00AFED6B /* Capture7.png */,
+				032B528B2810919D00AFED6B /* Capture8.png */,
+				032B52902810919D00AFED6B /* Capture9.png */,
+				032B528F2810919D00AFED6B /* Capture10.png */,
+				032B528A2810919D00AFED6B /* Pegase.png */,
 			);
 			path = Doc;
 			sourceTree = "<group>";
@@ -625,8 +625,8 @@
 		03A09FD9280EAD340081682C = {
 			isa = PBXGroup;
 			children = (
+				032B525A2810912100AFED6B /* Doc */,
 				032B52412810883500AFED6B /* appcast.xml */,
-				032B522A2810866900AFED6B /* Doc */,
 				03A0A27C280EB23D0081682C /* appcast.xml */,
 				03A0A27D280EB23D0081682C /* README_fr.md */,
 				03A0A27B280EB23D0081682C /* README.md */,
@@ -1326,21 +1326,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A0A258280EB0B10081682C /* TresorerieViewController.xib in Resources */,
+				032B52942810919D00AFED6B /* Capture2.png in Resources */,
 				03A0A1A7280EB0750081682C /* ComboColorWellImages.xcassets in Resources */,
 				03A0A191280EB0750081682C /* IncomeExpensePieController.xib in Resources */,
 				03A0A254280EB0B10081682C /* WebViewController.xib in Resources */,
 				03A0A193280EB0750081682C /* CategoryBarController.xib in Resources */,
 				03A0A281280EB23D0081682C /* README_fr.md in Resources */,
 				03A0A01A280EAE1C0081682C /* KSRetailCollectionViewItem.xib in Resources */,
+				032B52962810919D00AFED6B /* Capture8.png in Resources */,
 				03A0A195280EB0750081682C /* CategoryBarController1.xib in Resources */,
 				03A0A25A280EB0B10081682C /* ListBankStatementController.strings in Resources */,
 				03A0A174280EB0750081682C /* AccountViewController.strings in Resources */,
 				036E711B280EFE8700B7D411 /* Localizable.strings in Resources */,
 				03A0A050280EAE760081682C /* rubrique.csv in Resources */,
-				032B52402810866900AFED6B /* Capture9.png in Resources */,
 				03A0A262280EB0B10081682C /* SplashScreenWindowController.strings in Resources */,
 				03A0A27F280EB23D0081682C /* README.md in Resources */,
-				032B52362810866900AFED6B /* Pegase.png in Resources */,
 				03A0A0A3280EB0230081682C /* AdvancedFilterViewController.xib in Resources */,
 				03A0A183280EB0750081682C /* ListTransactionsController.strings in Resources */,
 				03A0A1B2280EB0750081682C /* ModeModalWindowController.xib in Resources */,
@@ -1348,7 +1348,6 @@
 				03A0A189280EB0750081682C /* ListTransactionsController.storyboard in Resources */,
 				03A0A1C9280EB0750081682C /* ChequiersViewController.xib in Resources */,
 				03A0A1B4280EB0750081682C /* ModeOfPaymentViewController.xib in Resources */,
-				032B52372810866900AFED6B /* Capture10.png in Resources */,
 				03A0A182280EB0750081682C /* curtain.jpg in Resources */,
 				03A0A280280EB23D0081682C /* appcast.xml in Resources */,
 				03A0A263280EB0B10081682C /* SplashScreenWindowController.xib in Resources */,
@@ -1364,54 +1363,55 @@
 				03A09FEF280EAD370081682C /* Assets.xcassets in Resources */,
 				03A0A25B280EB0B10081682C /* PurchasesDetailView.xib in Resources */,
 				03A0A19D280EB0750081682C /* IdentiteViewController.xib in Resources */,
-				032B523E2810866900AFED6B /* Capture3.png in Resources */,
-				032B523F2810866900AFED6B /* Capture8.png in Resources */,
-				032B523C2810866900AFED6B /* Capture1.png in Resources */,
 				03A0A23A280EB0B10081682C /* TransactionViewController.strings in Resources */,
-				032B523A2810866900AFED6B /* Capture4.png in Resources */,
 				03A0A01C280EAE1C0081682C /* PopOverModalViewController.xib in Resources */,
+				032B529B2810919D00AFED6B /* Capture9.png in Resources */,
 				03A0A1A1280EB0750081682C /* RubriqueViewController.xib in Resources */,
 				03A0A027280EAE1C0081682C /* AccountGroupViewController.xib in Resources */,
 				03A0A1AC280EB0750081682C /* RubriqueModalWindowController.xib in Resources */,
+				032B52992810919D00AFED6B /* Capture3.png in Resources */,
 				03A0A0BA280EB04B0081682C /* AccessibilityImageDescriptions.strings in Resources */,
 				03A0A176280EB0750081682C /* PersonViewController.strings in Resources */,
 				03A0A1B0280EB0750081682C /* ParameterController.xib in Resources */,
 				03A0A286280EC1830081682C /* Main.storyboard in Resources */,
 				03A0A19C280EB0750081682C /* IdentiteViewController.strings in Resources */,
-				032B523D2810866900AFED6B /* Capture2.png in Resources */,
 				03A0A175280EB0750081682C /* GeneralViewController.strings in Resources */,
+				032B529D2810919D00AFED6B /* Capture5.png in Resources */,
 				03A0A024280EAE1C0081682C /* AccountModalWindowController.xib in Resources */,
 				03A0A022280EAE1C0081682C /* GroupModalWindowController.xib in Resources */,
 				03A0A081280EAEE60081682C /* notification.strings in Resources */,
 				03A0A23C280EB0B10081682C /* SousOperationModalWindowController.xib in Resources */,
+				032B529C2810919D00AFED6B /* Capture1.png in Resources */,
 				032B52422810883500AFED6B /* appcast.xml in Resources */,
 				03A0A1CF280EB0750081682C /* SchedulerViewController.xib in Resources */,
+				032B52982810919D00AFED6B /* Capture6.png in Resources */,
 				03A0A282280EB23D0081682C /* version StoryBoard.md in Resources */,
 				03A0A1D1280EB0750081682C /* SchedulersSaisieController.strings in Resources */,
 				03A0A25E280EB0B10081682C /* ListBankStatementController.xib in Resources */,
 				03A0A181280EB0750081682C /* MyDB.sqlite in Resources */,
 				03A0A0C9280EB04B0081682C /* TTFormatViewControllerAccessory.xib in Resources */,
 				03A0A0C1280EB04B0081682C /* TTFormatViewController.xib in Resources */,
+				032B52972810919D00AFED6B /* Capture4.png in Resources */,
 				03A0A259280EB0B10081682C /* BankStatementModalWindowController.strings in Resources */,
 				03A0A25D280EB0B10081682C /* BankStatementModalWindowController.xib in Resources */,
-				032B52382810866900AFED6B /* Capture7.png in Resources */,
 				03A0A251280EB0B10081682C /* SliderViewController.xib in Resources */,
 				03A0A019280EAE1C0081682C /* AccountGroupViewController.strings in Resources */,
+				032B52932810919D00AFED6B /* Capture7.png in Resources */,
 				03A0A24C280EB0B10081682C /* SliderViewHorizontalController.xib in Resources */,
 				03A0A17C280EB0750081682C /* AccountViewController.xib in Resources */,
 				03A0A04F280EAE760081682C /* rubrique.plist in Resources */,
 				03A0A238280EB0B10081682C /* SourceListViewController.xib in Resources */,
 				03A0A026280EAE1C0081682C /* AccountGroupViewController copie.xib in Resources */,
 				03A0A1C8280EB0750081682C /* PreferenceOperationViewController.xib in Resources */,
-				032B52392810866900AFED6B /* Capture6.png in Resources */,
 				03A0A266280EB0B10081682C /* SplashScreenRecentDocumentView.xib in Resources */,
 				03A0A1AB280EB0750081682C /* CategorieModalWindowController.xib in Resources */,
+				032B52952810919D00AFED6B /* Pegase.png in Resources */,
 				03A0A17E280EB0750081682C /* GeneralViewController.xib in Resources */,
 				03A0A197280EB0750081682C /* RubricPieController.xib in Resources */,
 				03A0A18D280EB0750081682C /* PaymentModePieController.xib in Resources */,
 				03A0A24A280EB0B10081682C /* SliderViewVerticalController.xib in Resources */,
+				032B529A2810919D00AFED6B /* Capture10.png in Resources */,
 				03A0A18F280EB0750081682C /* IncomeExpenseBarController.xib in Resources */,
-				032B523B2810866900AFED6B /* Capture5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
