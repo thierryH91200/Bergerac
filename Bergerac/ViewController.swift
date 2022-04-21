@@ -245,20 +245,20 @@ class ViewController: NSViewController , UNUserNotificationCenterDelegate{
     
     func setSplitRight( _ isHidden: Bool) {
         
-        let newPosition: CGFloat = isHidden ? view.frame.width - 250 : view.frame.width
-        splitViewPrincipal.setPosition(newPosition, ofDividerAt: 1)
-            //        splitViewPrincipal.layoutSubtreeIfNeeded()
-        segmentedControl?.setSelected(!isHidden, forSegment: 2)
+//        let newPosition: CGFloat = isHidden ? view.frame.width - 250 : view.frame.width
+//        splitViewPrincipal.setPosition(newPosition, ofDividerAt: 1)
+//            //        splitViewPrincipal.layoutSubtreeIfNeeded()
+//        segmentedControl?.setSelected(!isHidden, forSegment: 2)
         
         
-            //        if isHidden == true {
-            //            splitViewPrincipal.setPosition(splitViewPrincipal.bounds.width, ofDividerAt: 1)
-            //        } else {
-            //            splitViewPrincipal.setPosition( splitViewPrincipal.bounds.width - 249, ofDividerAt: 1)
-            //        }
-            ////        transactionView.isHidden = isHidden
-            //        segmentedControl?.setSelected(!isHidden, forSegment: 2)
-            //        splitViewPrincipal.adjustSubviews()
+//                    if isHidden == true {
+//                        splitViewPrincipal.setPosition(splitViewPrincipal.bounds.width, ofDividerAt: 1)
+//                    } else {
+//                        splitViewPrincipal.setPosition( splitViewPrincipal.bounds.width - 249, ofDividerAt: 1)
+//                    }
+//                    transactionView.isHidden = isHidden
+//                    segmentedControl?.setSelected(!isHidden, forSegment: 2)
+//                    splitViewPrincipal.adjustSubviews()
     }
 }
 

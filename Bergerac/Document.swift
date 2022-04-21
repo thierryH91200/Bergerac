@@ -14,7 +14,6 @@ final class Document: NSPersistentDocument {
     private var mainWindowController: MainWindowController?
     
     public var isTransient: Bool = true
-
     
     override init() {
         super.init()
