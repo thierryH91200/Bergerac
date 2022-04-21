@@ -1,9 +1,6 @@
 
 
 
-
-
-
 /* MARK: -  Chart */
 "Chart.No_chart_Data_Available." = "No chart Data available.";
 "Graph.Income" = "Recette";
@@ -17,13 +14,13 @@
 
 /* MARK: -  Document */
 "Document.Bank_Account" = "Bank account";
-"Document.Carte_de_crédit" = "Bank card";
-"Document.Compte_Courant" = "Current account";
-"Document.Epargne" = "Save";"Document.Especes" = "Cash account";
+"Document.Carte_de_crédit" = "Carte de crédit";
+"Document.Current account" = "Compte Courant";
+"Document.Especes" = "Cash account";
 "Document.IdName" = "Doe";
 "Document.IdPrenom" = "John";
 "Document.OpenProjectPanelMessage" = "Ouvre une base de données";
-"Document.Save" = "Save";
+"Document.Save" = "Epargne";
 
 /* MARK: -  Account */
 "General.Account" = "Account";

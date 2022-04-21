@@ -14,7 +14,7 @@
 "Document.Bank_Account" = "Bank account";
 "Document.Carte_de_crédit" = "Bank card";
 "Document.Current account" = "Current account";
-"Document.Epargne" = "Save";"Document.Especes" = "Cash account";
+"Document.Especes" = "Cash account";
 "Document.IdName" = "Doe";
 "Document.IdPrenom" = "John";
 "Document.OpenProjectPanelMessage" = "Open Project";

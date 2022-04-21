@@ -66,17 +66,18 @@ extension ViewController: SourceListDelegate
             segmentedControl.setEnabled(true, forSegment: 2)
 
         case "Relevé bancaire":
+
             self.listBankStatementController = ListBankStatementController()
             vc = (self.listBankStatementController?.view)!
-           
-            setUpGroupeListTransactionsSecondary(true)
-            listBankStatementController?.delegate = listTransactionsController
+
+            self.setUpGroupeListTransactionsSecondary(true)
+            self.listBankStatementController?.delegate = listTransactionsController
 
             isSplitRightHidden = true
             isSplitCenterHidden =  false
-            segmentedControl?.setEnabled(false, forSegment: 1)
-            segmentedControl?.setSelected(true, forSegment: 2)
-            
+            self.segmentedControl?.setEnabled(false, forSegment: 1)
+            self.segmentedControl?.setSelected(true, forSegment: 2)
+
         case "Rubrique Pie":
             self.rubricPieController = RubricPieController()
             vc = (self.rubricPieController?.view)!

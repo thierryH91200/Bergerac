@@ -234,15 +234,6 @@
 		03A0A256280EB0B10081682C /* TresorerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A20F280EB0B10081682C /* TresorerieViewController.swift */; };
 		03A0A257280EB0B10081682C /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A210280EB0B10081682C /* DateValueFormatter.swift */; };
 		03A0A258280EB0B10081682C /* TresorerieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A211280EB0B10081682C /* TresorerieViewController.xib */; };
-		03A0A259280EB0B10081682C /* BankStatementModalWindowController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A213280EB0B10081682C /* BankStatementModalWindowController.strings */; };
-		03A0A25A280EB0B10081682C /* ListBankStatementController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A215280EB0B10081682C /* ListBankStatementController.strings */; };
-		03A0A25B280EB0B10081682C /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A219280EB0B10081682C /* PurchasesDetailView.xib */; };
-		03A0A25C280EB0B10081682C /* BankStatementModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A21E280EB0B10081682C /* BankStatementModalWindowController.swift */; };
-		03A0A25D280EB0B10081682C /* BankStatementModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A21F280EB0B10081682C /* BankStatementModalWindowController.xib */; };
-		03A0A25E280EB0B10081682C /* ListBankStatementController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A221280EB0B10081682C /* ListBankStatementController.xib */; };
-		03A0A25F280EB0B10081682C /* ListBankStatementControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A223280EB0B10081682C /* ListBankStatementControllerAction.swift */; };
-		03A0A260280EB0B10081682C /* ListBankStatementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A224280EB0B10081682C /* ListBankStatementController.swift */; };
-		03A0A261280EB0B10081682C /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A225280EB0B10081682C /* DragView.swift */; };
 		03A0A262280EB0B10081682C /* SplashScreenWindowController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A229280EB0B10081682C /* SplashScreenWindowController.strings */; };
 		03A0A263280EB0B10081682C /* SplashScreenWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A22B280EB0B10081682C /* SplashScreenWindowController.xib */; };
 		03A0A264280EB0B10081682C /* SplashScreenWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0A230280EB0B10081682C /* SplashScreenWindowController.swift */; };
@@ -263,6 +254,13 @@
 		03A0A281280EB23D0081682C /* README_fr.md in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A27D280EB23D0081682C /* README_fr.md */; };
 		03A0A282280EB23D0081682C /* version StoryBoard.md in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A27E280EB23D0081682C /* version StoryBoard.md */; };
 		03A0A286280EC1830081682C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A0A285280EC1830081682C /* Main.storyboard */; };
+		03BF4816281160D800EBF742 /* BankStatementModalWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF480F281160D700EBF742 /* BankStatementModalWindowController.swift */; };
+		03BF4817281160D800EBF742 /* ListBankStatementControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4810281160D700EBF742 /* ListBankStatementControllerAction.swift */; };
+		03BF4818281160D800EBF742 /* BankStatementModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4811281160D700EBF742 /* BankStatementModalWindowController.xib */; };
+		03BF4819281160D800EBF742 /* ListBankStatementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4812281160D700EBF742 /* ListBankStatementController.swift */; };
+		03BF481A281160D800EBF742 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4813281160D700EBF742 /* DragView.swift */; };
+		03BF481C281160D800EBF742 /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4815281160D800EBF742 /* PurchasesDetailView.xib */; };
+		03BF481E2811777B00EBF742 /* ListBankStatementController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BF481D2811777B00EBF742 /* ListBankStatementController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -547,23 +545,6 @@
 		03A0A20F280EB0B10081682C /* TresorerieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TresorerieViewController.swift; sourceTree = "<group>"; };
 		03A0A210280EB0B10081682C /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
 		03A0A211280EB0B10081682C /* TresorerieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TresorerieViewController.xib; sourceTree = "<group>"; };
-		03A0A214280EB0B10081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
-		03A0A216280EB0B10081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
-		03A0A217280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
-		03A0A218280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
-		03A0A219280EB0B10081682C /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
-		03A0A21A280EB0B10081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
-		03A0A21B280EB0B10081682C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
-		03A0A21C280EB0B10081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
-		03A0A21D280EB0B10081682C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
-		03A0A21E280EB0B10081682C /* BankStatementModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankStatementModalWindowController.swift; sourceTree = "<group>"; };
-		03A0A220280EB0B10081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BankStatementModalWindowController.xib; sourceTree = "<group>"; };
-		03A0A222280EB0B10081682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ListBankStatementController.xib; sourceTree = "<group>"; };
-		03A0A223280EB0B10081682C /* ListBankStatementControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementControllerAction.swift; sourceTree = "<group>"; };
-		03A0A224280EB0B10081682C /* ListBankStatementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementController.swift; sourceTree = "<group>"; };
-		03A0A225280EB0B10081682C /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
-		03A0A226280EB0B10081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BankStatementModalWindowController.strings; sourceTree = "<group>"; };
-		03A0A227280EB0B10081682C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ListBankStatementController.strings; sourceTree = "<group>"; };
 		03A0A22A280EB0B10081682C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SplashScreenWindowController.strings; sourceTree = "<group>"; };
 		03A0A22C280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SplashScreenWindowController.xib; sourceTree = "<group>"; };
 		03A0A22D280EB0B10081682C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SplashScreenWindowController.strings; sourceTree = "<group>"; };
@@ -588,6 +569,13 @@
 		03A0A27D280EB23D0081682C /* README_fr.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_fr.md; sourceTree = "<group>"; };
 		03A0A27E280EB23D0081682C /* version StoryBoard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "version StoryBoard.md"; sourceTree = "<group>"; };
 		03A0A285280EC1830081682C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		03BF480F281160D700EBF742 /* BankStatementModalWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankStatementModalWindowController.swift; sourceTree = "<group>"; };
+		03BF4810281160D700EBF742 /* ListBankStatementControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementControllerAction.swift; sourceTree = "<group>"; };
+		03BF4811281160D700EBF742 /* BankStatementModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankStatementModalWindowController.xib; sourceTree = "<group>"; };
+		03BF4812281160D700EBF742 /* ListBankStatementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementController.swift; sourceTree = "<group>"; };
+		03BF4813281160D700EBF742 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		03BF4815281160D800EBF742 /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
+		03BF481D2811777B00EBF742 /* ListBankStatementController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBankStatementController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1225,15 +1213,13 @@
 		03A0A212280EB0B10081682C /* BankStatement */ = {
 			isa = PBXGroup;
 			children = (
-				03A0A213280EB0B10081682C /* BankStatementModalWindowController.strings */,
-				03A0A215280EB0B10081682C /* ListBankStatementController.strings */,
-				03A0A219280EB0B10081682C /* PurchasesDetailView.xib */,
-				03A0A21E280EB0B10081682C /* BankStatementModalWindowController.swift */,
-				03A0A21F280EB0B10081682C /* BankStatementModalWindowController.xib */,
-				03A0A221280EB0B10081682C /* ListBankStatementController.xib */,
-				03A0A223280EB0B10081682C /* ListBankStatementControllerAction.swift */,
-				03A0A224280EB0B10081682C /* ListBankStatementController.swift */,
-				03A0A225280EB0B10081682C /* DragView.swift */,
+				03BF480F281160D700EBF742 /* BankStatementModalWindowController.swift */,
+				03BF4811281160D700EBF742 /* BankStatementModalWindowController.xib */,
+				03BF4813281160D700EBF742 /* DragView.swift */,
+				03BF4812281160D700EBF742 /* ListBankStatementController.swift */,
+				03BF4810281160D700EBF742 /* ListBankStatementControllerAction.swift */,
+				03BF4815281160D800EBF742 /* PurchasesDetailView.xib */,
+				03BF481D2811777B00EBF742 /* ListBankStatementController.xib */,
 			);
 			path = BankStatement;
 			sourceTree = "<group>";
@@ -1335,18 +1321,19 @@
 				03A0A01A280EAE1C0081682C /* KSRetailCollectionViewItem.xib in Resources */,
 				032B52962810919D00AFED6B /* Capture8.png in Resources */,
 				03A0A195280EB0750081682C /* CategoryBarController1.xib in Resources */,
-				03A0A25A280EB0B10081682C /* ListBankStatementController.strings in Resources */,
 				03A0A174280EB0750081682C /* AccountViewController.strings in Resources */,
 				036E711B280EFE8700B7D411 /* Localizable.strings in Resources */,
 				03A0A050280EAE760081682C /* rubrique.csv in Resources */,
 				03A0A262280EB0B10081682C /* SplashScreenWindowController.strings in Resources */,
 				03A0A27F280EB23D0081682C /* README.md in Resources */,
 				03A0A0A3280EB0230081682C /* AdvancedFilterViewController.xib in Resources */,
+				03BF4818281160D800EBF742 /* BankStatementModalWindowController.xib in Resources */,
 				03A0A183280EB0750081682C /* ListTransactionsController.strings in Resources */,
 				03A0A1B2280EB0750081682C /* ModeModalWindowController.xib in Resources */,
 				03A0A1CC280EB0750081682C /* ChequierModalWindowController.xib in Resources */,
 				03A0A189280EB0750081682C /* ListTransactionsController.storyboard in Resources */,
 				03A0A1C9280EB0750081682C /* ChequiersViewController.xib in Resources */,
+				03BF481C281160D800EBF742 /* PurchasesDetailView.xib in Resources */,
 				03A0A1B4280EB0750081682C /* ModeOfPaymentViewController.xib in Resources */,
 				03A0A182280EB0750081682C /* curtain.jpg in Resources */,
 				03A0A280280EB23D0081682C /* appcast.xml in Resources */,
@@ -1361,7 +1348,6 @@
 				03A0A252280EB0B10081682C /* eventually.m4r in Resources */,
 				03A0A1CE280EB0750081682C /* SchedulerViewController.strings in Resources */,
 				03A09FEF280EAD370081682C /* Assets.xcassets in Resources */,
-				03A0A25B280EB0B10081682C /* PurchasesDetailView.xib in Resources */,
 				03A0A19D280EB0750081682C /* IdentiteViewController.xib in Resources */,
 				03A0A23A280EB0B10081682C /* TransactionViewController.strings in Resources */,
 				03A0A01C280EAE1C0081682C /* PopOverModalViewController.xib in Resources */,
@@ -1371,6 +1357,7 @@
 				03A0A1AC280EB0750081682C /* RubriqueModalWindowController.xib in Resources */,
 				032B52992810919D00AFED6B /* Capture3.png in Resources */,
 				03A0A0BA280EB04B0081682C /* AccessibilityImageDescriptions.strings in Resources */,
+				03BF481E2811777B00EBF742 /* ListBankStatementController.xib in Resources */,
 				03A0A176280EB0750081682C /* PersonViewController.strings in Resources */,
 				03A0A1B0280EB0750081682C /* ParameterController.xib in Resources */,
 				03A0A286280EC1830081682C /* Main.storyboard in Resources */,
@@ -1387,13 +1374,10 @@
 				032B52982810919D00AFED6B /* Capture6.png in Resources */,
 				03A0A282280EB23D0081682C /* version StoryBoard.md in Resources */,
 				03A0A1D1280EB0750081682C /* SchedulersSaisieController.strings in Resources */,
-				03A0A25E280EB0B10081682C /* ListBankStatementController.xib in Resources */,
 				03A0A181280EB0750081682C /* MyDB.sqlite in Resources */,
 				03A0A0C9280EB04B0081682C /* TTFormatViewControllerAccessory.xib in Resources */,
 				03A0A0C1280EB04B0081682C /* TTFormatViewController.xib in Resources */,
 				032B52972810919D00AFED6B /* Capture4.png in Resources */,
-				03A0A259280EB0B10081682C /* BankStatementModalWindowController.strings in Resources */,
-				03A0A25D280EB0B10081682C /* BankStatementModalWindowController.xib in Resources */,
 				03A0A251280EB0B10081682C /* SliderViewController.xib in Resources */,
 				03A0A019280EAE1C0081682C /* AccountGroupViewController.strings in Resources */,
 				032B52932810919D00AFED6B /* Capture7.png in Resources */,
@@ -1480,7 +1464,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A0A020280EAE1C0081682C /* AccountGroupViewDataSource.swift in Sources */,
-				03A0A25C280EB0B10081682C /* BankStatementModalWindowController.swift in Sources */,
 				03A0A186280EB0750081682C /* ListTransactionsTextColor.swift in Sources */,
 				03A0A04D280EAE760081682C /* BanqueStatement.swift in Sources */,
 				03A0A1A6280EB0750081682C /* MouseTracker.swift in Sources */,
@@ -1538,6 +1521,7 @@
 				03A0A053280EAE760081682C /* EntityRubric+CoreDataClass.swift in Sources */,
 				03A0A08D280EAEE60081682C /* NSPasteboard+Additions.swift in Sources */,
 				03A0A180280EB0750081682C /* AccountViewController.swift in Sources */,
+				03BF481A281160D800EBF742 /* DragView.swift in Sources */,
 				03A0A23D280EB0B10081682C /* SousOperationModalWindowController.swift in Sources */,
 				03A0A1D0280EB0750081682C /* SchedulerViewController.swift in Sources */,
 				03A0A0A1280EB0230081682C /* NSPredicateEditorRowTemplate.swift in Sources */,
@@ -1552,12 +1536,12 @@
 				03A0A1AD280EB0750081682C /* CategorieModalWindowController.swift in Sources */,
 				03A0A1D2280EB0750081682C /* SchedulersSaisieControllerDelegate.swift in Sources */,
 				03A0A23E280EB0B10081682C /* SousOperationAction.swift in Sources */,
-				03A0A261280EB0B10081682C /* DragView.swift in Sources */,
 				03A0A051280EAE760081682C /* Account.swift in Sources */,
 				03A09FE6280EAD340081682C /* AppDelegate.swift in Sources */,
 				03A0A0BC280EB04B0081682C /* ImportWindowController.swift in Sources */,
 				03A0A08A280EAEE60081682C /* Notification.swift in Sources */,
 				03A0A07A280EAEE60081682C /* MLTextField.swift in Sources */,
+				03BF4816281160D800EBF742 /* BankStatementModalWindowController.swift in Sources */,
 				03A0A274280EB1EB0081682C /* MyPrintViewTableView.swift in Sources */,
 				03A0A277280EB1EB0081682C /* MainWindowToolBar.swift in Sources */,
 				03A0A0BE280EB04B0081682C /* ImportSchedulersWindowController.swift in Sources */,
@@ -1580,7 +1564,6 @@
 				03A0A08C280EAEE60081682C /* String.swift in Sources */,
 				03A0A02C280EAE1C0081682C /* AccountGroupViewDelegate.swift in Sources */,
 				03A0A04C280EAE760081682C /* Statut.swift in Sources */,
-				03A0A260280EB0B10081682C /* ListBankStatementController.swift in Sources */,
 				03A0A052280EAE760081682C /* Preference.swift in Sources */,
 				03A0A04E280EAE760081682C /* Scheduler.swift in Sources */,
 				03A0A055280EAE760081682C /* EntityTransactions+CoreDataProperties.swift in Sources */,
@@ -1630,11 +1613,12 @@
 				03A0A178280EB0750081682C /* util.swift in Sources */,
 				03A0A091280EAEE60081682C /* ManagedObject.swift in Sources */,
 				03A0A192280EB0750081682C /* IncomeExpenseBarController.swift in Sources */,
+				03BF4817281160D800EBF742 /* ListBankStatementControllerAction.swift in Sources */,
 				03A0A083280EAEE60081682C /* NotificationActionsEnum.swift in Sources */,
 				03A0A19F280EB0750081682C /* RubriqueViewDragDrop.swift in Sources */,
 				03A0A089280EAEE60081682C /* NSImage.swift in Sources */,
-				03A0A25F280EB0B10081682C /* ListBankStatementControllerAction.swift in Sources */,
 				03A0A265280EB0B10081682C /* TulsiDocumentController.swift in Sources */,
+				03BF4819281160D800EBF742 /* ListBankStatementController.swift in Sources */,
 				03A0A276280EB1EB0081682C /* MyPrintViewOutline.swift in Sources */,
 				03A0A07E280EAEE60081682C /* ChartView.swift in Sources */,
 				03A0A256280EB0B10081682C /* TresorerieViewController.swift in Sources */,
@@ -1887,46 +1871,6 @@
 				03A0A1F2280EB0B10081682C /* Base */,
 			);
 			name = TransactionViewController.xib;
-			sourceTree = "<group>";
-		};
-		03A0A213280EB0B10081682C /* BankStatementModalWindowController.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03A0A214280EB0B10081682C /* de */,
-				03A0A217280EB0B10081682C /* en */,
-				03A0A21A280EB0B10081682C /* es */,
-				03A0A21C280EB0B10081682C /* it */,
-				03A0A226280EB0B10081682C /* fr */,
-			);
-			name = BankStatementModalWindowController.strings;
-			sourceTree = "<group>";
-		};
-		03A0A215280EB0B10081682C /* ListBankStatementController.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03A0A216280EB0B10081682C /* de */,
-				03A0A218280EB0B10081682C /* en */,
-				03A0A21B280EB0B10081682C /* es */,
-				03A0A21D280EB0B10081682C /* it */,
-				03A0A227280EB0B10081682C /* fr */,
-			);
-			name = ListBankStatementController.strings;
-			sourceTree = "<group>";
-		};
-		03A0A21F280EB0B10081682C /* BankStatementModalWindowController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03A0A220280EB0B10081682C /* Base */,
-			);
-			name = BankStatementModalWindowController.xib;
-			sourceTree = "<group>";
-		};
-		03A0A221280EB0B10081682C /* ListBankStatementController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03A0A222280EB0B10081682C /* Base */,
-			);
-			name = ListBankStatementController.xib;
 			sourceTree = "<group>";
 		};
 		03A0A229280EB0B10081682C /* SplashScreenWindowController.strings */ = {

@@ -54,10 +54,10 @@ class AppDelegate: NSObject, NSApplicationDelegate , NSUserNotificationCenterDel
 //    }
 
     
-//    func userNotificationCenter(_ center: UNUserNotificationCenter, shouldPresent notification: UNNotification) -> Bool
-//        {
-//        return true
-//        }
+    func userNotificationCenter(_ center: UNUserNotificationCenter, shouldPresent notification: UNNotification) -> Bool
+        {
+        return true
+        }
 
     func applicationWillFinishLaunching(_ notification: Notification) {
         

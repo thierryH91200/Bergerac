@@ -13,11 +13,12 @@
 /* MARK: -  Document */
 "Document.Bank_Account" = "Bank account";
 "Document.Carte_de_crédit" = "Bank card";
-"Document.Compte_Courant" = "Current account";
-"Document.Epargne" = "Save";"Document.Especes" = "Cash account";
+"Document.Current account" = "Current account";
+"Document.Especes" = "Cash account";
 "Document.IdName" = "Doe";
 "Document.IdPrenom" = "John";
 "Document.OpenProjectPanelMessage" = "Open Project";
+"Document.Save" = "Save";
 
 /* MARK: -  Account */
 "General.Account" = "Account";
@@ -35,11 +36,11 @@
 "General.Identity" = "Identity";
 "General.Income" = "Income";
 "General.Libelle" = "Comment";
-"General.Liste des opérations" = "List transactions";
-"General.Mode Paiement" = "Mode Payment";
+"General.List Transactions" = "List transactions";
+"General.Mode Payment" = "Mode Payment";
 "General.Bank Statement" = "Bank Statement";
 "General.Transaction" = "Transaction";
-"General.Rubrique" = "Rubric";
+"General.Rubric" = "Rubric";
 "General.Scheduler" = "Scheduler";
 "General.Solde" = "Balance";
 "General.Statut" = "Statut";

@@ -88,6 +88,9 @@ final class ListBankStatementController: NSViewController, DragViewDelegate  {
     func updateData() {
         guard currentAccount != nil else { return }
         entityBankStatements = BankStatement.shared.getAllDatas()
+//        for entity in entityBankStatements {
+//            BankStatement.shared.remove(entity: entity)
+//        }
         tableBankStatement.reloadData()
     }
 
@@ -277,8 +280,10 @@ extension ListBankStatementController: NSTableViewDelegate {
             let cellIdentifier = NSUserInterfaceItemIdentifier(rawValue: "pdfCell")
             cellView = tableView.makeView(withIdentifier: cellIdentifier, owner: self) as? NSTableCellView
             cellView?.textField?.stringValue = ""
+            
+            let list = entityBankStatements[row] as EntityBankStatement
 
-            if let pdfDoc = entityBankStatements[row].pdfDoc {
+            if let pdfDoc = list.pdfDoc {
                 let pdfDocument = PDFDocument(data: pdfDoc )
                 if let firstPage = pdfDocument?.page(at: 0) {
                     cellView?.imageView?.image = firstPage.thumbnail(of: NSSize(width: 256, height: 256), for: .artBox)
