@@ -8,23 +8,26 @@
 import Cocoa
 import PDFKit
 
-
-
 extension ListBankStatementController  {
     
     @objc func doubleClicked(_ sender: Any?) {
         
         let selectedRow = self.tableBankStatement!.selectedRow
+        guard selectedRow != -1 else { return }
         
         if let pdfDoc = entityBankStatements[selectedRow].pdfDoc {
             
             let url = savePdf(name: "Bergerac", data: pdfDoc)
-            Process.launchedProcess(launchPath: "/usr/bin/open", arguments: [
+            let task = Process.launchedProcess(launchPath: "/usr/bin/open", arguments: [
                 "-a",
                 "Preview",
                 url.absoluteString
             ])
-//            fileDelete(filePath: url)
+            task.waitUntilExit()
+            if task.terminationStatus == 0 {
+
+                fileDelete(filePath: url)
+            }
         }
     }
     
@@ -49,17 +52,17 @@ extension ListBankStatementController  {
         
         do {
             let fileManager = FileManager.default
-            
+
                 // Check if file exists
             if fileManager.fileExists(atPath: filePath.path) == true {
                     // Delete file
-                try fileManager.removeItem(atPath: filePath.absoluteString)
+                try fileManager.removeItem(at: filePath)
             } else {
                 print("File does not exist")
             }
         }
         catch let error as NSError {
-            print("An error took place: \(error)")
+            print("An error took place: \(error.localizedDescription)")
         }
     }
     

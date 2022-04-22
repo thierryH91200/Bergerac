@@ -14,17 +14,17 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="c22-O7-iKe">
-            <rect key="frame" x="0.0" y="0.0" width="672" height="399"/>
+            <rect key="frame" x="0.0" y="0.0" width="774" height="399"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <scrollView autohidesScrollers="YES" horizontalLineScroll="17" horizontalPageScroll="10" verticalLineScroll="17" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HqI-fl-IHY">
-                    <rect key="frame" x="0.0" y="0.0" width="672" height="399"/>
+                    <rect key="frame" x="0.0" y="0.0" width="774" height="399"/>
                     <clipView key="contentView" id="990-zd-88D">
-                        <rect key="frame" x="1" y="1" width="670" height="397"/>
+                        <rect key="frame" x="1" y="1" width="772" height="397"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="pzx-xX-Psh" viewBased="YES" id="Giz-b6-NUN">
-                                <rect key="frame" x="0.0" y="0.0" width="942" height="369"/>
+                                <rect key="frame" x="0.0" y="0.0" width="888" height="369"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="17" height="0.0"/>
                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -32,7 +32,7 @@
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
                                     <tableColumn identifier="idCol" width="116" minWidth="40" maxWidth="1000" id="8BV-0P-zeC">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Num">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Num">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                         </tableHeaderCell>
@@ -51,7 +51,7 @@
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i2o-zJ-l5w">
                                                         <rect key="frame" x="0.0" y="4" width="114" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="uPm-wp-M1y">
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="center" title="Table View Cell" id="uPm-wp-M1y">
                                                             <font key="font" usesAppearanceFont="YES"/>
                                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -65,7 +65,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="dateDebCol" width="149" minWidth="40" maxWidth="1000" id="0xu-2H-DTg">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Start Date">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Start Date">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                         </tableHeaderCell>
@@ -98,7 +98,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="soldeDebCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="YrX-w4-9gc">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Solde Initial">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Solde Initial">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableHeaderCell>
@@ -131,7 +131,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="dateInterCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="3DG-s6-K7k">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Date inter">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Date inter">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableHeaderCell>
@@ -164,7 +164,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="soldeInterCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="aWh-Q9-QN8">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Solde Inter">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Solde Inter">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableHeaderCell>
@@ -198,7 +198,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="dateFinCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="7lY-f6-eRZ">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="End Date">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="End Date">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableHeaderCell>
@@ -231,7 +231,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="soldeFinCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="Ieb-B6-jfd">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Solde fin">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Solde fin">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableHeaderCell>
@@ -265,7 +265,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="dateCBCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="I58-9c-mbg">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="CB Date">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="CB Date">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableHeaderCell>
@@ -298,7 +298,7 @@
                                         </prototypeCellViews>
                                     </tableColumn>
                                     <tableColumn identifier="soldeCBCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="EEB-w8-SnG">
-                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="CB Balance">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="CB Balance">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableHeaderCell>
@@ -331,7 +331,7 @@
                                             </tableCellView>
                                         </prototypeCellViews>
                                     </tableColumn>
-                                    <tableColumn identifier="pdfCol" width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="4nO-lN-G60">
+                                    <tableColumn identifier="pdfCol" width="10" minWidth="10" maxWidth="3.4028234663852886e+38" id="4nO-lN-G60">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="PDF">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -344,7 +344,7 @@
                                         <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                         <prototypeCellViews>
                                             <tableCellView identifier="pdfCell" id="Rk0-jp-64Z">
-                                                <rect key="frame" x="872" y="0.0" width="61" height="17"/>
+                                                <rect key="frame" x="872" y="0.0" width="7" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="119-js-J2S">
@@ -386,8 +386,8 @@
                             </tableView>
                         </subviews>
                     </clipView>
-                    <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="tq2-fR-LKF">
-                        <rect key="frame" x="1" y="382" width="670" height="16"/>
+                    <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="tq2-fR-LKF">
+                        <rect key="frame" x="1" y="382" width="772" height="16"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                     <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="SZG-jE-lVM">
@@ -395,7 +395,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                     <tableHeaderView key="headerView" wantsLayer="YES" id="pzx-xX-Psh">
-                        <rect key="frame" x="0.0" y="0.0" width="942" height="28"/>
+                        <rect key="frame" x="0.0" y="0.0" width="888" height="28"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </tableHeaderView>
                 </scrollView>
@@ -406,7 +406,7 @@
                 <constraint firstAttribute="trailing" secondItem="HqI-fl-IHY" secondAttribute="trailing" id="eER-Af-ejF"/>
                 <constraint firstItem="HqI-fl-IHY" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="z8f-rc-yCM"/>
             </constraints>
-            <point key="canvasLocation" x="235" y="90.5"/>
+            <point key="canvasLocation" x="184" y="90.5"/>
         </customView>
         <menu id="Jtj-ex-Rg7">
             <items>

@@ -22,7 +22,7 @@
 
 /* MARK: -  Account */
 "General.Account" = "Account";
-"General.Account2.Zero" = "0 compte";
+"General.Account2.Zero" = "0 account";
 "General.Account2.Singular" = "1 account";
 "General.Account2.Plural" = "%d accounts";
 "General.Amount" = "Amount";

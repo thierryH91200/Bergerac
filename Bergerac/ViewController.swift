@@ -251,14 +251,14 @@ class ViewController: NSViewController , UNUserNotificationCenterDelegate{
 //        segmentedControl?.setSelected(!isHidden, forSegment: 2)
         
         
-//                    if isHidden == true {
-//                        splitViewPrincipal.setPosition(splitViewPrincipal.bounds.width, ofDividerAt: 1)
-//                    } else {
-//                        splitViewPrincipal.setPosition( splitViewPrincipal.bounds.width - 249, ofDividerAt: 1)
-//                    }
-//                    transactionView.isHidden = isHidden
-//                    segmentedControl?.setSelected(!isHidden, forSegment: 2)
-//                    splitViewPrincipal.adjustSubviews()
+        if isHidden == true {
+            splitViewPrincipal.setPosition(splitViewPrincipal.bounds.width, ofDividerAt: 1)
+        } else {
+            splitViewPrincipal.setPosition( splitViewPrincipal.bounds.width - 249, ofDividerAt: 1)
+        }
+        transactionView.isHidden = isHidden
+        segmentedControl?.setSelected(!isHidden, forSegment: 2)
+        splitViewPrincipal.adjustSubviews()
     }
 }
 
