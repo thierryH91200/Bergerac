@@ -14,7 +14,7 @@ import UserNotifications
 //import Sparkle
 
 
-typealias TFDatePicker = NSDatePicker
+//typealias TFDatePicker = NSDatePicker
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate , NSUserNotificationCenterDelegate {

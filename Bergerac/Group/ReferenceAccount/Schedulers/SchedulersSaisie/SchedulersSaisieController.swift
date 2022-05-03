@@ -23,7 +23,7 @@ final class SchedulersSaisieController: NSViewController, NSTextFieldDelegate, N
     
     @IBOutlet weak var dateDebut: NSDatePicker!
     @IBOutlet weak var dateFin: NSDatePicker!
-    @IBOutlet weak var dateValeur: TFDatePicker!
+    @IBOutlet weak var dateValeur: NSDatePicker!
 
     @objc var date1: Date?
     @objc var date2: Date?
