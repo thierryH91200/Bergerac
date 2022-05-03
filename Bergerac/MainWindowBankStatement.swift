@@ -38,7 +38,7 @@ extension MainWindowController {
         panel.canChooseDirectories = false
         panel.allowsMultipleSelection = false
         
-        let allowedContentTypes: [UTType] = [.commaSeparatedText, .text]
+        let allowedContentTypes: [UTType] = [.commaSeparatedText]
         panel.allowedContentTypes = allowedContentTypes
         
         panel.beginSheetModal(for: self.window!) { (result) in
@@ -118,7 +118,7 @@ extension MainWindowController {
         savePanel.accessoryView = accessoryViewController?.view
         accessoryViewController?.config.isFirstRowAsHeader = (csvConfig?.isFirstRowAsHeader)!
         
-        let allowedContentTypes: [UTType] = [.commaSeparatedText, .text]
+        let allowedContentTypes: [UTType] = [.commaSeparatedText, .tabSeparatedText]
         savePanel.allowedContentTypes = allowedContentTypes
         let name = defaultDraftName("BankStatements_")
         savePanel.nameFieldStringValue = name + ".csv" // <-- user editable prompt
@@ -165,10 +165,8 @@ extension MainWindowController {
         for title in titles {
             export = quote + title + "\(quote)\(delimiter)"
         }
+        
         export = quote + "reserve" + "\(quote)\n"
-        
-        print(export)
-        
         for bankStatement in bankStatements {
             data  = String(bankStatement.number)
             export = "\(quote)\(data)\(quote)\(delimiter)"

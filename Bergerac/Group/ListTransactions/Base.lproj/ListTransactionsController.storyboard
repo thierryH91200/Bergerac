@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20036.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20036.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,10 +19,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1365" height="602"/>
                                 <subviews>
                                     <stackView identifier="idStack1" distribution="fill" orientation="horizontal" alignment="top" spacing="10" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fM2-J9-LD3" userLabel="Stack View1">
-                                        <rect key="frame" x="0.0" y="423" width="1365" height="179"/>
+                                        <rect key="frame" x="0.0" y="339" width="1365" height="263"/>
                                         <subviews>
                                             <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="zVN-g7-60N" userLabel="Box1">
-                                                <rect key="frame" x="0.0" y="119" width="448" height="60"/>
+                                                <rect key="frame" x="0.0" y="203" width="448" height="60"/>
                                                 <view key="contentView" id="BEm-5x-2uU">
                                                     <rect key="frame" x="1" y="1" width="446" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,7 +71,7 @@
                                                 </constraints>
                                             </box>
                                             <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-FG-X82" userLabel="Box2">
-                                                <rect key="frame" x="458" y="119" width="449" height="60"/>
+                                                <rect key="frame" x="458" y="203" width="449" height="60"/>
                                                 <view key="contentView" id="0C5-FV-8T1">
                                                     <rect key="frame" x="1" y="1" width="447" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +124,7 @@
                                                 </constraints>
                                             </box>
                                             <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="bVj-lS-VBb" userLabel="Box3">
-                                                <rect key="frame" x="917" y="119" width="448" height="60"/>
+                                                <rect key="frame" x="917" y="203" width="448" height="60"/>
                                                 <view key="contentView" id="WD3-zo-zIm">
                                                     <rect key="frame" x="1" y="1" width="446" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,13 +192,13 @@
                                         </customSpacing>
                                     </stackView>
                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="30" horizontalPageScroll="10" verticalLineScroll="30" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRK-d6-dmg">
-                                        <rect key="frame" x="0.0" y="80" width="1365" height="293"/>
+                                        <rect key="frame" x="0.0" y="80" width="1365" height="209"/>
                                         <clipView key="contentView" id="o8s-DA-VX5">
-                                            <rect key="frame" x="1" y="1" width="1363" height="291"/>
+                                            <rect key="frame" x="1" y="1" width="1363" height="207"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" tableStyle="plain" autosaveColumns="NO" rowHeight="30" rowSizeStyle="automatic" headerView="A9E-Dg-UJW" viewBased="YES" indentationPerLevel="13" autoresizesOutlineColumn="YES" outlineTableColumn="8YN-Ur-793" id="VND-Xg-fnc">
-                                                    <rect key="frame" x="0.0" y="0.0" width="1618" height="263"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="1618" height="179"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <size key="intercellSpacing" width="17" height="0.0"/>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -785,7 +784,7 @@
                                             </subviews>
                                         </clipView>
                                         <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="E08-40-dzb">
-                                            <rect key="frame" x="1" y="276" width="1363" height="16"/>
+                                            <rect key="frame" x="1" y="192" width="1363" height="16"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="TJ4-vO-wLL">

@@ -52,11 +52,6 @@
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
-            key = ""
-            value = ""
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
             key = "CG_PDF_VERBOSE"
             value = "1"
             isEnabled = "YES">
