@@ -884,14 +884,14 @@
 		03A0A0F5280EB0740081682C /* ListTransactions */ = {
 			isa = PBXGroup;
 			children = (
+				03A0A102280EB0740081682C /* ListTransactionsController.swift */,
+				03A0A100280EB0740081682C /* ListTransactionsController.storyboard */,
+				03A0A0FD280EB0740081682C /* ListTransactionsController+Expansion.swift */,
+				03A0A0FF280EB0740081682C /* ListTransactionsDataSource.swift */,
+				03A0A103280EB0740081682C /* ListTransactionsmenuDelegate.swift */,
 				03A0A0F9280EB0740081682C /* ListTransactionsSchedulers.swift */,
 				03A0A0FA280EB0740081682C /* ListTransactionsPasteboard.swift */,
 				03A0A0FB280EB0740081682C /* ListTransactionsTextColor.swift */,
-				03A0A0FD280EB0740081682C /* ListTransactionsController+Expansion.swift */,
-				03A0A0FF280EB0740081682C /* ListTransactionsDataSource.swift */,
-				03A0A100280EB0740081682C /* ListTransactionsController.storyboard */,
-				03A0A102280EB0740081682C /* ListTransactionsController.swift */,
-				03A0A103280EB0740081682C /* ListTransactionsmenuDelegate.swift */,
 				03A0A105280EB0740081682C /* ListTransactionsDelegate.swift */,
 			);
 			path = ListTransactions;
