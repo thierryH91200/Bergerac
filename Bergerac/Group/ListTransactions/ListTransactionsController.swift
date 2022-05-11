@@ -66,7 +66,6 @@ final class ListTransactionsController: NSViewController {
     @IBOutlet weak var theBox2: NSBox!
     @IBOutlet weak var theBox3: NSBox!
 
-    @IBOutlet weak var removeButton: NSButton!
     
     @IBOutlet weak var bankBalance: NSTextField!
     @IBOutlet weak var realBalance: NSTextField!
@@ -81,6 +80,9 @@ final class ListTransactionsController: NSViewController {
     
     @IBOutlet var menuTable: NSMenu!
     
+    @IBOutlet weak var viewModeButton: NSButton?
+    @IBOutlet weak var removeButton: NSButton!
+
     var secondary = false
     
     var colorBackGround = #colorLiteral(red: 0.8157508969, green: 0.8595363498, blue: 0.9023539424, alpha: 1)
@@ -111,6 +113,9 @@ final class ListTransactionsController: NSViewController {
     var groupedSorted = [ GroupedYearOperations ]()
     var solde = false
     
+    var viewModel = ViewModel()
+    var originalColumns = [NSTableColumn]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -120,15 +125,10 @@ final class ListTransactionsController: NSViewController {
         self.outlineListView.selectionHighlightStyle = .regular
 
         createOutlineContextMenu()
-        
+        originalColumns = outlineListView.tableColumns
+
         // assuming here you have added the self.imageView to the main view and it was declared before.
         self.outlineListView.translatesAutoresizingMaskIntoConstraints = false
-
-//       // create the constraints with the constant value you want.
-//       var verticalSpace = NSLayoutConstraint(item: self.imageView, attribute: .Bottom, relatedBy: .Equal, toItem: self.button, attribute: .Bottom, multiplier: 1, constant: 50)
-//
-//      // activate the constraints
-//      NSLayoutConstraint.activateConstraints([verticalSpace])
         
         bankBalance.stringValue = Localizations.Statut.Realise
         soldeBanque.font = NSFont(name : "Silom", size : 16.0)!
@@ -161,8 +161,6 @@ final class ListTransactionsController: NSViewController {
         self.theBox3.fillColor = NSColor(patternImage: NSImage(named: NSImage.Name( "Gradient"))!)
         
         self.outlineListView.doubleAction = #selector(doubleClicked)
-        //        NotificationCenter.default.addObserver(self, selector: #selector(itemWillExpand(_:)), name: NSOutlineView.itemWillExpandNotification, object: self.outlineView);
-
         self.outlineListView.allowsEmptySelection = true
         
         var name = ""
@@ -229,6 +227,42 @@ final class ListTransactionsController: NSViewController {
 //        NotificationCenter.remove(instance: self, name: .selectionDidChangeOutLine)
 //        NotificationCenter.remove(instance: self, name: .updateAccount)
     }
+    
+    
+    // MARK: - IBAction Methods
+    
+    @IBAction func switchDisplayMode(_ sender: Any) {
+        viewModel.switchDisplayMode()
+        
+        if viewModel.displayMode == .detail {
+                        
+            for column in originalColumns {
+                column.isHidden = true
+            }
+            
+            let column = NSTableColumn(identifier: NSUserInterfaceItemIdentifier(rawValue: "detailsColumn"))
+            column.width = outlineListView.frame.size.width
+            column.title = "Purchases Detailed View"
+            outlineListView.addTableColumn(column)
+            
+            viewModeButton?.title = "Switch to Plain Display Mode"
+            
+        } else {
+            
+            for column in originalColumns {
+                column.isHidden = false
+            }
+//            let tableColumns = outlineListView.tableColumns
+            outlineListView.tableColumns[0].isHidden = true
+
+            viewModeButton?.title = "Switch to Detail Display Mode"
+        }
+        
+        print( viewModeButton?.title ?? "title")
+        
+        outlineListView.reloadData()
+    }
+    
     
     @IBAction func datePickerAction(_ sender: Any) {
         let date = datePicker.dateValue

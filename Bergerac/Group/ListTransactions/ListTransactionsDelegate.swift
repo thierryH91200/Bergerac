@@ -125,6 +125,8 @@ extension ListTransactionsController: NSOutlineViewDelegate {
     
     func oneSubOperation(outlineView: NSOutlineView, tableColumn: NSTableColumn?, item: TrackingSubOperation) -> NSView? {
         
+//        let currentPurchase = viewModel.purchases[row]
+
         var cellView: NSTableCellView?
         
         let identifier = tableColumn!.identifier

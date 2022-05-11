@@ -256,8 +256,14 @@
 		03BF4818281160D800EBF742 /* BankStatementModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4811281160D700EBF742 /* BankStatementModalWindowController.xib */; };
 		03BF4819281160D800EBF742 /* ListBankStatementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4812281160D700EBF742 /* ListBankStatementController.swift */; };
 		03BF481A281160D800EBF742 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4813281160D700EBF742 /* DragView.swift */; };
-		03BF481C281160D800EBF742 /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4815281160D800EBF742 /* PurchasesDetailView.xib */; };
+		03BF481C281160D800EBF742 /* PurchasesDetailViewOld.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4815281160D800EBF742 /* PurchasesDetailViewOld.xib */; };
 		03BF481E2811777B00EBF742 /* ListBankStatementController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BF481D2811777B00EBF742 /* ListBankStatementController.xib */; };
+		2B3324792821A6D3002950A3 /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3324782821A6D3002950A3 /* PurchasesDetailView.xib */; };
+		2B33247B2821A6F2002950A3 /* PurchasesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33247A2821A6F2002950A3 /* PurchasesDetailView.swift */; };
+		2B33247D2821A6FE002950A3 /* PaymentInfoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33247C2821A6FE002950A3 /* PaymentInfoCellView.swift */; };
+		2B33247F2821A70B002950A3 /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33247E2821A70B002950A3 /* LoadableView.swift */; };
+		2B3324822821AB04002950A3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3324812821AB04002950A3 /* ViewModel.swift */; };
+		2B3324842821B69C002950A3 /* PurchasesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3324832821B69C002950A3 /* PurchasesModel.swift */; };
 		2B9FB87E28211A850026190F /* appcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B9FB87D28211A850026190F /* appcast.xml */; };
 /* End PBXBuildFile section */
 
@@ -565,8 +571,14 @@
 		03BF4811281160D700EBF742 /* BankStatementModalWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankStatementModalWindowController.xib; sourceTree = "<group>"; };
 		03BF4812281160D700EBF742 /* ListBankStatementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankStatementController.swift; sourceTree = "<group>"; };
 		03BF4813281160D700EBF742 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
-		03BF4815281160D800EBF742 /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
+		03BF4815281160D800EBF742 /* PurchasesDetailViewOld.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailViewOld.xib; sourceTree = "<group>"; };
 		03BF481D2811777B00EBF742 /* ListBankStatementController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBankStatementController.xib; sourceTree = "<group>"; };
+		2B3324782821A6D3002950A3 /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
+		2B33247A2821A6F2002950A3 /* PurchasesDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesDetailView.swift; sourceTree = "<group>"; };
+		2B33247C2821A6FE002950A3 /* PaymentInfoCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfoCellView.swift; sourceTree = "<group>"; };
+		2B33247E2821A70B002950A3 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
+		2B3324812821AB04002950A3 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2B3324832821B69C002950A3 /* PurchasesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesModel.swift; sourceTree = "<group>"; };
 		2B9FB87D28211A850026190F /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -884,15 +896,18 @@
 		03A0A0F5280EB0740081682C /* ListTransactions */ = {
 			isa = PBXGroup;
 			children = (
+				2B3324832821B69C002950A3 /* PurchasesModel.swift */,
+				2B3324812821AB04002950A3 /* ViewModel.swift */,
+				2B3324802821A712002950A3 /* Custom Views */,
 				03A0A102280EB0740081682C /* ListTransactionsController.swift */,
 				03A0A100280EB0740081682C /* ListTransactionsController.storyboard */,
 				03A0A0FD280EB0740081682C /* ListTransactionsController+Expansion.swift */,
+				03A0A105280EB0740081682C /* ListTransactionsDelegate.swift */,
 				03A0A0FF280EB0740081682C /* ListTransactionsDataSource.swift */,
 				03A0A103280EB0740081682C /* ListTransactionsmenuDelegate.swift */,
 				03A0A0F9280EB0740081682C /* ListTransactionsSchedulers.swift */,
 				03A0A0FA280EB0740081682C /* ListTransactionsPasteboard.swift */,
 				03A0A0FB280EB0740081682C /* ListTransactionsTextColor.swift */,
-				03A0A105280EB0740081682C /* ListTransactionsDelegate.swift */,
 			);
 			path = ListTransactions;
 			sourceTree = "<group>";
@@ -1208,7 +1223,7 @@
 				03BF4813281160D700EBF742 /* DragView.swift */,
 				03BF4812281160D700EBF742 /* ListBankStatementController.swift */,
 				03BF4810281160D700EBF742 /* ListBankStatementControllerAction.swift */,
-				03BF4815281160D800EBF742 /* PurchasesDetailView.xib */,
+				03BF4815281160D800EBF742 /* PurchasesDetailViewOld.xib */,
 				03BF481D2811777B00EBF742 /* ListBankStatementController.xib */,
 			);
 			path = BankStatement;
@@ -1224,6 +1239,17 @@
 				03A0A233280EB0B10081682C /* SplashScreenRecentDocumentView.xib */,
 			);
 			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		2B3324802821A712002950A3 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B33247E2821A70B002950A3 /* LoadableView.swift */,
+				2B33247C2821A6FE002950A3 /* PaymentInfoCellView.swift */,
+				2B33247A2821A6F2002950A3 /* PurchasesDetailView.swift */,
+				2B3324782821A6D3002950A3 /* PurchasesDetailView.xib */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1322,7 +1348,7 @@
 				03A0A1CC280EB0750081682C /* ChequierModalWindowController.xib in Resources */,
 				03A0A189280EB0750081682C /* ListTransactionsController.storyboard in Resources */,
 				03A0A1C9280EB0750081682C /* ChequiersViewController.xib in Resources */,
-				03BF481C281160D800EBF742 /* PurchasesDetailView.xib in Resources */,
+				03BF481C281160D800EBF742 /* PurchasesDetailViewOld.xib in Resources */,
 				03A0A1B4280EB0750081682C /* ModeOfPaymentViewController.xib in Resources */,
 				03A0A182280EB0750081682C /* curtain.jpg in Resources */,
 				03A0A263280EB0B10081682C /* SplashScreenWindowController.xib in Resources */,
@@ -1373,6 +1399,7 @@
 				03A0A04F280EAE760081682C /* rubrique.plist in Resources */,
 				03A0A238280EB0B10081682C /* SourceListViewController.xib in Resources */,
 				03A0A026280EAE1C0081682C /* AccountGroupViewController copie.xib in Resources */,
+				2B3324792821A6D3002950A3 /* PurchasesDetailView.xib in Resources */,
 				03A0A1C8280EB0750081682C /* PreferenceOperationViewController.xib in Resources */,
 				03A0A266280EB0B10081682C /* SplashScreenRecentDocumentView.xib in Resources */,
 				03A0A1AB280EB0750081682C /* CategorieModalWindowController.xib in Resources */,
@@ -1476,6 +1503,7 @@
 				03A0A17F280EB0750081682C /* GeneralViewController.swift in Sources */,
 				03A0A19E280EB0750081682C /* IdentiteViewController.swift in Sources */,
 				03A0A01D280EAE1C0081682C /* KSBackgroundView.swift in Sources */,
+				2B33247D2821A6FE002950A3 /* PaymentInfoCellView.swift in Sources */,
 				03A0A1A2280EB0750081682C /* ColorUtilities.swift in Sources */,
 				03A0A08E280EAEE60081682C /* Debug.swift in Sources */,
 				03A0A044280EAE760081682C /* EntityAccount+CoreDataClass.swift in Sources */,
@@ -1490,6 +1518,7 @@
 				03A0A194280EB0750081682C /* CategoryBarController1.swift in Sources */,
 				03A0A248280EB0B10081682C /* CSwiftV.swift in Sources */,
 				03A0A0BB280EB04B0081682C /* ImportWindowControllerMenuDelegate.swift in Sources */,
+				2B3324822821AB04002950A3 /* ViewModel.swift in Sources */,
 				03A09FED280EAD340081682C /* Document.xcdatamodeld in Sources */,
 				03A0A0C7280EB04B0081682C /* CSVConfig.swift in Sources */,
 				03A0A18E280EB0750081682C /* PaymentModePieController.swift in Sources */,
@@ -1504,11 +1533,13 @@
 				03A09FE8280EAD340081682C /* ViewController.swift in Sources */,
 				03A0A07C280EAEE60081682C /* NSWindow.swift in Sources */,
 				03A0A048280EAE760081682C /* Categories.swift in Sources */,
+				2B33247B2821A6F2002950A3 /* PurchasesDetailView.swift in Sources */,
 				03A0A278280EB1EB0081682C /* MainWindowBankStatement.swift in Sources */,
 				03A0A01E280EAE1C0081682C /* PopOverModalViewController.swift in Sources */,
 				03A0A053280EAE760081682C /* EntityRubric+CoreDataClass.swift in Sources */,
 				03A0A08D280EAEE60081682C /* NSPasteboard+Additions.swift in Sources */,
 				03A0A180280EB0750081682C /* AccountViewController.swift in Sources */,
+				2B33247F2821A70B002950A3 /* LoadableView.swift in Sources */,
 				03BF481A281160D800EBF742 /* DragView.swift in Sources */,
 				03A0A23D280EB0B10081682C /* SousOperationModalWindowController.swift in Sources */,
 				03A0A1D0280EB0750081682C /* SchedulerViewController.swift in Sources */,
@@ -1532,6 +1563,7 @@
 				03BF4816281160D800EBF742 /* BankStatementModalWindowController.swift in Sources */,
 				03A0A274280EB1EB0081682C /* MyPrintViewTableView.swift in Sources */,
 				03A0A277280EB1EB0081682C /* MainWindowToolBar.swift in Sources */,
+				2B3324842821B69C002950A3 /* PurchasesModel.swift in Sources */,
 				03A0A0BE280EB04B0081682C /* ImportSchedulersWindowController.swift in Sources */,
 				03A0A057280EAE760081682C /* EntityAccount+CoreDataProperties.swift in Sources */,
 				03A0A080280EAEE60081682C /* NVDate.swift in Sources */,

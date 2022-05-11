@@ -19,10 +19,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1365" height="602"/>
                                 <subviews>
                                     <stackView identifier="idStack1" distribution="fill" orientation="horizontal" alignment="top" spacing="10" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fM2-J9-LD3" userLabel="Stack View1">
-                                        <rect key="frame" x="0.0" y="199" width="1365" height="403"/>
+                                        <rect key="frame" x="0.0" y="251" width="1365" height="351"/>
                                         <subviews>
                                             <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="zVN-g7-60N" userLabel="Box1">
-                                                <rect key="frame" x="0.0" y="343" width="448" height="60"/>
+                                                <rect key="frame" x="0.0" y="291" width="448" height="60"/>
                                                 <view key="contentView" id="BEm-5x-2uU">
                                                     <rect key="frame" x="1" y="1" width="446" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
                                                 </constraints>
                                             </box>
                                             <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-FG-X82" userLabel="Box2">
-                                                <rect key="frame" x="458" y="343" width="449" height="60"/>
+                                                <rect key="frame" x="458" y="291" width="449" height="60"/>
                                                 <view key="contentView" id="0C5-FV-8T1">
                                                     <rect key="frame" x="1" y="1" width="447" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,7 +124,7 @@
                                                 </constraints>
                                             </box>
                                             <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="bVj-lS-VBb" userLabel="Box3">
-                                                <rect key="frame" x="917" y="343" width="448" height="60"/>
+                                                <rect key="frame" x="917" y="291" width="448" height="60"/>
                                                 <view key="contentView" id="WD3-zo-zIm">
                                                     <rect key="frame" x="1" y="1" width="446" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,13 +192,13 @@
                                         </customSpacing>
                                     </stackView>
                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="30" horizontalPageScroll="10" verticalLineScroll="30" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRK-d6-dmg">
-                                        <rect key="frame" x="0.0" y="80" width="1365" height="69"/>
+                                        <rect key="frame" x="0.0" y="151" width="1365" height="50"/>
                                         <clipView key="contentView" id="o8s-DA-VX5">
-                                            <rect key="frame" x="1" y="1" width="1363" height="67"/>
+                                            <rect key="frame" x="1" y="1" width="1363" height="48"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" tableStyle="plain" autosaveColumns="NO" rowHeight="30" rowSizeStyle="automatic" headerView="A9E-Dg-UJW" viewBased="YES" indentationPerLevel="13" autoresizesOutlineColumn="YES" outlineTableColumn="8YN-Ur-793" id="VND-Xg-fnc">
-                                                    <rect key="frame" x="0.0" y="0.0" width="1618" height="39"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="1618" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <size key="intercellSpacing" width="17" height="0.0"/>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -784,7 +784,7 @@
                                             </subviews>
                                         </clipView>
                                         <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="E08-40-dzb">
-                                            <rect key="frame" x="1" y="52" width="1363" height="16"/>
+                                            <rect key="frame" x="1" y="33" width="1363" height="16"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="TJ4-vO-wLL">
@@ -796,6 +796,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableHeaderView>
                                     </scrollView>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gYa-Y2-CLq">
+                                        <rect key="frame" x="-7" y="73" width="215" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="pa1-iG-jh6"/>
+                                        </constraints>
+                                        <buttonCell key="cell" type="push" title="Switch to Detail Display Mode" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Szn-HO-kuM">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="switchDisplayMode:" target="bU7-R8-ocO" id="dik-Uv-UBJ"/>
+                                        </connections>
+                                    </button>
                                     <stackView identifier="idStack3" distribution="fill" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QmL-xO-lFX" userLabel="Stack View3">
                                         <rect key="frame" x="0.0" y="0.0" width="1365" height="30"/>
                                         <subviews>
@@ -872,15 +885,19 @@
                                 <constraints>
                                     <constraint firstItem="uRK-d6-dmg" firstAttribute="leading" secondItem="xmr-O4-3q2" secondAttribute="leading" id="2wh-RC-JOx"/>
                                     <constraint firstItem="uRK-d6-dmg" firstAttribute="trailing" secondItem="xmr-O4-3q2" secondAttribute="trailing" id="TBF-g3-e6v"/>
+                                    <constraint firstItem="gYa-Y2-CLq" firstAttribute="leading" secondItem="xmr-O4-3q2" secondAttribute="leading" id="VMt-pq-0nf"/>
                                     <constraint firstItem="uRK-d6-dmg" firstAttribute="top" secondItem="fM2-J9-LD3" secondAttribute="bottom" priority="800" identifier="idStack3top" id="W8b-Io-HHR"/>
-                                    <constraint firstItem="uRK-d6-dmg" firstAttribute="bottom" secondItem="QmL-xO-lFX" secondAttribute="top" constant="-50" identifier="idStack3Bottom" id="cNb-fl-JH8"/>
+                                    <constraint firstItem="QmL-xO-lFX" firstAttribute="top" secondItem="gYa-Y2-CLq" secondAttribute="bottom" constant="50" id="Wae-uw-GCI"/>
+                                    <constraint firstItem="gYa-Y2-CLq" firstAttribute="top" secondItem="uRK-d6-dmg" secondAttribute="bottom" constant="50" id="x0E-LT-bcI"/>
                                 </constraints>
                                 <visibilityPriorities>
                                     <integer value="1000"/>
                                     <integer value="1000"/>
                                     <integer value="1000"/>
+                                    <integer value="1000"/>
                                 </visibilityPriorities>
                                 <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
@@ -909,6 +926,7 @@
                         <outlet property="theBox1" destination="zVN-g7-60N" id="FVd-h9-9eN"/>
                         <outlet property="theBox2" destination="gC2-FG-X82" id="Vtk-zp-4Lq"/>
                         <outlet property="theBox3" destination="bVj-lS-VBb" id="iTn-rC-O1n"/>
+                        <outlet property="viewModeButton" destination="gYa-Y2-CLq" id="e1Q-l2-sJX"/>
                     </connections>
                 </viewController>
                 <customObject id="9uD-mB-xHs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
