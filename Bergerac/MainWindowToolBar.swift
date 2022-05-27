@@ -2,9 +2,13 @@ import AppKit
 
 extension MainWindowController {
     
-    @IBAction func appearanceSelection(_ sender: NSSegmentedControl) {
-        let appearance: NSAppearance.Name = sender.selectedSegment == 0 ? .aqua : .darkAqua
-        window?.appearance = NSAppearance(named: appearance)
+    @IBAction func appearanceSelection(_ sender: Any) {
+        
+        if  let toolbarItemGroup = sender as? NSToolbarItemGroup {
+
+            let appearance: NSAppearance.Name = toolbarItemGroup.selectedIndex == 0 ? .aqua : .darkAqua
+            window?.appearance = NSAppearance(named: appearance)
+        }
     }
         
     @IBAction  func printDocument(_ sender: Any) {
@@ -150,40 +154,40 @@ extension MainWindowController {
         }
     }
     
-    func createMenuForSearchField() {
-        let menu = NSMenu()
-            //        menu.title =  Localizations.searchMenu.title.menu
-        
-        let allMenuItem = NSMenuItem()
-        allMenuItem.title =  Localizations.searchMenu.title.all
-        allMenuItem.target = self
-        allMenuItem.action = #selector(changeSearchFieldItem(_:))
-        
-        let fNameMenuItem = NSMenuItem()
-        fNameMenuItem.title = Localizations.searchMenu.title.comment
-        fNameMenuItem.target = self
-        fNameMenuItem.action = #selector(changeSearchFieldItem(_:))
-        
-        let cNameMenuItem = NSMenuItem()
-        cNameMenuItem.title = Localizations.searchMenu.title.category
-        cNameMenuItem.target = self
-        cNameMenuItem.action = #selector(changeSearchFieldItem(_:))
-        
-        let rNameMenuItem = NSMenuItem()
-        rNameMenuItem.title = Localizations.searchMenu.title.rubric
-        rNameMenuItem.target = self
-        rNameMenuItem.action = #selector(changeSearchFieldItem(_:))
-        
-        menu.removeAllItems()
-        menu.addItem(allMenuItem)
-        menu.addItem(fNameMenuItem)
-        menu.addItem(cNameMenuItem)
-        menu.addItem(rNameMenuItem)
-        
-        self.searchField.searchMenuTemplate = menu
-        self.changeSearchFieldItem(allMenuItem)
-    }
-    
+//    func createMenuForSearchField() {
+//        let menu = NSMenu()
+//            //        menu.title =  Localizations.searchMenu.title.menu
+//
+//        let allMenuItem = NSMenuItem()
+//        allMenuItem.title =  Localizations.searchMenu.title.all
+//        allMenuItem.target = self
+//        allMenuItem.action = #selector(changeSearchFieldItem(_:))
+//
+//        let fNameMenuItem = NSMenuItem()
+//        fNameMenuItem.title = Localizations.searchMenu.title.comment
+//        fNameMenuItem.target = self
+//        fNameMenuItem.action = #selector(changeSearchFieldItem(_:))
+//
+//        let cNameMenuItem = NSMenuItem()
+//        cNameMenuItem.title = Localizations.searchMenu.title.category
+//        cNameMenuItem.target = self
+//        cNameMenuItem.action = #selector(changeSearchFieldItem(_:))
+//
+//        let rNameMenuItem = NSMenuItem()
+//        rNameMenuItem.title = Localizations.searchMenu.title.rubric
+//        rNameMenuItem.target = self
+//        rNameMenuItem.action = #selector(changeSearchFieldItem(_:))
+//
+//        menu.removeAllItems()
+//        menu.addItem(allMenuItem)
+//        menu.addItem(fNameMenuItem)
+//        menu.addItem(cNameMenuItem)
+//        menu.addItem(rNameMenuItem)
+//
+//        self.searchField.searchMenuTemplate = menu
+//        self.changeSearchFieldItem(allMenuItem)
+//    }
+//
     @objc func changeSearchFieldItem(_ sender: AnyObject) {
         (self.searchField.cell as? NSSearchFieldCell)?.placeholderString = sender.title
     }

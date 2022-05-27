@@ -38,7 +38,7 @@
 "General.Identity" = "Identity";
 "General.Income" = "Recette";
 "General.Libelle" = "Comment";
-"General.Liste des opérations" = "Liste des transactions";
+"General.List Transactions" = "Liste des transactions";
 "General.Mode Paiement" = "Mode Paiement";
 "General.Bank Statement" = "Relevé Bancaire";
 "General.Transaction" = "Transaction";

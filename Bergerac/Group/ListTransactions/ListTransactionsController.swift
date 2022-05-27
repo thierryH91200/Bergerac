@@ -170,8 +170,9 @@ final class ListTransactionsController: NSViewController {
         else {
             name = "save" + (currentAccount?.uuid.uuidString)!
         }
-        self.outlineListView.autosaveTableColumns = true
+        
         self.outlineListView.autosaveName = name
+        self.outlineListView.autosaveTableColumns = true
         self.outlineListView.autosaveExpandedItems = true
         self.reloadData()
 

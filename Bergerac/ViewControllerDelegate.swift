@@ -50,8 +50,8 @@ extension ViewController: SourceListDelegate
             
             let mainView = splitViewPrincipal.subviews.first!
             mainView.isHidden = false
-            segmentedControl?.setEnabled(false, forSegment: 1)
-            segmentedControl?.setSelected(true, forSegment: 2)
+//            segmentedControl?.setEnabled(false, forSegment: 1)
+//            segmentedControl?.setSelected(true, forSegment: 2)
             
         case "Courbe de trésorerie":
             self.tresorerieController = TresorerieViewController()
@@ -62,8 +62,8 @@ extension ViewController: SourceListDelegate
             
             isSplitRightHidden = true
             isSplitCenterHidden =  false
-            segmentedControl.setEnabled(true, forSegment: 1)
-            segmentedControl.setEnabled(true, forSegment: 2)
+//            segmentedControl.setEnabled(true, forSegment: 1)
+//            segmentedControl.setEnabled(true, forSegment: 2)
 
         case "Relevé bancaire":
 

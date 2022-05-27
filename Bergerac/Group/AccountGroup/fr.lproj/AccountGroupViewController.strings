@@ -6,7 +6,7 @@
 "4uw-9o-I06.title" = "Groupe et compte";
 
 /* Class = "NSMenuItem"; title = "Remove account"; ObjectID = "7W8-Sw-0XN"; */
-"7W8-Sw-0XN.title" = "Remove account";
+"7W8-Sw-0XN.title" = "Supprimer le compte";
 
 /* Class = "NSTextFieldCell"; title = "HEADER CELL"; ObjectID = "8ec-J1-jdx"; */
 "8ec-J1-jdx.title" = "HEADER CELL";
@@ -18,22 +18,22 @@
 "HLs-HJ-jpL.title" = "-100";
 
 /* Class = "NSMenuItem"; title = "Create account"; ObjectID = "QXq-LU-8KL"; */
-"QXq-LU-8KL.title" = "Create account";
+"QXq-LU-8KL.title" = "Créer le compte";
 
 /* Class = "NSTextFieldCell"; title = "Nature compte"; ObjectID = "U3Q-Rs-CTP"; */
 "U3Q-Rs-CTP.title" = "Nature compte";
 
 /* Class = "NSMenuItem"; title = "Edit folder"; ObjectID = "a3E-Kw-wYl"; */
-"a3E-Kw-wYl.title" = "Edit folder";
+"a3E-Kw-wYl.title" = "Editer le dossier";
 
 /* Class = "NSMenuItem"; title = "Edit account"; ObjectID = "a4y-EE-sDS"; */
-"a4y-EE-sDS.title" = "Edit account";
+"a4y-EE-sDS.title" = "Editer account";
 
 /* Class = "NSTextFieldCell"; title = "numCompte"; ObjectID = "fjp-d7-nZ4"; */
 "fjp-d7-nZ4.title" = "numCompte";
 
 /* Class = "NSMenuItem"; title = "Remove folder"; ObjectID = "gHt-Xm-HMQ"; */
-"gHt-Xm-HMQ.title" = "Remove folder";
+"gHt-Xm-HMQ.title" = "Remove dossier";
 
 /* Class = "NSTextFieldCell"; title = "compte"; ObjectID = "hWT-dv-XBb"; */
 "hWT-dv-XBb.title" = "compte";

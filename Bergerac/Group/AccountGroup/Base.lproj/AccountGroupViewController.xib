@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -66,7 +65,7 @@
             <rect key="frame" x="0.0" y="0.0" width="565" height="425"/>
             <subviews>
                 <button horizontalHuggingPriority="249" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vus-5B-rad">
-                    <rect key="frame" x="-1" y="374" width="567" height="28"/>
+                    <rect key="frame" x="-1" y="370" width="567" height="28"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="emt-3K-DJT"/>
                     </constraints>
@@ -76,13 +75,13 @@
                     </buttonCell>
                 </button>
                 <scrollView identifier="out10" autohidesScrollers="YES" horizontalLineScroll="70" horizontalPageScroll="10" verticalLineScroll="70" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGC-nl-EVD">
-                    <rect key="frame" x="0.0" y="25" width="565" height="351"/>
+                    <rect key="frame" x="0.0" y="25" width="565" height="347"/>
                     <clipView key="contentView" drawsBackground="NO" id="TYy-R4-fUn">
-                        <rect key="frame" x="1" y="1" width="563" height="349"/>
+                        <rect key="frame" x="1" y="1" width="563" height="345"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" typeSelect="NO" rowHeight="70" rowSizeStyle="automatic" viewBased="YES" floatsGroupRows="NO" indentationPerLevel="13" outlineTableColumn="CRy-Zc-Na1" id="SV1-LM-vvL">
-                                <rect key="frame" x="0.0" y="0.0" width="563" height="349"/>
+                                <rect key="frame" x="0.0" y="0.0" width="563" height="345"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="3" height="0.0"/>
                                 <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
