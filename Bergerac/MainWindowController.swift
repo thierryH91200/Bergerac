@@ -5,7 +5,7 @@
     //  Created by thierryH24 on 19/09/2021.
     //
 
-import Cocoa
+import AppKit
 
 class MainWindowController: NSWindowController, NSToolbarItemValidation {
     
@@ -62,27 +62,16 @@ class MainWindowController: NSWindowController, NSToolbarItemValidation {
         menu.addItem(rNameMenuItem)
         return menu
     }()
-
-    
-    // MARK: - Titlebar Accessory View
-    // This view appears below the titlebar or toolbar (if you have one)
-    // An example of this would be Safari's "Favorites Bar"
-    
-    var titlebarAccessoryViewController: CustomTitlebarAccessoryViewController?
-    var titlebarAccessoryViewControllerToggleButton: NSToolbarItem?
-    private var titlebarAccessoryViewIsHidden = false
-
     
     // MARK: - Window Lifecycle
     
-
     var viewController : ViewController!
     
 //    @IBOutlet weak var splitViewPrincipal: NSSplitView!
 //    @IBOutlet weak var splitViewGauche: NSSplitView!
 //    @IBOutlet weak var splitViewCentre: NSSplitView!
     @IBOutlet weak var segmentedControl: NSSegmentedControl!
-    @IBOutlet weak var searchField: NSSearchField!
+    var searchField: NSSearchField!
     @IBOutlet weak var colorPopUp: NSPopUpButton!
 
     var importWindowController                 : ImportTransactionsWindowController?
@@ -106,8 +95,6 @@ class MainWindowController: NSWindowController, NSToolbarItemValidation {
         super.windowDidLoad()
         
         viewController = self.contentViewController! as? ViewController
-//        createMenuForSearchField()
-//        searchField.delegate = self
 //
 //        setUpPopUpColor()
                 
@@ -118,7 +105,7 @@ class MainWindowController: NSWindowController, NSToolbarItemValidation {
         }
         
         self.configureToolbar()
-
+        searchField.delegate = self
     }
     
     // MARK: - Toolbar Validation
@@ -252,49 +239,3 @@ extension MainWindowController: NSSharingServicePickerToolbarItemDelegate
         return sharableItems
     }
 }
-
-
-
-
-// MARK: - Titlebar Accessory View
-extension MainWindowController
-{
-//    private func configureTitlebarAccessoryView()
-//    {
-//        if  let titlebarController = self.storyboard?.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier.customTitlebarAccessoryViewController) as? CustomTitlebarAccessoryViewController {
-//            titlebarController.layoutAttribute = .bottom
-//            titlebarController.fullScreenMinHeight = titlebarController.view.bounds.height
-//            self.window?.addTitlebarAccessoryViewController(titlebarController)
-//            self.titlebarAccessoryViewController = titlebarController
-//            self.titlebarAccessoryViewController?.isHidden = self.titlebarAccessoryViewIsHidden
-//        }
-//    }
-    
-    @IBAction func toggleTitlebarAccessory(_ sender: Any)
-    {
-        self.titlebarAccessoryViewIsHidden.toggle()
-        self.titlebarAccessoryViewController?.isHidden = self.titlebarAccessoryViewIsHidden
-        
-        if  self.titlebarAccessoryViewIsHidden {
-            self.titlebarAccessoryViewControllerToggleButton?.label = "Show"
-            self.titlebarAccessoryViewControllerToggleButton?.toolTip = "Shows additional accessories"
-            if  #available(macOS 11.0, *) {
-                self.titlebarAccessoryViewControllerToggleButton?.image = NSImage(systemSymbolName: "menubar.arrow.up.rectangle", accessibilityDescription: "")
-            } else {
-                self.titlebarAccessoryViewControllerToggleButton?.image = NSImage(named: NSImage.touchBarGoUpTemplateName)
-            }
-        } else {
-            self.titlebarAccessoryViewControllerToggleButton?.label = "Hide"
-            self.titlebarAccessoryViewControllerToggleButton?.toolTip = "Hides additional accessories"
-            if  #available(macOS 11.0, *) {
-                self.titlebarAccessoryViewControllerToggleButton?.image = NSImage(systemSymbolName: "menubar.arrow.down.rectangle", accessibilityDescription: "")
-            } else {
-                self.titlebarAccessoryViewControllerToggleButton?.image = NSImage(named: NSImage.touchBarGoDownTemplateName)
-            }
-        }
-    }
-}
-
-
-
-

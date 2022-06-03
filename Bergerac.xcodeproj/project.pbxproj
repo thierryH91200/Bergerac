@@ -264,7 +264,6 @@
 		2BC21B56283E352B00333ADE /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 2BC21B55283E352B00333ADE /* LaunchAtLogin */; };
 		2BC21B58283E353100333ADE /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 2BC21B57283E353100333ADE /* SwiftDate */; };
 		2BC21B5A283E366100333ADE /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC21B59283E366000333ADE /* Definitions.swift */; };
-		2BC21B5C283E441F00333ADE /* CustomTitlebarAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC21B5B283E441F00333ADE /* CustomTitlebarAccessoryViewController.swift */; };
 		2BE3384D283E939300EAA372 /* MainWindowToolBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3384C283E939300EAA372 /* MainWindowToolBarDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -581,7 +580,6 @@
 		2BA7A548282CE0B300C1336E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/AccountGroupViewController.strings; sourceTree = "<group>"; };
 		2BA7A549282CE0B600C1336E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AccountGroupViewController.strings; sourceTree = "<group>"; };
 		2BC21B59283E366000333ADE /* Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
-		2BC21B5B283E441F00333ADE /* CustomTitlebarAccessoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTitlebarAccessoryViewController.swift; sourceTree = "<group>"; };
 		2BE3384C283E939300EAA372 /* MainWindowToolBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowToolBarDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -651,7 +649,6 @@
 				03A0A26B280EB1EB0081682C /* MainWindowTransactions.swift */,
 				03A0A270280EB1EB0081682C /* MainWindowBankStatement.swift */,
 				03A0A271280EB1EB0081682C /* MainWindowSchedulers.swift */,
-				2BC21B5B283E441F00333ADE /* CustomTitlebarAccessoryViewController.swift */,
 				2BC21B59283E366000333ADE /* Definitions.swift */,
 				03A0A272280EB1EB0081682C /* MainWindowController.swift */,
 				2BE3384C283E939300EAA372 /* MainWindowToolBarDelegate.swift */,
@@ -1559,7 +1556,6 @@
 				03A0A1CA280EB0750081682C /* ChequiersViewController.swift in Sources */,
 				03A0A08B280EAEE60081682C /* HeaderCell.swift in Sources */,
 				03A0A240280EB0B10081682C /* AutoCompleteTextField.swift in Sources */,
-				2BC21B5C283E441F00333ADE /* CustomTitlebarAccessoryViewController.swift in Sources */,
 				03A0A23F280EB0B10081682C /* TransactionViewControllerPopUp.swift in Sources */,
 				03A0A235280EB0B10081682C /* SourceListViewDataSource.swift in Sources */,
 				03A0A0C8280EB04B0081682C /* ImportWindowControllerParserDelegate.swift in Sources */,

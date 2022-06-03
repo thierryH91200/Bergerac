@@ -124,6 +124,7 @@ extension MainWindowController: NSToolbarDelegate
             if  #available(macOS 11.0, *) {
                 let searchItem = NSSearchToolbarItem(itemIdentifier: itemIdentifier)
                 searchItem.searchField.searchMenuTemplate = menuSearch
+                searchField = searchItem.searchField
                 (searchItem.searchField.cell as? NSSearchFieldCell)?.placeholderString = Localizations.searchMenu.title.all
 
                 searchItem.resignsFirstResponderWithCancel = true

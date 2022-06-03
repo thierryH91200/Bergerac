@@ -666,32 +666,5 @@
             </objects>
             <point key="canvasLocation" x="84" y="647"/>
         </scene>
-        <!--Custom Titlebar Accessory View Controller-->
-        <scene sceneID="IlL-sg-efj">
-            <objects>
-                <viewController storyboardIdentifier="CustomTitlebarAccessoryViewController" id="Vfn-7U-usM" customClass="CustomTitlebarAccessoryViewController" customModule="Toolbar" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="x7j-tX-MhS">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="28"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gzm-pf-pFi">
-                                <rect key="frame" x="91" y="7" width="269" height="14"/>
-                                <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" title="Custom View : NSTitlebarAccessoryViewController" id="EJE-Ks-vyS">
-                                    <font key="font" metaFont="smallSystem"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                        </subviews>
-                        <constraints>
-                            <constraint firstItem="gzm-pf-pFi" firstAttribute="centerY" secondItem="x7j-tX-MhS" secondAttribute="centerY" id="4kK-GQ-i4u"/>
-                            <constraint firstItem="gzm-pf-pFi" firstAttribute="centerX" secondItem="x7j-tX-MhS" secondAttribute="centerX" id="7t0-vN-jB1"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <customObject id="Wq9-b8-Awx" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="803" y="444"/>
-        </scene>
     </scenes>
 </document>
